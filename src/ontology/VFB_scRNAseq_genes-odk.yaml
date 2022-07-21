@@ -1,0 +1,19 @@
+id: VFB_scRNAseq_genes
+title: "VFB scRNAseq Gene Annotations"
+github_org: VirtualFlyBrain
+repo: vfb-scRNAseq-gene-annotations
+robot_report:
+  custom_profile: TRUE
+  fail_on: ERROR
+robot_java_args: '-Xmx8G'
+use_dosdps: FALSE
+edit_format: owl
+export_formats:
+  - owl
+import_group:
+  products:
+    - id: GO
+namespaces: 
+  - http://flybase.org/reports/
+allow_equivalents: none
+release_date: TRUE

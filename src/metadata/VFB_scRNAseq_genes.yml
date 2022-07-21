@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/VFB_scRNAseq_genes
+
+idspace: VFB_SCRNASEQ_GENES
+base_url: /obo/VFB_scRNAseq_genes
+
+products:
+- VFB_scRNAseq_genes.owl: https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/main/VFB_scRNAseq_genes.owl
+- VFB_scRNAseq_genes.obo: https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/main/VFB_scRNAseq_genes.obo
+
+term_browser: ontobee
+example_terms:
+- VFB_SCRNASEQ_GENES_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/v
+
+- prefix: /tracker/
+  replacement: https://github.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/VFB_SCRNASEQ_GENES?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/main/
