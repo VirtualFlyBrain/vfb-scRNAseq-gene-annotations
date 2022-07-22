@@ -21,7 +21,7 @@ new_cols.remove('xref')
 empty_row = pd.DataFrame([[""] * len(GAF.columns)], columns=GAF.columns)
 GAF = empty_row.append(GAF, ignore_index=True)
 GAF['FBgn'][0] = 'ID'
-GAF['xref'][0] = '>A oboInOwl:hasDbXref'
+GAF['xref'][0] = '>A oboInOwl:hasDbXref SPLIT=|'
 
 for col in new_cols:
     GAF.insert(GAF.columns.get_loc(col) + 1, col + "_ref", GAF.xref)
