@@ -6,7 +6,7 @@
 
 # files for gene annotations
 
-$(TMPDIR)/FBgn_list.txt:
+$(TMPDIR)/FBgn_list.txt: | $(TMPDIR)
 	wget -O $@ https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt
 
 $(TMPDIR)/FBgns.owl: $(TMPDIR)/FBgn_list.txt
