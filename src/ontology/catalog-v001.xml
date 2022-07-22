@@ -4,10 +4,8 @@
 
   
   <uri name="http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/GO_import.owl" uri="imports/GO_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/GO_import.obo" uri="imports/GO_import.obo"/>
-  
-
-
+  <uri name="http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/RO_import.owl" uri="imports/RO_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo" uri="components/gene_groups.obo"/>
   
 
 </group>
