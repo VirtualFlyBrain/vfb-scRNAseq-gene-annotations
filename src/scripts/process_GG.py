@@ -11,8 +11,9 @@ GG = GG[GG['FBgn'].isin(gene_list)]
 
 GG = GG.applymap(lambda x: 'http://flybase.org/reports/' + x)
 
-empty_row = pd.DataFrame([[""] * len(GG.columns)], columns=GG.columns)
-GG['FBgn'][0] = "ID"
-GG['GG_ID'][0] = "SC \"part of\" some %"
+template_string_row = pd.DataFrame([["SC \'part of\' some %"] * len(GG.columns)], columns=GG.columns)
+template_string_row['FBgn'][0] = "ID"
+
+GG = pd.concat([template_string_row, GG]).reset_index(drop=True)
 
 GG.to_csv('tmp/GG_template.tsv', sep='\t', index=False)
