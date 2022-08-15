@@ -39,13 +39,14 @@ $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/FBgn_list.txt
 
 $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
 	$(ROBOT) merge \
-	--input VFB_scRNAseq_genes-annotations.ofn \
-	--input $< \
-	--input $(TMPDIR)/GO_annotations.owl \
-	--input $(TMPDIR)/GG_annotations.owl \
-	--include-annotations true --collapse-import-closure false \
-	convert --format ofn \
-	-o $@
+		--input VFB_scRNAseq_genes-annotations.ofn \
+		--input $< \
+		--input $(TMPDIR)/GO_annotations.owl \
+		--input $(TMPDIR)/GG_annotations.owl \
+		--include-annotations true --collapse-import-closure false \
+		convert --format ofn \
+		-o $@ &&\
+	echo "\nOntology source file updated!\n"
 
 # A new gene_group_*.obo file can be found at:
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/
