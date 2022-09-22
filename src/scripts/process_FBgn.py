@@ -1,0 +1,9 @@
+import pandas as pd
+
+FBgn_df = pd.read_csv('tmp/FBgns.tsv', sep='\t', skiprows=4, skipfooter=1, index_col=False)
+
+FBgn_list = list(FBgn_df['## FlyBase_FBgn'].unique())
+
+with open('tmp/mapped_FBgn_list.txt', 'w') as f:
+    for fbgn in FBgn_list:
+        f.write(fbgn + '\n')

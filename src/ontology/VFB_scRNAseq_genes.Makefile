@@ -5,11 +5,17 @@
 
 
 # files for gene annotations
-
-$(TMPDIR)/FBgn_list.txt: | $(TMPDIR)
+$(TMPDIR)/scRNAseq_FBgn_list.txt: | $(TMPDIR)
 	wget -O $@ https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt
 
-$(TMPDIR)/FBgns.owl: $(TMPDIR)/FBgn_list.txt
+$(TMPDIR)/mapped_FBgn_list.txt: | $(TMPDIR)
+	wget -O $(TMPDIR)/FBgns.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_*.tsv.gz &&\
+	gzip -df $(TMPDIR)/FBgns.tsv.gz &&\
+	python3 $(SCRIPTSDIR)/process_FBgn.py &&\
+	rm $(TMPDIR)/FBgns.tsv &&\
+	echo "\nMapped FBgn list updated\n"
+
+$(TMPDIR)/FBgns.owl: $(TMPDIR)/mapped_FBgn_list.txt
 	python3 -m pip install -r $(SCRIPTSDIR)/requirements.txt &&\
 	svn export https://github.com/VirtualFlyBrain/VFB_neo4j/trunk/src/uk/ac/ebi/vfb $(SCRIPTSDIR)/vfb &&\
 	python3 $(SCRIPTSDIR)/feature_template_runner.py &&\
@@ -19,7 +25,7 @@ $(TMPDIR)/FBgns.owl: $(TMPDIR)/FBgn_list.txt
 	rm -r $(SCRIPTSDIR)/vfb
 	echo "\nFBgn annotations updated\n"
 
-$(TMPDIR)/GO_annotations.owl: $(TMPDIR)/FBgn_list.txt
+$(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	wget -O $(TMPDIR)/gene_association.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/go/gene_association.fb.gz &&\
 	gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GO.py &&\
@@ -28,7 +34,7 @@ $(TMPDIR)/GO_annotations.owl: $(TMPDIR)/FBgn_list.txt
 		--output $@ &&\
 	echo "\nGO annotations updated\n"
 
-$(TMPDIR)/GG_annotations.owl: $(TMPDIR)/FBgn_list.txt
+$(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	wget -O $(TMPDIR)/gene_group_data.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/gene_group_data_fb_*.tsv.gz &&\
 	gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GG.py &&\
