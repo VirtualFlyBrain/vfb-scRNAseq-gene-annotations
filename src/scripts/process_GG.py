@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open("tmp/FBgn_list.txt", 'r') as f:
+with open("tmp/scRNAseq_FBgn_list.txt", 'r') as f:
     gene_list = f.read().splitlines()
 GG = pd.read_csv('tmp/gene_group_data.tsv', sep='\t', skiprows=8, index_col=False)
 
@@ -11,7 +11,7 @@ GG = GG[GG['FBgn'].isin(gene_list)]
 
 GG = GG.applymap(lambda x: 'http://flybase.org/reports/' + x)
 
-template_string_row = pd.DataFrame([["SC \'part of\' some %"] * len(GG.columns)], columns=GG.columns)
+template_string_row = pd.DataFrame([["SC \"part of\" some %"] * len(GG.columns)], columns=GG.columns)
 template_string_row['FBgn'][0] = "ID"
 
 GG = pd.concat([template_string_row, GG]).reset_index(drop=True)
