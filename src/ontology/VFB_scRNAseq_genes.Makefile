@@ -61,7 +61,7 @@ $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotation
 # After copying to tmp (as 'gene_groups.obo'), the following should then be run manually:
 $(COMPONENTSDIR)/gene_groups.obo: $(TMPDIR)/gene_groups.obo
 	sed -e 's/\ FBgg/\ http\:\/\/flybase\.org\/reports\/FBgg/' \
-	-e '3 i ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo' \
+	-e '4 i ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo' \
 	$< > $@ &&\
 	echo "\nGene Group ontology updated\n"
 

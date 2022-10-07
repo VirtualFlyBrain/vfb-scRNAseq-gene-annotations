@@ -1,7 +1,7 @@
 format-version: 1.2
-data-version: 2022-07-17
-ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
+data-version: 2022-09-11
 saved-by: ga362
+ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
 [Term]
 id: http://flybase.org/reports/FBgg0000000
@@ -771,6 +771,13 @@ is_a: http://flybase.org/reports/FBgg0000314 ! ISWI COMPLEXES
 is_a: http://flybase.org/reports/FBgg0000303 ! TRITHORAX GROUP COMPLEXES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001789
+name: REMODELING AND SPACING FACTOR COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001789.html]
+synonym: "RSF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000314 ! ISWI COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000312
 name: TORC REMODELING COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000312.html]
@@ -1280,22 +1287,6 @@ synonym: "ATPASE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001575 ! NUCLEOSIDE TRIPHOSPHATE PHOSPHATASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000835
-name: ACYL-COA SYNTHETASES
-def: "." [http://flybase.org/reports/FBgg0000835.html]
-synonym: "ACS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001596
-name: ANNEALING HELICASES
-def: "." [http://flybase.org/reports/FBgg0001596.html]
-synonym: "AHEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001782 ! NUCLEIC ACID CONFORMATION ISOMERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000542
 name: ATP-BINDING CASSETTE TRANSPORTER-LIKE - NON-TRANSPORTING
 def: "." [http://flybase.org/reports/FBgg0000542.html]
@@ -1360,14 +1351,6 @@ synonym: "FCC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001415
-name: ATP-DEPENDENT METALLOENDOPEPTIDASES
-def: "." [http://flybase.org/reports/FBgg0001415.html]
-synonym: "M41P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001400 ! METALLOPEPTIDASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001743
 name: ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
 def: "." [http://flybase.org/reports/FBgg0001743.html]
@@ -1429,270 +1412,11 @@ is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
 is_a: http://flybase.org/reports/FBgg0001743 ! ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001434
-name: ATP-DEPENDENT SERINE ENDOPEPTIDASES
-def: "." [http://flybase.org/reports/FBgg0001434.html]
-synonym: "S14-16P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001401 ! SERINE PEPTIDASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001577
-name: ATPASE-COUPLED TRANSLOCASES
-def: "." [http://flybase.org/reports/FBgg0001577.html]
-synonym: "ATPASETT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001720 ! TRANSLOCASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000547
-name: ATP-BINDING CASSETTE TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000547.html]
-synonym: "ABC-T" EXACT []
-is_a: http://flybase.org/reports/FBgg0000552 ! ATP-BINDING CASSETTE TRANSPORTER-LIKE
-is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000544
-name: ABCA ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000544.html]
-synonym: "ABCA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000545
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000545.html]
-synonym: "ABCB" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000551
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - FULL TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000551.html]
-synonym: "ABCB-FT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000541
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - HALF TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000548
-name: ABCC ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000548.html]
-synonym: "ABCC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000543
-name: ABCD ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000543.html]
-synonym: "ABCD" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000540
-name: ABCG ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000540.html]
-synonym: "ABCG" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000550
-name: ABCH ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-def: "." [http://flybase.org/reports/FBgg0000550.html]
-synonym: "ABCH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001722
-name: ATPASE-COUPLED MITOCHONDRIAL TRANSLOCASES
-def: "." [http://flybase.org/reports/FBgg0001722.html]
-synonym: "ACMT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000709
-name: P-TYPE ATPASES
-def: "." [http://flybase.org/reports/FBgg0000709.html]
-synonym: "P-ATPASE" EXACT []
-is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000711
-name: COPPER TRANSPORTING P-ATPASES
-def: "." [http://flybase.org/reports/FBgg0000711.html]
-synonym: "ATPIB" EXACT []
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000712
-name: NA[+]/K[+] TRANSPORTING P-ATPASE - ALPHA SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0000712.html]
-synonym: "ATPIIC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000700 ! NA[+]/K[+] TRANSPORTING P-ATPASE SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000707
-name: PHOSPHOLIPID TRANSPORTING ATPASES
-def: "." [http://flybase.org/reports/FBgg0000707.html]
-synonym: "ATPIV" EXACT []
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000719
-name: PLASMA MEMBRANE CALCIUM TRANSPORTING P-ATPASES
-def: "." [http://flybase.org/reports/FBgg0000719.html]
-synonym: "ATPIIB" EXACT []
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000706
-name: SARCO(ENDO)PLASMIC RETICULUM CALCIUM TRANSPORTING P-ATPASES
-def: "." [http://flybase.org/reports/FBgg0000706.html]
-synonym: "ATPIIA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000717
-name: TYPE V P-ATPASES
-def: "." [http://flybase.org/reports/FBgg0000717.html]
-synonym: "ATPV" EXACT []
-is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001558
-name: VACUOLAR ATPASE V1 DOMAIN CATALYTIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001558.html]
-synonym: "VHA-V1-CAT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-is_a: http://flybase.org/reports/FBgg0000073 ! VACUOLAR ATPASE V1 DOMAIN SUBUNITS
-
-[Term]
 id: http://flybase.org/reports/FBgg0001723
 name: DISLOCASES
 def: "." [http://flybase.org/reports/FBgg0001723.html]
 synonym: "DISL" EXACT []
 is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001555
-name: DNA TOPOISOMERASES TYPE II
-def: "." [http://flybase.org/reports/FBgg0001555.html]
-synonym: "TOPII" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0000806 ! DNA TOPOISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001581
-name: HELICASES
-def: "." [http://flybase.org/reports/FBgg0001581.html]
-synonym: "HEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001782 ! NUCLEIC ACID CONFORMATION ISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001582
-name: DNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001582.html]
-synonym: "DNAHEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001581 ! HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001583
-name: MCM FAMILY HELICASES
-def: "." [http://flybase.org/reports/FBgg0001583.html]
-synonym: "MCM" EXACT []
-is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001614
-name: MCM2-7 COMPLEX
-def: "." [http://flybase.org/reports/FBgg0001614.html]
-synonym: "MCM2-7" EXACT []
-is_a: http://flybase.org/reports/FBgg0001583 ! MCM FAMILY HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001615
-name: MCM8/9 HELICASES
-def: "." [http://flybase.org/reports/FBgg0001615.html]
-synonym: "MCM8-9" EXACT []
-is_a: http://flybase.org/reports/FBgg0001583 ! MCM FAMILY HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001588
-name: OTHER DNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001588.html]
-synonym: "DNAHEL-O" EXACT []
-is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001584
-name: RAD3/XPD-LIKE DNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001584.html]
-synonym: "RAD3" EXACT []
-is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001585
-name: RECQ-LIKE DNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001585.html]
-synonym: "RECQ" EXACT []
-is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001586
-name: RUVB-LIKE DNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001586.html]
-synonym: "RUVB" EXACT []
-is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001589
-name: RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001589.html]
-synonym: "RNAHEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001581 ! HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001590
-name: DEAD-BOX RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001590.html]
-synonym: "DEAD" EXACT []
-is_a: http://flybase.org/reports/FBgg0001589 ! RNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001591
-name: DEAH-BOX RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001591.html]
-synonym: "DEAH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001589 ! RNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001594
-name: OTHER RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001594.html]
-synonym: "RNAHEL-O" EXACT []
-is_a: http://flybase.org/reports/FBgg0001589 ! RNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001592
-name: SKI2-LIKE RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001592.html]
-synonym: "SKI2" EXACT []
-is_a: http://flybase.org/reports/FBgg0001589 ! RNA HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001593
-name: UPF1-LIKE RNA HELICASES
-def: "." [http://flybase.org/reports/FBgg0001593.html]
-synonym: "UPF1" EXACT []
-is_a: http://flybase.org/reports/FBgg0001589 ! RNA HELICASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000114
@@ -1707,87 +1431,6 @@ name: OTHER ATPASES
 def: "." [http://flybase.org/reports/FBgg0001600.html]
 synonym: "ATPASE-O" EXACT []
 is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001731
-name: POLYPEPTIDE CONFORMATION ISOMERASES
-def: "." [http://flybase.org/reports/FBgg0001731.html]
-synonym: "PCISO" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001730 ! MACROMOLECULAR CONFORMATION ISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001578
-name: MICROTUBULE MOTORS
-def: "." [http://flybase.org/reports/FBgg0001578.html]
-synonym: "MMOT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001731 ! POLYPEPTIDE CONFORMATION ISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000377
-name: DYNEIN HEAVY CHAINS
-def: "." [http://flybase.org/reports/FBgg0000377.html]
-synonym: "DYN-HC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000364 ! DYNEIN SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001578 ! MICROTUBULE MOTORS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000379
-name: AXONEMAL DYNEIN HEAVY CHAINS
-def: "." [http://flybase.org/reports/FBgg0000379.html]
-synonym: "DYNA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000377 ! DYNEIN HEAVY CHAINS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000381
-name: AXONEMAL INNER ARM DYNEIN HEAVY CHAINS
-def: "." [http://flybase.org/reports/FBgg0000381.html]
-synonym: "DYN-IAD" EXACT []
-is_a: http://flybase.org/reports/FBgg0000379 ! AXONEMAL DYNEIN HEAVY CHAINS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000380
-name: AXONEMAL OUTER ARM DYNEIN HEAVY CHAINS
-def: "." [http://flybase.org/reports/FBgg0000380.html]
-synonym: "DYN-OAD" EXACT []
-is_a: http://flybase.org/reports/FBgg0000379 ! AXONEMAL DYNEIN HEAVY CHAINS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000378
-name: CYTOPLASMIC DYNEIN HEAVY CHAINS
-def: "." [http://flybase.org/reports/FBgg0000378.html]
-synonym: "DYNC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000377 ! DYNEIN HEAVY CHAINS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000190
-name: KINESINS
-def: "." [http://flybase.org/reports/FBgg0000190.html]
-synonym: "KIF" EXACT []
-is_a: http://flybase.org/reports/FBgg0001578 ! MICROTUBULE MOTORS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001595
-name: MICROTUBULE SEVERING ATPASES
-def: "." [http://flybase.org/reports/FBgg0001595.html]
-synonym: "MSATPASE" EXACT []
-is_a: http://flybase.org/reports/FBgg0001731 ! POLYPEPTIDE CONFORMATION ISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001610
-name: MYOSIN MOTORS
-def: "." [http://flybase.org/reports/FBgg0001610.html]
-synonym: "MYO-M" EXACT []
-is_a: http://flybase.org/reports/FBgg0000166 ! MYOSINS
-is_a: http://flybase.org/reports/FBgg0001731 ! POLYPEPTIDE CONFORMATION ISOMERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001557
-name: PROTEASOME REGULATORY PARTICLE ATPASES
-def: "." [http://flybase.org/reports/FBgg0001557.html]
-synonym: "RPT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001731 ! POLYPEPTIDE CONFORMATION ISOMERASES
-is_a: http://flybase.org/reports/FBgg0001454 ! PROTEASOME REGULATORY PARTICLE SUBUNITS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001580
@@ -3083,6 +2726,14 @@ synonym: "CASP" EXACT []
 is_a: http://flybase.org/reports/FBgg0001399 ! CYSTEINE PEPTIDASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001408
+name: GAMMA-GLUTAMYL HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001408.html]
+synonym: "GGH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001514 ! PEPTIDASE FAMILY C26
+is_a: http://flybase.org/reports/FBgg0001399 ! CYSTEINE PEPTIDASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001410
 name: GPI-ANCHOR TRANSAMIDASES
 def: "." [http://flybase.org/reports/FBgg0001410.html]
@@ -3222,7 +2873,6 @@ id: http://flybase.org/reports/FBgg0001415
 name: ATP-DEPENDENT METALLOENDOPEPTIDASES
 def: "." [http://flybase.org/reports/FBgg0001415.html]
 synonym: "M41P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001400 ! METALLOPEPTIDASES
 
 [Term]
@@ -3443,7 +3093,6 @@ id: http://flybase.org/reports/FBgg0001434
 name: ATP-DEPENDENT SERINE ENDOPEPTIDASES
 def: "." [http://flybase.org/reports/FBgg0001434.html]
 synonym: "S14-16P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001401 ! SERINE PEPTIDASES
 
 [Term]
@@ -3594,7 +3243,7 @@ is_a: http://flybase.org/reports/FBgg0001402 ! THREONINE PEPTIDASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001441
-name: GAMMA-GLUTAMYL HYDROLASES
+name: GAMMA-GLUTAMYL TRANSPEPTIDASES
 def: "." [http://flybase.org/reports/FBgg0001441.html]
 synonym: "GGT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001402 ! THREONINE PEPTIDASES
@@ -3883,7 +3532,6 @@ id: http://flybase.org/reports/FBgg0001596
 name: ANNEALING HELICASES
 def: "." [http://flybase.org/reports/FBgg0001596.html]
 synonym: "AHEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001782 ! NUCLEIC ACID CONFORMATION ISOMERASES
 
 [Term]
@@ -3905,7 +3553,6 @@ id: http://flybase.org/reports/FBgg0001555
 name: DNA TOPOISOMERASES TYPE II
 def: "." [http://flybase.org/reports/FBgg0001555.html]
 synonym: "TOPII" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0000806 ! DNA TOPOISOMERASES
 
 [Term]
@@ -3913,7 +3560,6 @@ id: http://flybase.org/reports/FBgg0001581
 name: HELICASES
 def: "." [http://flybase.org/reports/FBgg0001581.html]
 synonym: "HEL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001782 ! NUCLEIC ACID CONFORMATION ISOMERASES
 
 [Term]
@@ -4019,7 +3665,6 @@ id: http://flybase.org/reports/FBgg0001731
 name: POLYPEPTIDE CONFORMATION ISOMERASES
 def: "." [http://flybase.org/reports/FBgg0001731.html]
 synonym: "PCISO" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001730 ! MACROMOLECULAR CONFORMATION ISOMERASES
 
 [Term]
@@ -4254,7 +3899,6 @@ id: http://flybase.org/reports/FBgg0000835
 name: ACYL-COA SYNTHETASES
 def: "." [http://flybase.org/reports/FBgg0000835.html]
 synonym: "ACS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
 
 [Term]
@@ -5297,6 +4941,13 @@ synonym: "OXRS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001699
+name: GLUTAREDOXINS
+def: "." [http://flybase.org/reports/FBgg0001699.html]
+synonym: "GRX" EXACT []
+is_a: http://flybase.org/reports/FBgg0001009 ! SULFUR GROUP OXIDOREDUCTASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001706
 name: SULFIREDOXINS
 def: "." [http://flybase.org/reports/FBgg0001706.html]
@@ -5318,24 +4969,10 @@ synonym: "GILT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001010 ! SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
 
 [Term]
-id: http://flybase.org/reports/FBgg0001699
-name: GLUTAREDOXINS
-def: "." [http://flybase.org/reports/FBgg0001699.html]
-synonym: "GRX" EXACT []
-is_a: http://flybase.org/reports/FBgg0001010 ! SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
-
-[Term]
 id: http://flybase.org/reports/FBgg0001700
 name: OTHER SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
 def: "." [http://flybase.org/reports/FBgg0001700.html]
 synonym: "OXRSD-O" EXACT []
-is_a: http://flybase.org/reports/FBgg0001010 ! SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
-
-[Term]
-id: http://flybase.org/reports/FBgg0001698
-name: THIOREDOXINS
-def: "." [http://flybase.org/reports/FBgg0001698.html]
-synonym: "TRX" EXACT []
 is_a: http://flybase.org/reports/FBgg0001010 ! SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
 
 [Term]
@@ -5386,6 +5023,13 @@ name: SULFIDE-QUINONE OXIOREDUCTASES
 def: "." [http://flybase.org/reports/FBgg0001705.html]
 synonym: "SQOR" EXACT []
 is_a: http://flybase.org/reports/FBgg0001703 ! SULFUR OXIDOREDUCTASES, QUINONE AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0001698
+name: THIOREDOXINS
+def: "." [http://flybase.org/reports/FBgg0001698.html]
+synonym: "TRX" EXACT []
+is_a: http://flybase.org/reports/FBgg0001009 ! SULFUR GROUP OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001027
@@ -5498,6 +5142,13 @@ id: http://flybase.org/reports/FBgg0001163
 name: HISTONE ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001163.html]
 synonym: "HAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000317 ! LYSINE N-ACETYLTRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001791
+name: OTHER LYSINE N-ACETYLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001791.html]
+synonym: "KAT-O" EXACT []
 is_a: http://flybase.org/reports/FBgg0000317 ! LYSINE N-ACETYLTRANSFERASES
 
 [Term]
@@ -6894,7 +6545,6 @@ id: http://flybase.org/reports/FBgg0001577
 name: ATPASE-COUPLED TRANSLOCASES
 def: "." [http://flybase.org/reports/FBgg0001577.html]
 synonym: "ATPASETT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 is_a: http://flybase.org/reports/FBgg0001720 ! TRANSLOCASES
 
 [Term]
@@ -8473,6 +8123,27 @@ synonym: "NAX" EXACT []
 is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
 
 [Term]
+id: http://flybase.org/reports/FBgg0001786
+name: NASCENT POLYPEPTIDE-ASSOCIATED COMPLEX SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001786.html]
+synonym: "NACS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001787
+name: NASCENT POLYPEPTIDE-ASSOCIATED COMPLEX ALPHA SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001787.html]
+synonym: "NACA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001786 ! NASCENT POLYPEPTIDE-ASSOCIATED COMPLEX SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001788
+name: NASCENT POLYPEPTIDE-ASSOCIATED COMPLEX BETA SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001788.html]
+synonym: "NACB" EXACT []
+is_a: http://flybase.org/reports/FBgg0001786 ! NASCENT POLYPEPTIDE-ASSOCIATED COMPLEX SUBUNITS
+
+[Term]
 id: http://flybase.org/reports/FBgg0000700
 name: NA[+]/K[+] TRANSPORTING P-ATPASE SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000700.html]
@@ -9071,6 +8742,14 @@ def: "." [http://flybase.org/reports/FBgg0001489.html]
 synonym: "C26-NPH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001514 ! PEPTIDASE FAMILY C26
 is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001408
+name: GAMMA-GLUTAMYL HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001408.html]
+synonym: "GGH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001514 ! PEPTIDASE FAMILY C26
+is_a: http://flybase.org/reports/FBgg0001399 ! CYSTEINE PEPTIDASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001515
@@ -11175,6 +10854,13 @@ id: http://flybase.org/reports/FBgg0000462
 name: SURVIVAL MOTOR NEURON COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000462.html]
 synonym: "SMN-C" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001790
+name: SWR1 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001790.html]
+synonym: "SWR1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
