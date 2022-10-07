@@ -48,7 +48,7 @@ $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	$(ROBOT) template --template $(TMPDIR)/GG_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
-	rm $(SPARQLDIR)/GO_subclasses.sparql &&\
+	rm $(SPARQLDIR)/GG_subclasses.sparql &&\
 	echo "\nGene Group annotations updated\n"
 
 $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
