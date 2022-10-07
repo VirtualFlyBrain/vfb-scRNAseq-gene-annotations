@@ -17,3 +17,18 @@ template_string_row['FBgn'][0] = "ID"
 GG = pd.concat([template_string_row, GG]).reset_index(drop=True)
 
 GG.to_csv('tmp/GG_template.tsv', sep='\t', index=False)
+
+# write sparql query
+functions = pd.read_csv('gene_functions.tsv', sep='\t')
+
+pre_unique_GG = set(GG.loc[1:, 'GG_ID'])
+unique_GG = ['<'+gg+'>' for gg in pre_unique_GG]
+parents = set(functions.loc[:, 'term_id'])
+parents_GG = ['<'+p+'>' for p in parents if 'http:' in p]
+
+with open("../sparql/GG_subclasses.sparql", 'w') as file:
+    file.write("prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\n")
+    file.write("SELECT ?child ?parent\n")
+    file.write("WHERE { ?child rdfs:subClassOf+ ?parent \n")
+    file.write("FILTER ( ?child IN (" + ', '.join(unique_GG) + ")\n")
+    file.write("&& ?parent IN (" + ', '.join(parents_GG) + ") ) }")

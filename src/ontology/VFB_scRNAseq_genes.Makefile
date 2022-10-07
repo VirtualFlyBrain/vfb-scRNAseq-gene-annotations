@@ -29,18 +29,26 @@ $(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	wget -O $(TMPDIR)/gene_association.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/go/gene_association.fb.gz &&\
 	gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GO.py &&\
+	$(ROBOT) query --input-iri http://purl.obolibrary.org/obo/go.owl \
+		--query $(SPARQLDIR)/GO_subclasses.sparql $(TMPDIR)/GO_subclasses.tsv &&\
+	python3 $(SCRIPTSDIR)/add_GO_node_labels.py &&\
 	$(ROBOT) template --template $(TMPDIR)/GO_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
+	rm $(SPARQLDIR)/GO_subclasses.sparql &&\
 	echo "\nGO annotations updated\n"
 
 $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	wget -O $(TMPDIR)/gene_group_data.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/gene_group_data_fb_*.tsv.gz &&\
 	gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GG.py &&\
+	$(ROBOT) query --input $(COMPONENTSDIR)/gene_groups.obo \
+		--query $(SPARQLDIR)/GG_subclasses.sparql $(TMPDIR)/GG_subclasses.tsv &&\
+	python3 $(SCRIPTSDIR)/add_GG_node_labels.py &&\
 	$(ROBOT) template --template $(TMPDIR)/GG_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
+	rm $(SPARQLDIR)/GG_subclasses.sparql &&\
 	echo "\nGene Group annotations updated\n"
 
 $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
