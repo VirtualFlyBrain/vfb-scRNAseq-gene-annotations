@@ -1,0 +1,45 @@
+label	term_id	term_label
+Acetylcholine_receptor	GO:0015464	acetylcholine receptor activity
+Acetylcholine_receptor	http://flybase.org/reports/FBgg0000095	ACETYLCHOLINE RECEPTORS
+Calcium_binding	GO:0005509	calcium ion binding
+Dopamine_receptor	http://flybase.org/reports/FBgg0000171	DOPAMINE RECEPTORS
+Dopamine_receptor	GO:0004952	dopamine neurotransmitter receptor activity
+Enzyme	http://flybase.org/reports/FBgg0001715	ENZYMES
+Enzyme	GO:0003824	catalytic activity
+GABA_receptor	GO:0016917	GABA receptor activity
+GABA_receptor	http://flybase.org/reports/FBgg0000556	GABA-GATED CHLORIDE CHANNEL SUBUNITS
+GABA_receptor	http://flybase.org/reports/FBgg0000078	GABA(B) RECEPTORS
+Glutamate_receptor	http://flybase.org/reports/FBgg0000554	GLUTAMATE-GATED CHLORIDE CHANNEL SUBUNITS
+Glutamate_receptor	http://flybase.org/reports/FBgg0000176	IONOTROPIC GLUTAMATE RECEPTORS
+Glutamate_receptor	http://flybase.org/reports/FBgg0000186	METABOTROPIC GLUTAMATE RECEPTORS
+Glutamate_receptor	GO:0008066	glutamate receptor activity
+GPCR	http://flybase.org/reports/FBgg0000172	G PROTEIN COUPLED RECEPTORS
+GPCR	GO:0004930	G protein-coupled receptor activity
+Gustatory_receptor	http://flybase.org/reports/FBgg0000079	GUSTATORY RECEPTORS
+Gustatory_receptor	GO:0008527	taste receptor activity
+Histamine_receptor	http://flybase.org/reports/FBgg0000563	HISTAMINE-GATED CHLORIDE CHANNEL SUBUNITS
+Histamine_receptor	GO:0019182	histamine-gated chloride channel activity
+Hormone	GO:0005179	hormone activity
+Ion_channel	http://flybase.org/reports/FBgg0000582	ION CHANNELS
+Ion_channel	GO:0005216	ion channel activity
+Mechanosensory_ion_channel	GO:0008381	mechanosensitive ion channel activity
+Neuropeptide	http://flybase.org/reports/FBgg0000179	NEUROPEPTIDES
+Neuropeptide	GO:0005184	neuropeptide hormone activity
+Octopamine_receptor	http://flybase.org/reports/FBgg0000133	OCTOPAMINE RECEPTORS
+Octopamine_receptor	GO:0004989	octopamine receptor activity
+Odorant_binding	http://flybase.org/reports/FBgg0000175	ODORANT BINDING PROTEINS
+Odorant_binding	GO:0005549	odorant binding
+Olfactory_receptor	GO:0004984	olfactory receptor activity
+Olfactory_receptor	http://flybase.org/reports/FBgg0000097	ODORANT RECEPTORS
+Peptide_or_protein_hormone_receptor	GO:0001653	peptide receptor activity
+Peptide_or_protein_hormone_receptor	GO:0016500	protein-hormone receptor activity
+Peptide_or_protein_hormone_receptor	http://flybase.org/reports/FBgg0000195	CLASS A GPCR NEUROPEPTIDE AND PROTEIN HORMONE RECEPTORS
+Photoreceptor	GO:0009881	photoreceptor activity
+Photoreceptor	http://flybase.org/reports/FBgg0000070	RHODOPSINS
+Serotonin_receptor	http://flybase.org/reports/FBgg0000206	5-HYDROXYTRYPTAMINE (SEROTONIN) RECEPTORS
+Serotonin_receptor	GO:0099589	serotonin receptor activity
+Thermosensory_ion_channel	GO:0097603	temperature-gated ion channel activity
+Transcription_factor	http://flybase.org/reports/FBgg0000745	TRANSCRIPTION FACTORS
+Transcription_factor	GO:0003700	DNA-binding transcription factor activity
+Tyramine_receptor	http://flybase.org/reports/FBgg0000089	TYRAMINE RECEPTORS
+Tyramine_receptor	GO:0008226	tyramine receptor activity
