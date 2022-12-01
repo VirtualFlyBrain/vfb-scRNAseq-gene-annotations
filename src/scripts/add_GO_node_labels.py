@@ -7,9 +7,9 @@ subclass_map = pd.read_csv('tmp/GO_subclasses.tsv', sep='\t')
 
 # make iri:label map
 subclass_map = subclass_map.applymap(lambda x: x.rstrip('>').replace("<http://purl.obolibrary.org/obo/GO_", "GO:"))
-functions_merged = subclass_map.merge(functions, how='left', left_on='?parent', right_on='term_id')
-merged_1 = functions_merged.loc[:,['?parent','label']]
-merged_1 = merged_1.rename({'?parent': 'GO_ID', 'label': 'node_labels'}, axis=1)
+functions_merged = functions.merge(subclass_map, how='left', left_on='term_id', right_on='?parent')
+merged_1 = functions_merged.loc[:,['term_id','label']]
+merged_1 = merged_1.rename({'term_id': 'GO_ID', 'label': 'node_labels'}, axis=1)
 merged_2 = functions_merged.loc[:,['?child','label']]
 merged_2 = merged_2.rename({'?child': 'GO_ID', 'label': 'node_labels'}, axis=1)
 label_map = pd.concat([merged_1, merged_2], ignore_index=True).drop_duplicates()
