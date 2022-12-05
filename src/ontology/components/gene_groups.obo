@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2022-09-11
+data-version: 2022-11-12
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -37,11 +37,25 @@ synonym: "ARID-TR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000764 ! A-T RICH INTERACTION DOMAIN PROTEINS
 
 [Term]
-id: http://flybase.org/reports/FBgg0000158
-name: ACTIN-RELATED PROTEIN 2/3 COMPLEX
-def: "." [http://flybase.org/reports/FBgg0000158.html]
-synonym: "ARPC" EXACT []
+id: http://flybase.org/reports/FBgg0001797
+name: ACTIN-RELATED PROTEIN 2/3 COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0001797.html]
+synonym: "ARPC-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0000158
+name: ACTIN-RELATED PROTEIN 2/3 COMPLEX ARPC3A VARIANT
+def: "." [http://flybase.org/reports/FBgg0000158.html]
+synonym: "ARPC3A" EXACT []
+is_a: http://flybase.org/reports/FBgg0001797 ! ACTIN-RELATED PROTEIN 2/3 COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001796
+name: ACTIN-RELATED PROTEIN 2/3 COMPLEX ARPC3B VARIANT
+def: "." [http://flybase.org/reports/FBgg0001796.html]
+synonym: "ARPC3B" EXACT []
+is_a: http://flybase.org/reports/FBgg0001797 ! ACTIN-RELATED PROTEIN 2/3 COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000113
@@ -335,11 +349,25 @@ synonym: "BRD-F" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001810
+name: BETA CATENIN DESTRUCTION COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0001810.html]
+synonym: "DES" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001809
+name: BETA CATENIN DESTRUCTION COMPLEX APC2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001809.html]
+synonym: "DES-C2" EXACT []
+is_a: http://flybase.org/reports/FBgg0001810 ! BETA CATENIN DESTRUCTION COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000896
-name: BETA CATENIN DESTRUCTION COMPLEX
+name: BETA CATENIN DESTRUCTION COMPLEX APC VARIANT
 def: "." [http://flybase.org/reports/FBgg0000896.html]
 synonym: "DES-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+is_a: http://flybase.org/reports/FBgg0001810 ! BETA CATENIN DESTRUCTION COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000163
@@ -433,6 +461,20 @@ synonym: "CAK-XPD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001792
+name: cGAS/STING Signaling Pathway
+def: "." [http://flybase.org/reports/FBgg0001792.html]
+synonym: "CGAS-STING" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001793
+name: cGAS/STING Signaling Pathway Core Components
+def: "." [http://flybase.org/reports/FBgg0001793.html]
+synonym: "CGAS-STING-C" EXACT []
+is_a: http://flybase.org/reports/FBgg0001792 ! cGAS/STING Signaling Pathway
+
+[Term]
 id: http://flybase.org/reports/FBgg0001643
 name: CHAPERONES AND CO-CHAPERONES
 def: "." [http://flybase.org/reports/FBgg0001643.html]
@@ -460,6 +502,13 @@ def: "." [http://flybase.org/reports/FBgg0000498.html]
 synonym: "HSP70-A" EXACT []
 is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
 is_a: http://flybase.org/reports/FBgg0001743 ! ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001795
+name: HEAT SHOCK PROTEIN 10 CHAPERONINS
+def: "." [http://flybase.org/reports/FBgg0001795.html]
+synonym: "HSP10" EXACT []
+is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000504
@@ -534,6 +583,29 @@ name: CHITIN BINDING DOMAIN-CONTAINING PROTEINS
 def: "." [http://flybase.org/reports/FBgg0001186.html]
 synonym: "CBD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001103
+name: CHITIN DEACETYLASE-LIKE FAMILY
+def: "." [http://flybase.org/reports/FBgg0001103.html]
+synonym: "CDA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001804
+name: CHITIN DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0001804.html]
+synonym: "CDAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
+is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001805
+name: PSEUDO-CHITIN DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0001805.html]
+synonym: "PSCDA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001188
@@ -1681,10 +1753,11 @@ synonym: "CE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001637 ! LINEAR AMIDE DEACETYLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001103
-name: CHITIN DEACETYLASE-LIKE FAMILY
-def: "." [http://flybase.org/reports/FBgg0001103.html]
-synonym: "CDA" EXACT []
+id: http://flybase.org/reports/FBgg0001804
+name: CHITIN DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0001804.html]
+synonym: "CDAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
 is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
 
 [Term]
@@ -1784,6 +1857,13 @@ name: OTHER CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
 def: "." [http://flybase.org/reports/FBgg0001335.html]
 synonym: "OCNHNP" EXACT []
 is_a: http://flybase.org/reports/FBgg0001304 ! CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
+
+[Term]
+id: http://flybase.org/reports/FBgg0001794
+name: CARBON-SULFUR HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001794.html]
+synonym: "C-SHYD" EXACT []
+is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001372
@@ -2380,41 +2460,6 @@ synonym: "PHYD" EXACT []
 is_a: http://flybase.org/reports/FBgg0001537 ! THIOLESTER HYDROLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001357
-name: ETHER/THIOETHER HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001357.html]
-synonym: "ETH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001364
-name: ETHER HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001364.html]
-synonym: "EHYD" EXACT []
-is_a: http://flybase.org/reports/FBgg0001357 ! ETHER/THIOETHER HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001360
-name: EPOXIDE HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001360.html]
-synonym: "EPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001364 ! ETHER HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001362
-name: OTHER ETHER HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001362.html]
-synonym: "OEHYD" EXACT []
-is_a: http://flybase.org/reports/FBgg0001364 ! ETHER HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001361
-name: THIOETHER HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001361.html]
-synonym: "THYD" EXACT []
-is_a: http://flybase.org/reports/FBgg0001357 ! ETHER/THIOETHER HYDROLASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000832
 name: GLYCOSIDE HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0000832.html]
@@ -2638,6 +2683,34 @@ name: OTHER O-GLYCOSYL HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001354.html]
 synonym: "OO-GH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001353 ! O-GLYCOSYL HYDROLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001357
+name: HYDROLASES ACTING ON ETHER BONDS
+def: "." [http://flybase.org/reports/FBgg0001357.html]
+synonym: "ETH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001364
+name: ETHER HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001364.html]
+synonym: "EHYD" EXACT []
+is_a: http://flybase.org/reports/FBgg0001357 ! HYDROLASES ACTING ON ETHER BONDS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001360
+name: EPOXIDE HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001360.html]
+synonym: "EPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001364 ! ETHER HYDROLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001362
+name: OTHER ETHER HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001362.html]
+synonym: "OEHYD" EXACT []
+is_a: http://flybase.org/reports/FBgg0001364 ! ETHER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001397
@@ -4195,6 +4268,7 @@ name: RECEPTOR GUANYLATE CYCLASES
 def: "." [http://flybase.org/reports/FBgg0000224.html]
 synonym: "RGC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000515 ! GUANYLATE CYCLASES
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 is_a: http://flybase.org/reports/FBgg0001106 ! TRANSMEMBRANE RECEPTORS
 
 [Term]
@@ -6719,11 +6793,25 @@ is_a: http://flybase.org/reports/FBgg0001014 ! HEME GROUP OXIDOREDUCTASES
 is_a: http://flybase.org/reports/FBgg0001721 ! OXIDOREDUCTASE-COUPLED TRANSLOCASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001811
+name: ER MEMBRANE PROTEIN COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0001811.html]
+synonym: "EMPC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001812
+name: ER MEMBRANE PROTEIN COMPLEX  EMC2B VARIANT
+def: "." [http://flybase.org/reports/FBgg0001812.html]
+synonym: "EMC2B" EXACT []
+is_a: http://flybase.org/reports/FBgg0001811 ! ER MEMBRANE PROTEIN COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001289
-name: ER MEMBRANE PROTEIN COMPLEX
+name: ER MEMBRANE PROTEIN COMPLEX EMC2A VARIANT
 def: "." [http://flybase.org/reports/FBgg0001289.html]
 synonym: "EMC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+is_a: http://flybase.org/reports/FBgg0001811 ! ER MEMBRANE PROTEIN COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001737
@@ -6800,6 +6888,13 @@ id: http://flybase.org/reports/FBgg0000211
 name: FLOTILLINS
 def: "." [http://flybase.org/reports/FBgg0000211.html]
 synonym: "FLO" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001802
+name: FUSED-SMURF UBIQUITIN LIGASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001802.html]
+synonym: "FUSF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -6942,6 +7037,7 @@ name: PSEUDO-GLYCEROL KINASE
 def: "." [http://flybase.org/reports/FBgg0000636.html]
 synonym: "PGK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000641 ! GLYCEROL KINASE-LIKE
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000496
@@ -6964,6 +7060,7 @@ name: IMAGINAL DISC GROWTH FACTORS
 def: "." [http://flybase.org/reports/FBgg0000514.html]
 synonym: "IDGF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000496 ! GLYCOSIDE HYDROLASE FAMILY 18
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000494
@@ -7309,6 +7406,20 @@ name: ESCRT-I COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000101.html]
 synonym: "ESCRT-I" EXACT []
 is_a: http://flybase.org/reports/FBgg0000215 ! ENDOSOMAL SORTING COMPLEXES REQUIRED FOR TRANSPORT
+
+[Term]
+id: http://flybase.org/reports/FBgg0001814
+name: ESCRT-I COMPLEX VPS37A VARIANT
+def: "." [http://flybase.org/reports/FBgg0001814.html]
+synonym: "ESCRT-IA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000101 ! ESCRT-I COMPLEX
+
+[Term]
+id: http://flybase.org/reports/FBgg0001813
+name: ESCRT-I COMPLEX VPS37B VARIANT
+def: "." [http://flybase.org/reports/FBgg0001813.html]
+synonym: "ESCRT-IB" EXACT []
+is_a: http://flybase.org/reports/FBgg0000101 ! ESCRT-I COMPLEX
 
 [Term]
 id: http://flybase.org/reports/FBgg0000207
@@ -8038,6 +8149,13 @@ synonym: "MTN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001801
+name: miRNA-INDUCED SILENCING COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001801.html]
+synonym: "miRISC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001180
 name: MUCINS
 def: "." [http://flybase.org/reports/FBgg0001180.html]
@@ -8079,6 +8197,7 @@ name: NON-MOTOR MYOSINS
 def: "." [http://flybase.org/reports/FBgg0001611.html]
 synonym: "MYO-NM" EXACT []
 is_a: http://flybase.org/reports/FBgg0000166 ! MYOSINS
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000650
@@ -8171,238 +8290,6 @@ name: NETRINS
 def: "." [http://flybase.org/reports/FBgg0000714.html]
 synonym: "NTN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0001481
-name: NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001481.html]
-synonym: "NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0001482
-name: CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001482.html]
-synonym: "C-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001486
-name: C1 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001486.html]
-synonym: "C1-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001511 ! PEPTIDASE FAMILY C1
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001488
-name: C19 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001488.html]
-synonym: "C19-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001513 ! PEPTIDASE FAMILY C19
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001489
-name: C26 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001489.html]
-synonym: "C26-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001514 ! PEPTIDASE FAMILY C26
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001490
-name: C48 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001490.html]
-synonym: "C48-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001515 ! PEPTIDASE FAMILY C48
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001491
-name: C110 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001491.html]
-synonym: "C110-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001487
-name: CALPAIN NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001487.html]
-synonym: "CALP-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001512 ! PEPTIDASE FAMILY C2
-is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001483
-name: METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001483.html]
-synonym: "M-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001390
-name: ANGIOTENSIN-CONVERTING PSEUDOENZYMES
-def: "." [http://flybase.org/reports/FBgg0001390.html]
-synonym: "ACE-PSEU" EXACT []
-is_a: http://flybase.org/reports/FBgg0001388 ! ANGIOTENSIN-CONVERTING ENZYME-LIKE
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001492
-name: M1 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001492.html]
-synonym: "M1-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001516 ! PEPTIDASE FAMILY M1
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001493
-name: M3 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001493.html]
-synonym: "M3-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001517 ! PEPTIDASE FAMILY M3
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001494
-name: M12 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001494.html]
-synonym: "M12-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001518 ! PEPTIDASE FAMILY M12
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001495
-name: M14 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001495.html]
-synonym: "M14-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001519 ! PEPTIDASE FAMILY M14
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001496
-name: M16 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001496.html]
-synonym: "M16-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001520 ! PEPTIDASE FAMILY M16
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001498
-name: M19 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001498.html]
-synonym: "M19-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001522 ! PEPTIDASE FAMILY M19
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001500
-name: M24 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001500.html]
-synonym: "M24-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001524 ! PEPTIDASE FAMILY M24
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001502
-name: M48 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001502.html]
-synonym: "M48-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001526 ! PEPTIDASE FAMILY M48
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001503
-name: M67 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001503.html]
-synonym: "M67-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001527 ! PEPTIDASE FAMILY M67
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0000964
-name: NEPRILYSIN-LIKE METALLOENDOPEPTIDASES
-def: "." [http://flybase.org/reports/FBgg0000964.html]
-synonym: "NEPL" EXACT []
-is_a: http://flybase.org/reports/FBgg0000963 ! M13 METALLOENDOPEPTIDASES
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001497
-name: SPERM LEUCYL AMINOPEPTIDASES
-def: "." [http://flybase.org/reports/FBgg0001497.html]
-synonym: "S-LAP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001521 ! PEPTIDASE FAMILY M17
-is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001484
-name: SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001484.html]
-synonym: "S-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001077
-name: S1A NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001077.html]
-synonym: "S1A-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001075 ! PEPTIDASE FAMILY S1A
-is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001504
-name: S9 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001504.html]
-synonym: "S9-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001528 ! PEPTIDASE FAMILY S9
-is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001505
-name: S33 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001505.html]
-synonym: "S33-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001506
-name: S60 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001506.html]
-synonym: "S60-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001507
-name: S81 NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001507.html]
-synonym: "S81-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001529 ! PEPTIDASE FAMILY S81
-is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001485
-name: THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
-def: "." [http://flybase.org/reports/FBgg0001485.html]
-synonym: "T-NPH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001455
-name: PROTEASOME ALPHA SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001455.html]
-synonym: "PSM20SA" EXACT []
-is_a: http://flybase.org/reports/FBgg0001453 ! PROTEASOME CORE SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001485 ! THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001457
-name: PROTEASOME NON-CATALYTIC BETA SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001457.html]
-synonym: "PSM20SB-NC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001456 ! PROTEASOME BETA SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001485 ! THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000531
@@ -9457,11 +9344,334 @@ synonym: "WRD-PP2A" EXACT []
 is_a: http://flybase.org/reports/FBgg0000909 ! PROTEIN PHOSOPHATASE 2A COMPLEXES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000223
-name: PUTATIVE PSEUDOKINASES
-def: "." [http://flybase.org/reports/FBgg0000223.html]
-synonym: "PSEU-PK" EXACT []
+id: http://flybase.org/reports/FBgg0001798
+name: PSEUDOENZYMES
+def: "." [http://flybase.org/reports/FBgg0001798.html]
+synonym: "PSENZ" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0000514
+name: IMAGINAL DISC GROWTH FACTORS
+def: "." [http://flybase.org/reports/FBgg0000514.html]
+synonym: "IDGF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000496 ! GLYCOSIDE HYDROLASE FAMILY 18
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001611
+name: NON-MOTOR MYOSINS
+def: "." [http://flybase.org/reports/FBgg0001611.html]
+synonym: "MYO-NM" EXACT []
+is_a: http://flybase.org/reports/FBgg0000166 ! MYOSINS
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001481
+name: NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001481.html]
+synonym: "NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001482
+name: CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001482.html]
+synonym: "C-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001486
+name: C1 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001486.html]
+synonym: "C1-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001511 ! PEPTIDASE FAMILY C1
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001488
+name: C19 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001488.html]
+synonym: "C19-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001513 ! PEPTIDASE FAMILY C19
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001489
+name: C26 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001489.html]
+synonym: "C26-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001514 ! PEPTIDASE FAMILY C26
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001490
+name: C48 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001490.html]
+synonym: "C48-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001515 ! PEPTIDASE FAMILY C48
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001491
+name: C110 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001491.html]
+synonym: "C110-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001487
+name: CALPAIN NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001487.html]
+synonym: "CALP-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001512 ! PEPTIDASE FAMILY C2
+is_a: http://flybase.org/reports/FBgg0001482 ! CYSTEINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001483
+name: METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001483.html]
+synonym: "M-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001390
+name: ANGIOTENSIN-CONVERTING PSEUDOENZYMES
+def: "." [http://flybase.org/reports/FBgg0001390.html]
+synonym: "ACE-PSEU" EXACT []
+is_a: http://flybase.org/reports/FBgg0001388 ! ANGIOTENSIN-CONVERTING ENZYME-LIKE
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001492
+name: M1 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001492.html]
+synonym: "M1-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001516 ! PEPTIDASE FAMILY M1
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001493
+name: M3 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001493.html]
+synonym: "M3-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001517 ! PEPTIDASE FAMILY M3
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001494
+name: M12 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001494.html]
+synonym: "M12-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001518 ! PEPTIDASE FAMILY M12
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001495
+name: M14 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001495.html]
+synonym: "M14-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001519 ! PEPTIDASE FAMILY M14
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001496
+name: M16 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001496.html]
+synonym: "M16-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001520 ! PEPTIDASE FAMILY M16
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001498
+name: M19 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001498.html]
+synonym: "M19-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001522 ! PEPTIDASE FAMILY M19
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001500
+name: M24 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001500.html]
+synonym: "M24-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001524 ! PEPTIDASE FAMILY M24
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001502
+name: M48 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001502.html]
+synonym: "M48-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001526 ! PEPTIDASE FAMILY M48
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001503
+name: M67 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001503.html]
+synonym: "M67-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001527 ! PEPTIDASE FAMILY M67
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0000964
+name: NEPRILYSIN-LIKE METALLOENDOPEPTIDASES
+def: "." [http://flybase.org/reports/FBgg0000964.html]
+synonym: "NEPL" EXACT []
+is_a: http://flybase.org/reports/FBgg0000963 ! M13 METALLOENDOPEPTIDASES
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001497
+name: SPERM LEUCYL AMINOPEPTIDASES
+def: "." [http://flybase.org/reports/FBgg0001497.html]
+synonym: "S-LAP" EXACT []
+is_a: http://flybase.org/reports/FBgg0001521 ! PEPTIDASE FAMILY M17
+is_a: http://flybase.org/reports/FBgg0001483 ! METALLO-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001484
+name: SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001484.html]
+synonym: "S-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0000954
+name: RHOMBOID PSEUDOPROTEASES
+def: "." [http://flybase.org/reports/FBgg0000954.html]
+synonym: "IRHOM" EXACT []
+is_a: http://flybase.org/reports/FBgg0000955 ! RHOMBOID-LIKE PROTEINS
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001077
+name: S1A NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001077.html]
+synonym: "S1A-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001075 ! PEPTIDASE FAMILY S1A
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001504
+name: S9 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001504.html]
+synonym: "S9-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001528 ! PEPTIDASE FAMILY S9
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001505
+name: S33 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001505.html]
+synonym: "S33-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001506
+name: S60 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001506.html]
+synonym: "S60-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001507
+name: S81 NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001507.html]
+synonym: "S81-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001529 ! PEPTIDASE FAMILY S81
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001485
+name: THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
+def: "." [http://flybase.org/reports/FBgg0001485.html]
+synonym: "T-NPH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001481 ! NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001455
+name: PROTEASOME ALPHA SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001455.html]
+synonym: "PSM20SA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001453 ! PROTEASOME CORE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001485 ! THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001457
+name: PROTEASOME NON-CATALYTIC BETA SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001457.html]
+synonym: "PSM20SB-NC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001456 ! PROTEASOME BETA SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001485 ! THREONINE-TYPE NON-PEPTIDASE HOMOLOGS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001806
+name: OTHER PSEUDOENZYMES
+def: "." [http://flybase.org/reports/FBgg0001806.html]
+synonym: "PSENZ-O" EXACT []
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001805
+name: PSEUDO-CHITIN DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0001805.html]
+synonym: "PSCDA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000223
+name: PSEUDOKINASES
+def: "." [http://flybase.org/reports/FBgg0000223.html]
+synonym: "PSEUK" EXACT []
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001808
+name: OTHER PSEUDOKINASES
+def: "." [http://flybase.org/reports/FBgg0001808.html]
+synonym: "PSEUK-O" EXACT []
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000636
+name: PSEUDO-GLYCEROL KINASE
+def: "." [http://flybase.org/reports/FBgg0000636.html]
+synonym: "PGK" EXACT []
+is_a: http://flybase.org/reports/FBgg0000641 ! GLYCEROL KINASE-LIKE
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000224
+name: RECEPTOR GUANYLATE CYCLASES
+def: "." [http://flybase.org/reports/FBgg0000224.html]
+synonym: "RGC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000515 ! GUANYLATE CYCLASES
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+is_a: http://flybase.org/reports/FBgg0001106 ! TRANSMEMBRANE RECEPTORS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001807
+name: RECEPTOR RELATED TO TYROSINE KINASE
+def: "." [http://flybase.org/reports/FBgg0001807.html]
+synonym: "RYK" EXACT []
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000249
+name: SCYL PSEUDOKINASES
+def: "." [http://flybase.org/reports/FBgg0000249.html]
+synonym: "SCYL" EXACT []
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001803
+name: PSEUDOPHOSPHATASES
+def: "." [http://flybase.org/reports/FBgg0001803.html]
+synonym: "PSEU-PP" EXACT []
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000972
@@ -9800,6 +10010,7 @@ name: RHOMBOID PSEUDOPROTEASES
 def: "." [http://flybase.org/reports/FBgg0000954.html]
 synonym: "IRHOM" EXACT []
 is_a: http://flybase.org/reports/FBgg0000955 ! RHOMBOID-LIKE PROTEINS
+is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000130
@@ -10003,13 +10214,6 @@ id: http://flybase.org/reports/FBgg0001762
 name: SCRIBBLE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001762.html]
 synonym: "SCRIBC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0000249
-name: SCYL PSEUDOKINASES
-def: "." [http://flybase.org/reports/FBgg0000249.html]
-synonym: "SCYL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -10240,13 +10444,6 @@ synonym: "SMC-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
-id: http://flybase.org/reports/FBgg0000156
-name: COHESIN
-def: "." [http://flybase.org/reports/FBgg0000156.html]
-synonym: "COHSN" EXACT []
-is_a: http://flybase.org/reports/FBgg0000063 ! SMC COMPLEXES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000167
 name: CONDENSIN
 def: "." [http://flybase.org/reports/FBgg0000167.html]
@@ -10266,6 +10463,27 @@ name: CONDENSIN II
 def: "." [http://flybase.org/reports/FBgg0000108.html]
 synonym: "COND-II" EXACT []
 is_a: http://flybase.org/reports/FBgg0000167 ! CONDENSIN
+
+[Term]
+id: http://flybase.org/reports/FBgg0001800
+name: MEIOTIC COHESIN COMPLEX C2M-SA VARIANT
+def: "." [http://flybase.org/reports/FBgg0001800.html]
+synonym: "COHSN-C2M-SA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000063 ! SMC COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001799
+name: MEIOTIC COHESIN COMPLEX SOLO-SUNN VARIANT
+def: "." [http://flybase.org/reports/FBgg0001799.html]
+synonym: "COHSN-SOLO-SUNN" EXACT []
+is_a: http://flybase.org/reports/FBgg0000063 ! SMC COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000156
+name: MITOTIC COHESIN COMPLEX
+def: "." [http://flybase.org/reports/FBgg0000156.html]
+synonym: "COHSN" EXACT []
+is_a: http://flybase.org/reports/FBgg0000063 ! SMC COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000060
@@ -12608,6 +12826,7 @@ name: RECEPTOR GUANYLATE CYCLASES
 def: "." [http://flybase.org/reports/FBgg0000224.html]
 synonym: "RGC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000515 ! GUANYLATE CYCLASES
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 is_a: http://flybase.org/reports/FBgg0001106 ! TRANSMEMBRANE RECEPTORS
 
 [Term]
