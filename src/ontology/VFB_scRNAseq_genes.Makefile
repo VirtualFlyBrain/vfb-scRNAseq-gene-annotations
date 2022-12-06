@@ -66,11 +66,9 @@ $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotation
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/
 # (requires login)
 # This file is not expected to be updated often
-# After copying to tmp (as 'gene_groups.obo'), the following should then be run manually:
+# After copying to tmp (as 'gene_groups.obo'), the following goal should then be updated manually:
 $(COMPONENTSDIR)/gene_groups.obo: $(TMPDIR)/gene_groups.obo
-	sed -e 's/\ FBgg/\ http\:\/\/flybase\.org\/reports\/FBgg/' \
-	-e '4 i ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo' \
-	$< > $@ &&\
+	python3 $(SCRIPTSDIR)/process_FBgg.py &&\
 	echo "\nGene Group ontology updated\n"
 
 # This file must be manually updated (see above)
