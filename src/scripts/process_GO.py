@@ -1,29 +1,40 @@
 import pandas as pd
 import numpy
 
+keep_evidence = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP', 'HTP', 'HDA', 'HMP', 'HGI', 'HEP', 'IBA', 'IBD']
+
 with open("tmp/scRNAseq_FBgn_list.txt", 'r') as f:
     gene_list = f.read().splitlines()
 GAF = pd.read_csv('tmp/gene_association.tsv', sep='\t', skiprows=5, header=None, names=['DB', 'FBgn', 'gene_symbol', 'relationship', 'GO', 'xref', 'evidence', 'annotation_id', 'aspect', 'gene_name', 'gene_synonyms', 'gene_type', 'taxon', 'date', 'assigned_by', 'empty1', 'empty2'], index_col=False)
 
+# filter on evidence code
+GAF = GAF[(GAF['evidence'].isin(keep_evidence))]
+
+# remove cols that we are not going to use
 GAF = GAF.drop(['DB', 'gene_symbol', 'evidence', 'annotation_id', 'gene_name', 'gene_synonyms', 'gene_type', 'taxon', 'date', 'assigned_by', 'empty1', 'empty2'], axis=1)
 
+# remove NOT annotations
 GAF = GAF[(GAF['FBgn'].isin(gene_list)) & (GAF['aspect']=='F') & (~GAF['relationship'].str.contains('NOT'))]
 GAF = GAF.drop(['aspect'], axis=1)
 
+# edit refs to FlyBase
 GAF['FBgn'] = GAF['FBgn'].apply(lambda x: 'http://flybase.org/reports/' + x)
 GAF['xref'] = GAF['xref'].apply(lambda x: x.replace('FB:', 'FlyBase:'))
 
+# make columns for each relationship type
 GAF_by_rel = GAF.pivot(columns='relationship', values='GO')
 GAF = GAF.join(GAF_by_rel).drop(['relationship', 'GO'], axis=1)
 new_cols = list(GAF.columns)
 new_cols.remove('FBgn')
 new_cols.remove('xref')
 
+# Add template instruction row
 empty_row = pd.DataFrame([[""] * len(GAF.columns)], columns=GAF.columns)
 GAF = pd.concat([empty_row, GAF], ignore_index=True)
 GAF['FBgn'][0] = 'ID'
 GAF['xref'][0] = '>A oboInOwl:hasDbXref SPLIT=|'
 
+# split refs by relationship
 for col in new_cols:
     GAF.insert(GAF.columns.get_loc(col) + 1, col + "_ref", GAF.xref)
     GAF[col][0] = 'SC \"' + col.replace('_', ' ') + '\" some %'
