@@ -8,7 +8,7 @@ with open("tmp/scRNAseq_FBgn_list.txt", 'r') as f:
 GAF = pd.read_csv('tmp/gene_association.tsv', sep='\t', skiprows=5, header=None, names=['DB', 'FBgn', 'gene_symbol', 'relationship', 'GO', 'xref', 'evidence', 'annotation_id', 'aspect', 'gene_name', 'gene_synonyms', 'gene_type', 'taxon', 'date', 'assigned_by', 'empty1', 'empty2'], index_col=False)
 
 # filter on evidence code
-GAF = GAF[(GAF['evidence'].isin(keep_evidence))
+GAF = GAF[(GAF['evidence'].isin(keep_evidence))]
 
 # remove cols that we are not going to use
 GAF = GAF.drop(['DB', 'gene_symbol', 'evidence', 'annotation_id', 'gene_name', 'gene_synonyms', 'gene_type', 'taxon', 'date', 'assigned_by', 'empty1', 'empty2'], axis=1)
