@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2022-11-12
+data-version: 2023-01-28
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -1453,6 +1453,14 @@ synonym: "ELG1-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001820
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ELONGATOR COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001820.html]
+synonym: "ELP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000271
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ENHANCER OF SPLIT GENE COMPLEX
@@ -2137,7 +2145,7 @@ is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
 [Term]
 id: http://flybase.org/reports/FBgg0001369
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CARBOXYLESTERASES
+name: CARBOXYLIC ESTER HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001369.html]
 synonym: "CEBH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001372 ! ESTER BOND HYDROLASES
@@ -2148,7 +2156,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ACYLGLYCEROL LIPASES
 def: "." [http://flybase.org/reports/FBgg0001376.html]
 synonym: "AGLP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001373
@@ -2156,7 +2164,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: AMINOACYL-TRNA EDITING HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001373.html]
 synonym: "ATRNAEH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001367
@@ -2164,7 +2172,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: AMINOACYL-TRNA HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001367.html]
 synonym: "ATRNAH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001620
@@ -2172,7 +2180,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ARYLESTERASES
 def: "." [http://flybase.org/reports/FBgg0001620.html]
 synonym: "AEST" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001817
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CARBOXYLESTERASES
+def: "." [http://flybase.org/reports/FBgg0001817.html]
+synonym: "CEST" EXACT []
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001368
@@ -2180,7 +2196,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLUCONOLACTONASES
 def: "." [http://flybase.org/reports/FBgg0001368.html]
 synonym: "GLLAC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001379
@@ -2188,15 +2204,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: LYSOPHOSPHOLIPASES
 def: "." [http://flybase.org/reports/FBgg0001379.html]
 synonym: "LPL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001375
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OTHER CARBOXYLESTERASES
+name: OTHER CARBOXYLIC ESTER HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001375.html]
 synonym: "OCEBH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001366
@@ -2204,7 +2220,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PHOSPHOLIPASES A1
 def: "." [http://flybase.org/reports/FBgg0001366.html]
 synonym: "PLA1" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000619
@@ -2212,7 +2228,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PHOSPHOLIPASES A2
 def: "." [http://flybase.org/reports/FBgg0000619.html]
 synonym: "PLA2" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000624
@@ -2236,7 +2252,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TRIGLYCERIDE LIPASES
 def: "." [http://flybase.org/reports/FBgg0001371.html]
 synonym: "TRLIP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLESTERASES
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001740
@@ -3140,6 +3156,14 @@ name: CYSTEINE PEPTIDASES
 def: "." [http://flybase.org/reports/FBgg0001399.html]
 synonym: "CPEPT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001397 ! PEPTIDASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001816
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ACTIN MATURATION PROTEASES
+def: "." [http://flybase.org/reports/FBgg0001816.html]
+synonym: "ACTMAP" EXACT []
+is_a: http://flybase.org/reports/FBgg0001399 ! CYSTEINE PEPTIDASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001406
@@ -5892,6 +5916,166 @@ synonym: "TG" EXACT []
 is_a: http://flybase.org/reports/FBgg0001208 ! AMINO-ACYL GROUP TRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001172
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UBIQUITIN-LIKE PROTEIN TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001172.html]
+synonym: "ULT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001208 ! AMINO-ACYL GROUP TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001221
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ATG8 TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001221.html]
+synonym: "ATG8T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001220
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ATG12 TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001220.html]
+synonym: "ATG12T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001219
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NEDD8 TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001219.html]
+synonym: "NEDD8T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001171
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SUMO TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001171.html]
+synonym: "SUMOT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001218
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UBIQUITIN TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001218.html]
+synonym: "UBT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000137
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: E2 UBIQUITIN CONJUGATING ENZYMES
+def: "." [http://flybase.org/reports/FBgg0000137.html]
+synonym: "E2" EXACT []
+is_a: http://flybase.org/reports/FBgg0001218 ! UBIQUITIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000069
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: E3 UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000069.html]
+synonym: "E3" EXACT []
+is_a: http://flybase.org/reports/FBgg0001218 ! UBIQUITIN TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000118
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HECT UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000118.html]
+synonym: "E3-HECT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001223
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: KCMF1 UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0001223.html]
+synonym: "E3-KCMF1" EXACT []
+is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001224
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: OTHER E3 UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0001224.html]
+synonym: "E3-O" EXACT []
+is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000040
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RING-BETWEEN-RING UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000040.html]
+synonym: "E3-RBR" EXACT []
+is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001192
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RING DOMAIN E3 UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0001192.html]
+synonym: "E3-RING" EXACT []
+is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000104
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GOLIATH UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000104.html]
+synonym: "E3-GOL" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000191
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: INHIBITOR OF APOPTOSIS UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000191.html]
+synonym: "E3-IAP" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000128
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: OTHER RING DOMAIN UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000128.html]
+synonym: "E3-RING-O" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000062
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ROC UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000062.html]
+synonym: "E3-ROC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000182
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TRIM UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000182.html]
+synonym: "E3-TRIM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000203
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: U-BOX UBIQUITIN LIGASES
+def: "." [http://flybase.org/reports/FBgg0000203.html]
+synonym: "E3-UBOX" EXACT []
+is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001173
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UFM1 TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0001173.html]
+synonym: "UFM1T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001162
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NON-AMINO-ACYL ACYL GROUP TRANSFERASES
@@ -7373,166 +7557,6 @@ name: SULFURTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001128.html]
 synonym: "SUTS" EXACT []
 is_a: http://flybase.org/reports/FBgg0001129 ! SULFUR-CONTAINING GROUP TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001172
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UBIQUITIN-LIKE PROTEIN TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001172.html]
-synonym: "ULT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001226 ! TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001221
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ATG8 TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001221.html]
-synonym: "ATG8T" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001220
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ATG12 TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001220.html]
-synonym: "ATG12T" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001219
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: NEDD8 TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001219.html]
-synonym: "NEDD8T" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001171
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SUMO TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001171.html]
-synonym: "SUMOT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001218
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UBIQUITIN TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001218.html]
-synonym: "UBT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000137
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: E2 UBIQUITIN CONJUGATING ENZYMES
-def: "." [http://flybase.org/reports/FBgg0000137.html]
-synonym: "E2" EXACT []
-is_a: http://flybase.org/reports/FBgg0001218 ! UBIQUITIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000069
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: E3 UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000069.html]
-synonym: "E3" EXACT []
-is_a: http://flybase.org/reports/FBgg0001218 ! UBIQUITIN TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000118
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: HECT UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000118.html]
-synonym: "E3-HECT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001223
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: KCMF1 UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0001223.html]
-synonym: "E3-KCMF1" EXACT []
-is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001224
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OTHER E3 UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0001224.html]
-synonym: "E3-O" EXACT []
-is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000040
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RING-BETWEEN-RING UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000040.html]
-synonym: "E3-RBR" EXACT []
-is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001192
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RING DOMAIN E3 UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0001192.html]
-synonym: "E3-RING" EXACT []
-is_a: http://flybase.org/reports/FBgg0000069 ! E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000104
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: GOLIATH UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000104.html]
-synonym: "E3-GOL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000191
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: INHIBITOR OF APOPTOSIS UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000191.html]
-synonym: "E3-IAP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000128
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OTHER RING DOMAIN UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000128.html]
-synonym: "E3-RING-O" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000062
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ROC UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000062.html]
-synonym: "E3-ROC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000182
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TRIM UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000182.html]
-synonym: "E3-TRIM" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000203
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: U-BOX UBIQUITIN LIGASES
-def: "." [http://flybase.org/reports/FBgg0000203.html]
-synonym: "E3-UBOX" EXACT []
-is_a: http://flybase.org/reports/FBgg0001192 ! RING DOMAIN E3 UBIQUITIN LIGASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001173
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UFM1 TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001173.html]
-synonym: "UFM1T" EXACT []
-is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001720
@@ -9192,6 +9216,14 @@ synonym: "LAM" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001815
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: LARGE CYTOPLASMIC STAUFEN RNP GRANULES
+def: "." [http://flybase.org/reports/FBgg0001815.html]
+synonym: "LSTAU" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001752
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: LARVAL SERUM PROTEIN SUBUNITS
@@ -9507,6 +9539,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NUCLEAR PORE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000146.html]
 synonym: "NPC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001819
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: Nucleolar Complex Associated FAMILY
+def: "." [http://flybase.org/reports/FBgg0001819.html]
+synonym: "NOC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -12381,7 +12421,7 @@ is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
 [Term]
 id: http://flybase.org/reports/FBgg0001656
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SLC49 FAMILY OF FLVCR-RELATED HEME TRANSPORTERS
+name: SLC49 FAMILY OF FLVCR-RELATED TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001656.html]
 synonym: "SLC49" EXACT []
 is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
@@ -14910,6 +14950,14 @@ name: GAMMA TUBULINS
 def: "." [http://flybase.org/reports/FBgg0000253.html]
 synonym: "G-TUB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000250 ! TUBULINS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001818
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TURANDOT GENES
+def: "." [http://flybase.org/reports/FBgg0001818.html]
+synonym: "TOT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001751
