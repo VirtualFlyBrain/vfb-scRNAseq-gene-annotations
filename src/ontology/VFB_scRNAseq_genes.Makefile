@@ -15,7 +15,7 @@ $(TMPDIR)/mapped_FBgn_list.txt: | $(TMPDIR)
 	rm $(TMPDIR)/FBgns.tsv &&\
 	echo "\nMapped FBgn list updated\n"
 
-$(TMPDIR)/FBgns.owl: $(TMPDIR)/mapped_FBgn_list.txt
+$(TMPDIR)/FBgns.owl: $(TMPDIR)/mapped_FBgn_list.txt | $(REPORTDIR)
 	python3 -m pip install -r $(SCRIPTSDIR)/requirements.txt &&\
 	svn export https://github.com/VirtualFlyBrain/VFB_neo4j/trunk/src/uk/ac/ebi/vfb $(SCRIPTSDIR)/vfb &&\
 	python3 $(SCRIPTSDIR)/feature_template_runner.py &&\
