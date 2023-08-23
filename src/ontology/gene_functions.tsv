@@ -2,6 +2,10 @@ label	term_id	term_label
 Acetylcholine_receptor	GO:0015464	acetylcholine receptor activity
 Acetylcholine_receptor	http://flybase.org/reports/FBgg0000095	ACETYLCHOLINE RECEPTORS
 Calcium_binding	GO:0005509	calcium ion binding
+Carbohydrate_binding	GO:0030246	carbohydrate binding
+Chaperone	http://flybase.org/reports/FBgg0001643	CHAPERONES AND CO-CHAPERONES
+Cytoskeleton_binding	GO:0008092	cytoskeletal protein binding
+DNA_binding	GO:0003677	DNA binding
 Dopamine_receptor	http://flybase.org/reports/FBgg0000171	DOPAMINE RECEPTORS
 Dopamine_receptor	GO:0004952	dopamine neurotransmitter receptor activity
 Enzyme	http://flybase.org/reports/FBgg0001715	ENZYMES
@@ -22,9 +26,14 @@ Histamine_receptor	GO:0019182	histamine-gated chloride channel activity
 Hormone	GO:0005179	hormone activity
 Ion_channel	http://flybase.org/reports/FBgg0000582	ION CHANNELS
 Ion_channel	GO:0005216	ion channel activity
+Ligand	GO:0048018	receptor ligand activity
+Ligand	http://flybase.org/reports/FBgg0001105	RECEPTOR LIGANDS
+Lipid_binding	GO:0008289	lipid binding
 Mechanosensory_ion_channel	GO:0008381	mechanosensitive ion channel activity
+Metal_ion_binding	GO:0046872	metal ion binding
 Neuropeptide	http://flybase.org/reports/FBgg0000179	NEUROPEPTIDES
 Neuropeptide	GO:0005184	neuropeptide hormone activity
+Neurotransmitter_receptor	GO:0030594	neurotransmitter receptor activity
 Octopamine_receptor	http://flybase.org/reports/FBgg0000133	OCTOPAMINE RECEPTORS
 Octopamine_receptor	GO:0004989	octopamine receptor activity
 Odorant_binding	http://flybase.org/reports/FBgg0000175	ODORANT BINDING PROTEINS
@@ -36,10 +45,20 @@ Peptide_or_protein_hormone_receptor	GO:0016500	protein-hormone receptor activity
 Peptide_or_protein_hormone_receptor	http://flybase.org/reports/FBgg0000195	CLASS A GPCR NEUROPEPTIDE AND PROTEIN HORMONE RECEPTORS
 Photoreceptor	GO:0009881	photoreceptor activity
 Photoreceptor	http://flybase.org/reports/FBgg0000070	RHODOPSINS
+Receptor	GO:0038023	signaling receptor activity
+Receptor	http://flybase.org/reports/FBgg0001106	TRANSMEMBRANE RECEPTORS
+Regulator	GO:0098772	molecular function regulator activity
+RNA_binding	GO:0003723	RNA binding
 Serotonin_receptor	http://flybase.org/reports/FBgg0000206	5-HYDROXYTRYPTAMINE (SEROTONIN) RECEPTORS
 Serotonin_receptor	GO:0099589	serotonin receptor activity
+Small_molecule_binding	GO:0036094	small molecule binding
+Structural_molecule	GO:0005198	structural molecule activity
 Thermosensory_ion_channel	GO:0097603	temperature-gated ion channel activity
 Transcription_factor	http://flybase.org/reports/FBgg0000745	TRANSCRIPTION FACTORS
-Transcription_factor	GO:0003700	DNA-binding transcription factor activity
+Transcription_factor	GO:0140110	transcription regulator activity
+Transporter	GO:0005215	transporter activity
+Transporter	http://flybase.org/reports/FBgg0000686	SOLUTE CARRIER FAMILY
+Transporter	http://flybase.org/reports/FBgg0000547	ATP-BINDING CASSETTE TRANSPORTERS
+Transporter	http://flybase.org/reports/FBgg0000703	IMPORTINS
 Tyramine_receptor	http://flybase.org/reports/FBgg0000089	TYRAMINE RECEPTORS
 Tyramine_receptor	GO:0008226	tyramine receptor activity
