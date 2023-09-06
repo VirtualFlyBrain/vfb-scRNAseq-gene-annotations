@@ -9,6 +9,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://virtualflybrain.org/data/VFB/OWL/VFB_scRNAseq_genes.owl>
 Import(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/GO_import.owl>)
 Import(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/RO_import.owl>)
+Import(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/SO_import.owl>)
 Import(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo>)
 Annotation(<http://purl.org/dc/elements/1.1/description> "An ontology of genes present in Drosophila melanogaster scRNAseq data. Gene annotations include gene groups and GO molecular function annotations taken from FlyBase."^^xsd:string)
 Annotation(<http://purl.org/dc/elements/1.1/title> "VFB scRNAseq Gene Annotations Ontology"^^xsd:string)
