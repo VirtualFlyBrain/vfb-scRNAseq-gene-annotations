@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/SO_import.owl>
-<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2023-09-05/imports/SO_import.owl>
+<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2023-09-06/imports/SO_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/so/2021-11-22/so.owl>)
-Annotation(owl:versionInfo "2023-09-05")
+Annotation(owl:versionInfo "2023-09-06")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
