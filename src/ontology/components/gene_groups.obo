@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2023-07-21
+data-version: 2023-09-09
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -827,16 +827,34 @@ is_a: http://flybase.org/reports/FBgg0000303 ! TRITHORAX GROUP COMPLEXES
 [Term]
 id: http://flybase.org/reports/FBgg0000273
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB REPRESSIVE COMPLEX 1 (CORE SUBUNITS)
+name: POLYCOMB REPRESSIVE COMPLEX 1, PSC VARIANT
 def: "." [http://flybase.org/reports/FBgg0000273.html]
 synonym: "PRC1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
 is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001860
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: POLYCOMB REPRESSIVE COMPLEX 1, SU(Z)2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001860.html]
+synonym: "PRC1-VAR" EXACT []
+is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001861
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: POLYCOMB REPRESSIVE COMPLEX 2, JARID2-JING VARIANT
+def: "." [http://flybase.org/reports/FBgg0001861.html]
+synonym: "PRC2-JJ" EXACT []
+is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000280
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB REPRESSIVE COMPLEX 2 (CORE SUBUNITS)
+name: POLYCOMB REPRESSIVE COMPLEX 2, PCL VARIANT
 def: "." [http://flybase.org/reports/FBgg0000280.html]
 synonym: "PRC2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
@@ -10745,16 +10763,34 @@ is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
 [Term]
 id: http://flybase.org/reports/FBgg0000273
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB REPRESSIVE COMPLEX 1 (CORE SUBUNITS)
+name: POLYCOMB REPRESSIVE COMPLEX 1, PSC VARIANT
 def: "." [http://flybase.org/reports/FBgg0000273.html]
 synonym: "PRC1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
 is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001860
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: POLYCOMB REPRESSIVE COMPLEX 1, SU(Z)2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001860.html]
+synonym: "PRC1-VAR" EXACT []
+is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001861
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: POLYCOMB REPRESSIVE COMPLEX 2, JARID2-JING VARIANT
+def: "." [http://flybase.org/reports/FBgg0001861.html]
+synonym: "PRC2-JJ" EXACT []
+is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000280
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB REPRESSIVE COMPLEX 2 (CORE SUBUNITS)
+name: POLYCOMB REPRESSIVE COMPLEX 2, PCL VARIANT
 def: "." [http://flybase.org/reports/FBgg0000280.html]
 synonym: "PRC2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
