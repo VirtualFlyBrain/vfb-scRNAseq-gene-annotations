@@ -10,6 +10,7 @@ use_dosdps: FALSE
 edit_format: owl
 export_formats:
   - owl
+import_component_format: ofn
 import_group:
   use_base_merging: TRUE
   slme_individuals: exclude
