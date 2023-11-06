@@ -14,6 +14,17 @@ $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotation
 		convert --format ofn \
 		-o $@ &&\
 	echo "\nOntology source file updated!\n"
+
+# adding stripping label-annotated annotation axioms from merged import to requirements
+$(ONT)-full.owl: strip_import_axioms
+
+all_imports: strip_import_axioms
+
+.PHONY: strip_import_axioms
+strip_import_axioms: $(IMPORTDIR)/merged_import.owl
+	cat $< | grep -v '^AnnotationAssertion[(]Annotation[(]rdfs:label' > $<.tmp &&\
+	mv $<.tmp $<
+
 # files for gene annotations
 $(TMPDIR)/scRNAseq_FBgn_list.txt: | $(TMPDIR)
 	wget -O $@ https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt
