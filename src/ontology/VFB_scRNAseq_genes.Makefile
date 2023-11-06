@@ -4,6 +4,16 @@
 ## changes here rather than in the main Makefile
 
 
+$(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
+	$(ROBOT) merge \
+		--input VFB_scRNAseq_genes-annotations.ofn \
+		--input $< \
+		--input $(TMPDIR)/GO_annotations.owl \
+		--input $(TMPDIR)/GG_annotations.owl \
+		--include-annotations true --collapse-import-closure false \
+		convert --format ofn \
+		-o $@ &&\
+	echo "\nOntology source file updated!\n"
 # files for gene annotations
 $(TMPDIR)/scRNAseq_FBgn_list.txt: | $(TMPDIR)
 	wget -O $@ https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt
@@ -50,17 +60,6 @@ $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 		--output $@ &&\
 	rm $(SPARQLDIR)/GG_subclasses.sparql &&\
 	echo "\nGene Group annotations updated\n"
-
-$(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
-	$(ROBOT) merge \
-		--input VFB_scRNAseq_genes-annotations.ofn \
-		--input $< \
-		--input $(TMPDIR)/GO_annotations.owl \
-		--input $(TMPDIR)/GG_annotations.owl \
-		--include-annotations true --collapse-import-closure false \
-		convert --format ofn \
-		-o $@ &&\
-	echo "\nOntology source file updated!\n"
 
 # A new gene_group_*.obo file can be found at:
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/
