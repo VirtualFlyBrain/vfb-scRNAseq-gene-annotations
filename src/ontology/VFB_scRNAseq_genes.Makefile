@@ -13,6 +13,7 @@ $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotation
 		--include-annotations true --collapse-import-closure false \
 		convert --format ofn \
 		-o $@ &&\
+	rm -rf  $(TMPDIR)/FBgns.tsv $(SCRIPTSDIR)/vfb $(SPARQLDIR)/GO_subclasses.sparql $(SPARQLDIR)/GG_subclasses.sparql
 	echo "\nOntology source file updated!\n"
 
 # adding stripping label-annotated annotation axioms from merged import to requirements
@@ -33,17 +34,20 @@ $(TMPDIR)/mapped_FBgn_list.txt: | $(TMPDIR)
 	wget -O $(TMPDIR)/FBgns.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_*.tsv.gz &&\
 	gzip -df $(TMPDIR)/FBgns.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_FBgn.py &&\
-	rm $(TMPDIR)/FBgns.tsv &&\
 	echo "\nMapped FBgn list updated\n"
 
-$(TMPDIR)/FBgns.owl: $(TMPDIR)/mapped_FBgn_list.txt | $(REPORTDIR)
+get_vfb_code:
+	cd $(SCRIPTSDIR) &&\
+	wget https://github.com/VirtualFlyBrain/VFB_neo4j/archive/master.tar.gz &&\
+	mkdir -p vfb && tar --strip-components=5 -xvf master.tar.gz VFB_neo4j-master/src/uk/ac/ebi/vfb &&\
+	rm master.tar.gz && cd ../ontology
+
+$(TMPDIR)/FBgns.owl: get_vfb_code $(TMPDIR)/mapped_FBgn_list.txt | $(REPORTDIR)
 	python3 -m pip install -r $(SCRIPTSDIR)/requirements.txt &&\
-	svn export https://github.com/VirtualFlyBrain/VFB_neo4j/trunk/src/uk/ac/ebi/vfb $(SCRIPTSDIR)/vfb &&\
 	python3 $(SCRIPTSDIR)/feature_template_runner.py &&\
 	$(ROBOT) template --template $(TMPDIR)/FBgn_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
-	rm -r $(SCRIPTSDIR)/vfb
 	echo "\nFBgn annotations updated\n"
 
 $(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
@@ -56,7 +60,6 @@ $(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	$(ROBOT) template --template $(TMPDIR)/GO_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
-	rm $(SPARQLDIR)/GO_subclasses.sparql &&\
 	echo "\nGO annotations updated\n"
 
 $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
@@ -69,7 +72,6 @@ $(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 	$(ROBOT) template --template $(TMPDIR)/GG_template.tsv \
 		--input-iri http://purl.obolibrary.org/obo/ro.owl \
 		--output $@ &&\
-	rm $(SPARQLDIR)/GG_subclasses.sparql &&\
 	echo "\nGene Group annotations updated\n"
 
 # A new gene_group_*.obo file can be found at:
