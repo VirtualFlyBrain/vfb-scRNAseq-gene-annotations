@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                96dd4a81ac88e7010787d547ea286cfbaed1cbc9790cec52e678698d791d5fdb
+CONFIG_HASH=                ce90145cdc00b11275c97e8265acf9739c45c0df14156c1d1cc69029a3fc72e5
 
 
 # ----------------------------------------
@@ -345,7 +345,7 @@ ALLSEED = $(PRESEED) \
 $(IMPORTSEED): $(ALLSEED) | $(TMPDIR)
 	if [ $(IMP) = true ]; then cat $(ALLSEED) | sort | uniq > $@; fi
 
-ANNOTATION_PROPERTIES=rdfs:label IAO:0000115 
+ANNOTATION_PROPERTIES=RO:0002582 RO:0002581 rdfs:label IAO:0000115 
 
 # ----------------------------------------
 # Import modules
