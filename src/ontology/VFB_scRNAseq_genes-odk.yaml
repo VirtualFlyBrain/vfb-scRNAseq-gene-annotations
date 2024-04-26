@@ -14,6 +14,11 @@ import_component_format: ofn
 import_group:
   use_base_merging: TRUE
   slme_individuals: exclude
+  annotation_properties:
+    - RO:0002582
+    - RO:0002581
+    - rdfs:label
+    - IAO:0000115
   products:
     - id: go
       make_base: TRUE
