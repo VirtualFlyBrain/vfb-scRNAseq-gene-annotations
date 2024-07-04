@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2024-04-05
+data-version: 2024-06-09
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -287,19 +287,27 @@ synonym: "ABCB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
 
 [Term]
+id: http://flybase.org/reports/FBgg0000541
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0000541.html]
+synonym: "ABCB-HT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
+id: http://flybase.org/reports/FBgg0001968
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER HMT-1 SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0001968.html]
+synonym: "ABCB-HTH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
 id: http://flybase.org/reports/FBgg0000551
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - FULL TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000551.html]
 synonym: "ABCB-FT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000541
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - HALF TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]
@@ -5232,6 +5240,22 @@ synonym: "OXRCHCHNAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001019
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TRNA DIHYDROURIDINE SYNTHASES
+def: "." [http://flybase.org/reports/FBgg0001019.html]
+synonym: "DUS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000993 ! CH-CH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0001967
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED CH-CH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+def: "." [http://flybase.org/reports/FBgg0001967.html]
+synonym: "OXRCHCHNAD-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0000993 ! CH-CH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
 id: http://flybase.org/reports/FBgg0000989
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CH-CH OXIDOREDUCTASES, OXYGEN AS ACCEPTOR
@@ -5262,14 +5286,6 @@ name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) - CATALYTIC SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001862.html]
 synonym: "MCII-SDH-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000485 ! MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001019
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TRNA DIHYDROURIDINE SYNTHASES
-def: "." [http://flybase.org/reports/FBgg0001019.html]
-synonym: "DUS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
 
 [Term]
@@ -5521,15 +5537,6 @@ synonym: "OXRCHCH2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000490
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CYTOCHROME C
-def: "." [http://flybase.org/reports/FBgg0000490.html]
-synonym: "CYT-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001707
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: DESATURASES
@@ -5636,15 +5643,6 @@ synonym: "MCIII-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000484 ! MITOCHONDRIAL COMPLEX III SUBUNITS
 is_a: http://flybase.org/reports/FBgg0001013 ! DIPHENOL OXIDOREDUCTASES
 is_a: http://flybase.org/reports/FBgg0001721 ! OXIDOREDUCTASE-COUPLED TRANSLOCASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000486
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ELECTRON TRANSFER FLAVOPROTEINS
-def: "." [http://flybase.org/reports/FBgg0000486.html]
-synonym: "ETF" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001014
@@ -6365,6 +6363,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: N-TERMINAL ACETYLTRANSFERASE CATALYTIC SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000651.html]
 synonym: "NAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
 is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
 
 [Term]
@@ -6885,14 +6884,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PURINE NUCLEOSIDE PHOSPHORYLASES
 def: "." [http://flybase.org/reports/FBgg0001141.html]
 synonym: "PNP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001110 ! PENTOSYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001136
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: QUEUINE TRNA-RIBOSYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001136.html]
-synonym: "QTRT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001110 ! PENTOSYLTRANSFERASES
 
 [Term]
@@ -7805,19 +7796,27 @@ synonym: "ABCB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
 
 [Term]
+id: http://flybase.org/reports/FBgg0000541
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0000541.html]
+synonym: "ABCB-HT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
+id: http://flybase.org/reports/FBgg0001968
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER HMT-1 SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0001968.html]
+synonym: "ABCB-HTH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
 id: http://flybase.org/reports/FBgg0000551
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - FULL TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000551.html]
 synonym: "ABCB-FT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000541
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - HALF TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]
@@ -8199,7 +8198,7 @@ is_a: http://flybase.org/reports/FBgg0000335 ! GENERAL TRANSCRIPTION FACTORS
 [Term]
 id: http://flybase.org/reports/FBgg0000350
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TRANSCRIPTION FACTOR II H
+name: TRANSCRIPTION FACTOR II H HOLOENZYME
 def: "." [http://flybase.org/reports/FBgg0000350.html]
 synonym: "TFIIH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000335 ! GENERAL TRANSCRIPTION FACTORS
@@ -8210,7 +8209,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CDK-ACTIVATING KINASE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000356.html]
 synonym: "CAK" EXACT []
-is_a: http://flybase.org/reports/FBgg0000350 ! TRANSCRIPTION FACTOR II H
+is_a: http://flybase.org/reports/FBgg0000350 ! TRANSCRIPTION FACTOR II H HOLOENZYME
 
 [Term]
 id: http://flybase.org/reports/FBgg0000357
@@ -8218,7 +8217,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TRANSCRIPTION FACTOR II H - CORE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000357.html]
 synonym: "TFIIH-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000350 ! TRANSCRIPTION FACTOR II H
+is_a: http://flybase.org/reports/FBgg0000350 ! TRANSCRIPTION FACTOR II H HOLOENZYME
 
 [Term]
 id: http://flybase.org/reports/FBgg0001613
@@ -9094,19 +9093,19 @@ synonym: "OGDH-CV" EXACT []
 is_a: http://flybase.org/reports/FBgg0001924 ! MITOCHONDRIAL ALPHA-KETOACID DEHYDROGENASE COMPLEXES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001875
+id: http://flybase.org/reports/FBgg0001864
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OXOGLUTARATE DEHYDROGENASE COMPLEX - CG33791 VARIANT
-def: "." [http://flybase.org/reports/FBgg0001875.html]
-synonym: "OGDH-T" EXACT []
+name: OXOGLUTARATE DEHYDROGENASE COMPLEX - OGDH1 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001864.html]
+synonym: "OGDH-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0001874 ! OXOGLUTARATE DEHYDROGENASE COMPLEX VARIANTS
 
 [Term]
-id: http://flybase.org/reports/FBgg0001864
+id: http://flybase.org/reports/FBgg0001875
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OXOGLUTARATE DEHYDROGENASE COMPLEX - OGDH VARIANT
-def: "." [http://flybase.org/reports/FBgg0001864.html]
-synonym: "OGDH-C" EXACT []
+name: OXOGLUTARATE DEHYDROGENASE COMPLEX - OGDH2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001875.html]
+synonym: "OGDH-T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001874 ! OXOGLUTARATE DEHYDROGENASE COMPLEX VARIANTS
 
 [Term]
@@ -9118,20 +9117,28 @@ synonym: "PDC-V" EXACT []
 is_a: http://flybase.org/reports/FBgg0001924 ! MITOCHONDRIAL ALPHA-KETOACID DEHYDROGENASE COMPLEXES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001926
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PYRUVATE DEHYDROGENASE COMPLEX - PDHA1 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001926.html]
+synonym: "PDC-S" EXACT []
+is_a: http://flybase.org/reports/FBgg0001925 ! PYRUVATE DEHYDROGENASE COMPLEX VARIANTS
+
+[Term]
 id: http://flybase.org/reports/FBgg0001927
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PYRUVATE DEHYDROGENASE COMPLEX - CG7024 VARIANT
+name: PYRUVATE DEHYDROGENASE COMPLEX - PDHA2 VARIANT
 def: "." [http://flybase.org/reports/FBgg0001927.html]
 synonym: "PDC-T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001925 ! PYRUVATE DEHYDROGENASE COMPLEX VARIANTS
 
 [Term]
-id: http://flybase.org/reports/FBgg0001926
+id: http://flybase.org/reports/FBgg0001964
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PYRUVATE DEHYDROGENASE COMPLEX - PDHA VARIANT
-def: "." [http://flybase.org/reports/FBgg0001926.html]
-synonym: "PDC-S" EXACT []
-is_a: http://flybase.org/reports/FBgg0001925 ! PYRUVATE DEHYDROGENASE COMPLEX VARIANTS
+name: MITOCHONDRIAL COMPLEX I INTERMEDIATE ASSEMBLY COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001964.html]
+synonym: "MCIA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001946
@@ -9295,6 +9302,15 @@ name: N-TERMINAL ACETYLTRANSFERASE AUXILIARY SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000656.html]
 synonym: "NAX" EXACT []
 is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0000651
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: N-TERMINAL ACETYLTRANSFERASE CATALYTIC SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0000651.html]
+synonym: "NAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001786
@@ -9543,7 +9559,6 @@ name: CYTOCHROME C
 def: "." [http://flybase.org/reports/FBgg0000490.html]
 synonym: "CYT-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000486
@@ -9552,7 +9567,6 @@ name: ELECTRON TRANSFER FLAVOPROTEINS
 def: "." [http://flybase.org/reports/FBgg0000486.html]
 synonym: "ETF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000487
@@ -9666,6 +9680,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: P24 TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000121.html]
 synonym: "P24" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001963
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PANORAMIX-INDUCED CO-TRANSCRIPTIONAL SILENCING COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001963.html]
+synonym: "PICTS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -14572,7 +14594,7 @@ is_a: http://flybase.org/reports/FBgg0000558 ! CALCIUM-ACTIVATED CHLORIDE CHANNE
 [Term]
 id: http://flybase.org/reports/FBgg0000566
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: INTRACELLULAR CHLORIDE CHANNEL SUBUNITS
+name: INTRACELLULAR CHLORIDE CHANNEL FAMILY
 def: "." [http://flybase.org/reports/FBgg0000566.html]
 synonym: "CLIC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000553 ! CHLORIDE CHANNEL SUBUNITS
@@ -14704,12 +14726,28 @@ is_a: http://flybase.org/reports/FBgg0001286 ! CYCLIC NUCLEOTIDE-ACTIVATED CATIO
 is_a: http://flybase.org/reports/FBgg0000586 ! NON-SELECTIVE CATION CHANNEL SUBUNITS
 
 [Term]
+id: http://flybase.org/reports/FBgg0001965
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MPV17/PMP22 CHANNEL FAMILY
+def: "." [http://flybase.org/reports/FBgg0001965.html]
+synonym: "PMP22-MPV17" EXACT []
+is_a: http://flybase.org/reports/FBgg0000586 ! NON-SELECTIVE CATION CHANNEL SUBUNITS
+
+[Term]
 id: http://flybase.org/reports/FBgg0001947
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MPV17/PMP22 PUTATIVE CHANNEL FAMILY
+name: MPV17/PMP22 PUTATIVE MITOCHONDRIAL CHANNEL FAMILY
 def: "." [http://flybase.org/reports/FBgg0001947.html]
-synonym: "MPV17-PMP22" EXACT []
-is_a: http://flybase.org/reports/FBgg0000586 ! NON-SELECTIVE CATION CHANNEL SUBUNITS
+synonym: "MPV17L" EXACT []
+is_a: http://flybase.org/reports/FBgg0001965 ! MPV17/PMP22 CHANNEL FAMILY
+
+[Term]
+id: http://flybase.org/reports/FBgg0001966
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MPV17/PMP22 PUTATIVE PEROXISOMAL CHANNEL FAMILY
+def: "." [http://flybase.org/reports/FBgg0001966.html]
+synonym: "PXMP2L" EXACT []
+is_a: http://flybase.org/reports/FBgg0001965 ! MPV17/PMP22 CHANNEL FAMILY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000202
@@ -15604,19 +15642,27 @@ synonym: "ABCB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
 
 [Term]
+id: http://flybase.org/reports/FBgg0000541
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0000541.html]
+synonym: "ABCB-HT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
+id: http://flybase.org/reports/FBgg0001968
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ABCB ATP-BINDING CASSETTE TRANSPORTER HMT-1 SUBFAMILY - HALF TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0001968.html]
+synonym: "ABCB-HTH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
+
+[Term]
 id: http://flybase.org/reports/FBgg0000551
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - FULL TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000551.html]
 synonym: "ABCB-FT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000541
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY - HALF TRANSPORTERS
-def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]

@@ -1,6 +1,6 @@
 import pandas as pd
 
-with open("tmp/scRNAseq_FBgn_list.txt", 'r') as f:
+with open("tmp/vfb-RNAseq-genes.txt", 'r') as f:
     gene_list = f.read().splitlines()
 GG = pd.read_csv('tmp/gene_group_data.tsv', sep='\t', skiprows=8, index_col=False)
 

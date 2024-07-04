@@ -3,6 +3,13 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
+.PHONY: prepare_release_notest
+# this prepares a release without running any tests - tests are very slow
+prepare_release_notest: odkversion $(SRC) all_imports $(RELEASE_ASSETS)
+	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
+	rm -f $(CLEANFILES) $(ALL_TERMS_COMBINED) &&\
+	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
+
 
 $(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
 	$(ROBOT) merge \
@@ -27,8 +34,11 @@ strip_import_axioms: $(IMPORTDIR)/merged_import.owl
 	mv $<.tmp $<
 
 # files for gene annotations
-$(TMPDIR)/scRNAseq_FBgn_list.txt: | $(TMPDIR)
-	wget -O $@ https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt
+$(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
+	wget -O $(TMPDIR)/vfb-scRNAseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
+	wget -O $(TMPDIR)/vfb-EPseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
+	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ #&&\
+	#rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
 
 $(TMPDIR)/mapped_FBgn_list.txt: | $(TMPDIR)
 	wget -O $(TMPDIR)/FBgns.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_*.tsv.gz &&\
@@ -50,7 +60,7 @@ $(TMPDIR)/FBgns.owl: get_vfb_code $(TMPDIR)/mapped_FBgn_list.txt | $(REPORTDIR)
 		--output $@ &&\
 	echo "\nFBgn annotations updated\n"
 
-$(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
+$(TMPDIR)/GO_annotations.owl: $(TMPDIR)/vfb-RNAseq-genes.txt
 	wget -O $(TMPDIR)/gene_association.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/go/gene_association.fb.gz &&\
 	gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GO.py &&\
@@ -62,7 +72,7 @@ $(TMPDIR)/GO_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
 		--output $@ &&\
 	echo "\nGO annotations updated\n"
 
-$(TMPDIR)/GG_annotations.owl: $(TMPDIR)/scRNAseq_FBgn_list.txt
+$(TMPDIR)/GG_annotations.owl: $(TMPDIR)/vfb-RNAseq-genes.txt
 	wget -O $(TMPDIR)/gene_group_data.tsv.gz ftp://ftp.flybase.net/releases/current/precomputed_files/genes/gene_group_data_fb_*.tsv.gz &&\
 	gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
 	python3 $(SCRIPTSDIR)/process_GG.py &&\

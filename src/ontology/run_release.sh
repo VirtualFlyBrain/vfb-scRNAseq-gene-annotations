@@ -1,2 +1,2 @@
 # run release
-sh run.sh make prepare_release -B
+sh run.sh make prepare_release_notest -B
