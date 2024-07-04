@@ -31,13 +31,13 @@ new_cols.remove('xref')
 # Add template instruction row
 empty_row = pd.DataFrame([[""] * len(GAF.columns)], columns=GAF.columns)
 GAF = pd.concat([empty_row, GAF], ignore_index=True)
-GAF['FBgn'][0] = 'ID'
-GAF['xref'][0] = '>A oboInOwl:hasDbXref SPLIT=|'
+GAF.loc[0, 'FBgn'] = 'ID'
+GAF.loc[0, 'xref'] = '>A oboInOwl:hasDbXref SPLIT=|'
 
 # split refs by relationship
 for col in new_cols:
     GAF.insert(GAF.columns.get_loc(col) + 1, col + "_ref", GAF.xref)
-    GAF[col][0] = 'SC \"' + col.replace('_', ' ') + '\" some %'
+    GAF.loc[0, col] = 'SC \"' + col.replace('_', ' ') + '\" some %'
 GAF = GAF.drop(['xref'], axis=1)
 
 GAF.to_csv('tmp/GO_template.tsv', sep='\t', index=False)
