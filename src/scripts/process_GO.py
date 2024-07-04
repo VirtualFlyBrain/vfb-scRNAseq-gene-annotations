@@ -3,7 +3,7 @@ import numpy
 
 keep_evidence = ['EXP', 'IDA', 'IPI', 'IMP', 'IGI', 'IEP', 'HTP', 'HDA', 'HMP', 'HGI', 'HEP', 'IBA', 'IBD']
 
-with open("tmp/scRNAseq_FBgn_list.txt", 'r') as f:
+with open("tmp/vfb-RNAseq-genes.txt", 'r') as f:
     gene_list = f.read().splitlines()
 GAF = pd.read_csv('tmp/gene_association.tsv', sep='\t', skiprows=5, header=None, names=['DB', 'FBgn', 'gene_symbol', 'relationship', 'GO', 'xref', 'evidence', 'annotation_id', 'aspect', 'gene_name', 'gene_synonyms', 'gene_type', 'taxon', 'date', 'assigned_by', 'empty1', 'empty2'], index_col=False)
 
