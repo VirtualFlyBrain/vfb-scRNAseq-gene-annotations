@@ -6,6 +6,7 @@
 .PHONY: prepare_release_notest
 # this prepares a release without running any tests - tests are very slow
 prepare_release_notest: odkversion $(SRC) all_imports $(RELEASE_ASSETS)
+	rsync -R $(RELEASE_ASSETS) $(RELEASEDIR) &&\
 	rm -f $(CLEANFILES) $(ALL_TERMS_COMBINED) &&\
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
 
