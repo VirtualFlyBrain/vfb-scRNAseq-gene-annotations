@@ -9,10 +9,10 @@ GG = GG.rename({'## FB_group_id': 'GG_ID', 'Group_member_FB_gene_id':'FBgn'}, ax
 
 GG = GG[GG['FBgn'].isin(gene_list)]
 
-GG = GG.applymap(lambda x: 'http://flybase.org/reports/' + x)
+GG = GG.map(lambda x: 'http://flybase.org/reports/' + x)
 
 template_string_row = pd.DataFrame([["SC \"part of\" some %"] * len(GG.columns)], columns=GG.columns)
-template_string_row['FBgn'][0] = "ID"
+template_string_row.loc[0, 'FBgn'] = "ID"
 
 GG = pd.concat([template_string_row, GG]).reset_index(drop=True)
 

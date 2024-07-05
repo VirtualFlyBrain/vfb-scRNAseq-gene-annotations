@@ -6,7 +6,7 @@ existing_template = pd.read_csv('tmp/GG_template.tsv', sep='\t')
 subclass_map = pd.read_csv('tmp/GG_subclasses.tsv', sep='\t')
 
 # make iri:label map
-subclass_map = subclass_map.applymap(lambda x: x.lstrip('<').rstrip('>'))
+subclass_map = subclass_map.map(lambda x: x.lstrip('<').rstrip('>'))
 functions_merged = functions.merge(subclass_map, how='left', left_on='term_id', right_on='?parent')
 merged_1 = functions_merged.loc[:,['term_id','label']]
 merged_1 = merged_1.rename({'term_id': 'GG_ID', 'label': 'node_labels'}, axis=1)
