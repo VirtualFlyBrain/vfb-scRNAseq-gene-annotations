@@ -3,6 +3,14 @@ Acetylcholine_receptor	GO:0015464	acetylcholine receptor activity
 Acetylcholine_receptor	http://flybase.org/reports/FBgg0000095	ACETYLCHOLINE RECEPTORS
 Calcium_binding	GO:0005509	calcium ion binding
 Carbohydrate_binding	GO:0030246	carbohydrate binding
+Cell_adhesion	http://flybase.org/reports/FBgg0001644	IRRE CELL RECOGNITION MODULE CELL ADHESION MOLECULES
+Cell_adhesion	http://flybase.org/reports/FBgg0000722	DOWN SYNDROME CELL-ADHESION MOLECULES
+Cell_adhesion	http://flybase.org/reports/FBgg0000105	CADHERINS
+Cell_adhesion	http://flybase.org/reports/FBgg0000596	BEAT FAMILY
+Cell_adhesion	http://flybase.org/reports/FBgg0000594	SIDE FAMILY
+Cell_adhesion	http://flybase.org/reports/FBgg0000058	INTEGRINS
+Cell_adhesion	http://flybase.org/reports/FBgg0001382	KLINGON SUBFAMILY OF WIRINS
+Cell_adhesion	GO:0098631	cell adhesion mediator activity
 Chaperone	http://flybase.org/reports/FBgg0001643	CHAPERONES AND CO-CHAPERONES
 Cytoskeleton_binding	GO:0008092	cytoskeletal protein binding
 DNA_binding	GO:0003677	DNA binding
