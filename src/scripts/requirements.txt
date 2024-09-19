@@ -6,5 +6,5 @@ pandas
 pandasql
 pysolr
 base36
-vfb_connect
+vfb_connect==v1.6.0
 better_profanity
