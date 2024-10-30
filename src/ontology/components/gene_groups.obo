@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2024-06-09
+data-version: 2024-10-05
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -291,7 +291,7 @@ id: http://flybase.org/reports/FBgg0000541
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
+synonym: "ABCB-AHT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]
@@ -1239,6 +1239,22 @@ synonym: "CP-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001178 ! CUTICLE PROTEIN FAMILIES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002026
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DE NOVO GDP-FUCOSE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002026.html]
+synonym: "GDPFUC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001997
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001997.html]
+synonym: "DHDDSC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001200
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: DNA POLYMERASES
@@ -1332,6 +1348,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: DORSAL GROUP
 def: "." [http://flybase.org/reports/FBgg0001054.html]
 synonym: "DORS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001996
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DPH1-DPH2 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001996.html]
+synonym: "DPH1-DPH2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -1512,6 +1536,14 @@ synonym: "EGFR-P" EXACT []
 is_a: http://flybase.org/reports/FBgg0000958 ! EGFR Signaling Pathway
 
 [Term]
+id: http://flybase.org/reports/FBgg0001981
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: EIF4E-CUP COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001981.html]
+synonym: "ECUP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000720
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ELBA BOUNDARY FACTOR COMPLEX
@@ -1550,7 +1582,7 @@ name: GENERAL SECRETORY PATHWAY FAMILY
 def: "." [http://flybase.org/reports/FBgg0001902.html]
 synonym: "SEC-PF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001957 ! ENDOPLASMIC RETICULUM SECRETORY AND TRANSMEMBRANE PROTEIN INSERTION SYSTEM
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001921
@@ -1883,7 +1915,6 @@ name: DISLOCASES
 def: "." [http://flybase.org/reports/FBgg0001723.html]
 synonym: "DISL" EXACT []
 is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000114
@@ -4748,14 +4779,6 @@ synonym: "ACOAL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000835
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ACYL-COA SYNTHETASES
-def: "." [http://flybase.org/reports/FBgg0000835.html]
-synonym: "ACS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000193
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: E1 UBIQUITIN-LIKE ACTIVATING ENZYMES
@@ -4812,9 +4835,17 @@ synonym: "URM1AE" EXACT []
 is_a: http://flybase.org/reports/FBgg0000193 ! E1 UBIQUITIN-LIKE ACTIVATING ENZYMES
 
 [Term]
+id: http://flybase.org/reports/FBgg0000835
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FATTY ACYL-COA SYNTHETASES
+def: "." [http://flybase.org/reports/FBgg0000835.html]
+synonym: "ACS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000836
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SUCCINYL-COA SYNTHETASE SUBUNITS
+name: SUCCINYL-COA SYNTHETASES
 def: "." [http://flybase.org/reports/FBgg0000836.html]
 synonym: "SUCL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
@@ -5385,12 +5416,36 @@ synonym: "HADH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
+id: http://flybase.org/reports/FBgg0001993
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
+def: "." [http://flybase.org/reports/FBgg0001993.html]
+synonym: "ADHNAD" EXACT []
+is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0001070
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-IDITOL 2-DEHYDROGENASES
+def: "." [http://flybase.org/reports/FBgg0001070.html]
+synonym: "I2DH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
+
+[Term]
+id: http://flybase.org/reports/FBgg0001071
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RETINOL DEHYDROGENASES (NAD-DEPENDENT)
+def: "." [http://flybase.org/reports/FBgg0001071.html]
+synonym: "RDH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
+
+[Term]
 id: http://flybase.org/reports/FBgg0000926
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALCOHOL DEHYDROGENASES
+name: UNCLASSIFIED ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
 def: "." [http://flybase.org/reports/FBgg0000926.html]
 synonym: "ADH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
 
 [Term]
 id: http://flybase.org/reports/FBgg0000920
@@ -5411,7 +5466,7 @@ is_a: http://flybase.org/reports/FBgg0000920 ! ALDO-KETO REDUCTASES
 [Term]
 id: http://flybase.org/reports/FBgg0001688
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: NADP-RETINOL DEHYDROGENASES
+name: RETINOL DEHYDROGENASES (NADP-DEPENDENT)
 def: "." [http://flybase.org/reports/FBgg0001688.html]
 synonym: "RDH-NADP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000920 ! ALDO-KETO REDUCTASES
@@ -5457,14 +5512,6 @@ synonym: "IDH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
-id: http://flybase.org/reports/FBgg0001070
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: L-IDITOL 2-DEHYDROGENASES
-def: "." [http://flybase.org/reports/FBgg0001070.html]
-synonym: "I2DH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
-
-[Term]
 id: http://flybase.org/reports/FBgg0000921
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MALATE DEHYDROGENASES
@@ -5487,14 +5534,6 @@ name: MALIC ENZYMES
 def: "." [http://flybase.org/reports/FBgg0001711.html]
 synonym: "MEN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000921 ! MALATE DEHYDROGENASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001071
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: NAD-RETINOL DEHYDROGENASES
-def: "." [http://flybase.org/reports/FBgg0001071.html]
-synonym: "RDH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
 id: http://flybase.org/reports/FBgg0000927
@@ -5559,6 +5598,14 @@ name: 2-OXOGLUTARATE-DEPENDENT DIOXYGENASES
 def: "." [http://flybase.org/reports/FBgg0001048.html]
 synonym: "OXRPMO2O" EXACT []
 is_a: http://flybase.org/reports/FBgg0001709 ! DIOXYGENASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002012
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GAMMA-BUTYROBETAINE HYDROXYLASES
+def: "." [http://flybase.org/reports/FBgg0002012.html]
+synonym: "GBBH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001048 ! 2-OXOGLUTARATE-DEPENDENT DIOXYGENASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000308
@@ -6511,19 +6558,19 @@ synonym: "GST" EXACT []
 is_a: http://flybase.org/reports/FBgg0001121 ! ALKYL OR ARYL (NON-METHYL) TRANSFERASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000155
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CYTOSOLIC GLUTATHIONE S-TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0000155.html]
-synonym: "GST-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000077 ! GLUTATHIONE S-TRANSFERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001233
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MICROSOMAL GLUTATHIONE S-TRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001233.html]
 synonym: "GST-MC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000077 ! GLUTATHIONE S-TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000155
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SOLUBLE GLUTATHIONE S-TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0000155.html]
+synonym: "GST-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000077 ! GLUTATHIONE S-TRANSFERASES
 
 [Term]
@@ -7320,6 +7367,22 @@ synonym: "PKC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000231 ! AGC-KINASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001990
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ATYPICAL PROTEIN KINASE C SUBFAMILY
+def: "." [http://flybase.org/reports/FBgg0001990.html]
+synonym: "APKC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000246 ! PROTEIN KINASE C FAMILY
+
+[Term]
+id: http://flybase.org/reports/FBgg0001992
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NOVEL PROTEIN KINASE C SUBFAMILY
+def: "." [http://flybase.org/reports/FBgg0001992.html]
+synonym: "NPKC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000246 ! PROTEIN KINASE C FAMILY
+
+[Term]
 id: http://flybase.org/reports/FBgg0000230
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PROTEIN KINASE G FAMILY
@@ -7800,7 +7863,7 @@ id: http://flybase.org/reports/FBgg0000541
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
+synonym: "ABCB-AHT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]
@@ -7920,7 +7983,7 @@ name: PROTEIN-TRANSPORTING ATPASES
 def: "." [http://flybase.org/reports/FBgg0001722.html]
 synonym: "PTA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001558
@@ -7985,6 +8048,22 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: EPS8 GENE FAMILY
 def: "." [http://flybase.org/reports/FBgg0001873.html]
 synonym: "EPS8" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001971
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ERF1-ERF3 TRANSLATION TERMINATION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001971.html]
+synonym: "TRFC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001998
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: EXT1-EXT2 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001998.html]
+synonym: "EXT1-EXT2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -8086,7 +8165,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001769
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: GAMMA-TUBULIN COMPLEX
+name: GAMMA-TUBULIN COMPLEXES
 def: "." [http://flybase.org/reports/FBgg0001769.html]
 synonym: "G-TUC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -8097,7 +8176,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GAMMA-TUBULIN RING COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001771.html]
 synonym: "G-TURC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEX
+is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001768
@@ -8105,7 +8184,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GAMMA-TUBULIN SMALL COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001768.html]
 synonym: "G-TUSC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEX
+is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001770
@@ -8113,7 +8192,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TESTIS-SPECIFIC GAMMA-TUBULIN RING COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001770.html]
 synonym: "T-G-TURC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEX
+is_a: http://flybase.org/reports/FBgg0001769 ! GAMMA-TUBULIN COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001062
@@ -8236,6 +8315,22 @@ synonym: "GLUE" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001999
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLUTAMATE-CYSTEINE LIGASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001999.html]
+synonym: "GCLC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002000
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLUTAMYL-TRNA(GLN) AMIDOTRANSFERASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002000.html]
+synonym: "GATCAB" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000641
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCEROL KINASE-LIKE
@@ -8262,6 +8357,14 @@ is_a: http://flybase.org/reports/FBgg0000641 ! GLYCEROL KINASE-LIKE
 is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002001
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYCINE CLEAVAGE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002001.html]
+synonym: "GCC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000496
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCOSIDE HYDROLASE FAMILY 18
@@ -8284,6 +8387,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: IMAGINAL DISC GROWTH FACTORS
 def: "." [http://flybase.org/reports/FBgg0000514.html]
 synonym: "IDGF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000496 ! GLYCOSIDE HYDROLASE FAMILY 18
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002025
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PSEUDO-CHITINASES
+def: "." [http://flybase.org/reports/FBgg0002025.html]
+synonym: "PSCHT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000496 ! GLYCOSIDE HYDROLASE FAMILY 18
 is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
@@ -8391,6 +8503,14 @@ name: HETEROTRIMERIC G-PROTEIN GAMMA SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000465.html]
 synonym: "G-SUB-G" EXACT []
 is_a: http://flybase.org/reports/FBgg0000458 ! HETEROTRIMERIC G-PROTEIN SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001969
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HIPHOP-HOAP TELOMERE-CAPPING COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001969.html]
+synonym: "HHTC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000917
@@ -8584,6 +8704,22 @@ name: Positive Regulators of Insulin-like Receptor Signaling Pathway
 def: "." [http://flybase.org/reports/FBgg0000898.html]
 synonym: "INS-P" EXACT []
 is_a: http://flybase.org/reports/FBgg0000910 ! Insulin-like Receptor Signaling Pathway
+
+[Term]
+id: http://flybase.org/reports/FBgg0002031
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: INTEGRATOR-PP2A COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002031.html]
+synonym: "INTAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002030
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: INTEGRATOR COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002030.html]
+synonym: "INT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000056
@@ -8799,6 +8935,54 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: IONOTROPIC RECEPTOR PSEUDOGENES
 def: "." [http://flybase.org/reports/FBgg0000125.html]
 synonym: "IR-PSD" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001980
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: IRM ADHESION COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0001980.html]
+synonym: "IRM-CAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001976
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HBS-KIRRE CELL ADHESION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001976.html]
+synonym: "HK-CAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001980 ! IRM ADHESION COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001978
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HBS-RST CELL ADHESION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001978.html]
+synonym: "HR-CAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001980 ! IRM ADHESION COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001977
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RST-SNS CELL ADHESION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001977.html]
+synonym: "RS-CAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001980 ! IRM ADHESION COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001979
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SNS-KIRRE CELL ADHESION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001979.html]
+synonym: "SK-CAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001980 ! IRM ADHESION COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001995
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ISOCITRATE DEHYDROGENASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001995.html]
+synonym: "IDH-UC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9053,6 +9237,14 @@ synonym: "MTN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002003
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: METHYLCROTONOYL-COA CARBOXYLASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002003.html]
+synonym: "MCCC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001801
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: miRNA-INDUCED SILENCING COMPLEX
@@ -9133,11 +9325,35 @@ synonym: "PDC-T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001925 ! PYRUVATE DEHYDROGENASE COMPLEX VARIANTS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002017
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL CLPXP COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002017.html]
+synonym: "CLPXP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001964
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX I INTERMEDIATE ASSEMBLY COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001964.html]
 synonym: "MCIA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002013
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL DISULFIDE RELAY SYTEM
+def: "." [http://flybase.org/reports/FBgg0002013.html]
+synonym: "MDRS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001975
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL DNA REPLISOME
+def: "." [http://flybase.org/reports/FBgg0001975.html]
+synonym: "MT-REP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9187,7 +9403,31 @@ name: SORTING AND ASSEMBLY MACHINERY COMPLEX SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001906.html]
 synonym: "SAM" EXACT []
 is_a: http://flybase.org/reports/FBgg0001946 ! MITOCHONDRIAL INTERMEMBRANE SPACE BRIDGING COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0001989
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL IRON-SULFUR ASSEMBLY COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001989.html]
+synonym: "NIAUF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002004
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL TRIFUNCTIONAL PROTEIN COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002004.html]
+synonym: "MTP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002005
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MOLYBDOPTERIN SYNTHASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002005.html]
+synonym: "MPTS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001923
@@ -9195,6 +9435,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MRN COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001923.html]
 synonym: "MRN" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001970
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MTV COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001970.html]
+synonym: "MTV" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9212,6 +9460,54 @@ name: MULTICOPPER OXIDASES
 def: "." [http://flybase.org/reports/FBgg0000654.html]
 synonym: "MCO" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001984
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MUVB COMPLEX GROUPS
+def: "." [http://flybase.org/reports/FBgg0001984.html]
+synonym: "MUVB-C" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001983
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DREAM TRANSCRIPTIONAL REPRESSOR COMPLEX, RBF2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0001983.html]
+synonym: "DRM-R2" EXACT []
+is_a: http://flybase.org/reports/FBgg0001984 ! MUVB COMPLEX GROUPS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001982
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DREAM TRANSCRIPTIONAL REPRESSOR COMPLEX, RBF VARIANT
+def: "." [http://flybase.org/reports/FBgg0001982.html]
+synonym: "DRM-R" EXACT []
+is_a: http://flybase.org/reports/FBgg0001984 ! MUVB COMPLEX GROUPS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001987
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MUVB CORE SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001987.html]
+synonym: "MUVB" EXACT []
+is_a: http://flybase.org/reports/FBgg0001984 ! MUVB COMPLEX GROUPS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001986
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MYB-MUVB TRANSCRIPTIONAL ACTIVATION COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001986.html]
+synonym: "MMC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001984 ! MUVB COMPLEX GROUPS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001985
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TESTIS-SPECIFIC MEIOTIC ARREST COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001985.html]
+synonym: "TMAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001984 ! MUVB COMPLEX GROUPS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000088
@@ -9409,6 +9705,14 @@ synonym: "NOC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001972
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NXF1-NXT1 MRNA NUCLEAR EXPORT FACTOR COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001972.html]
+synonym: "NXF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001143
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: OBSTRUCTOR FAMILY
@@ -9425,12 +9729,28 @@ synonym: "OBP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001974
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: OLIGOSACCHARYLTRANSFERASE COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0001974.html]
+synonym: "OST-C" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001340
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OLIGOSACCHARYLTRANSFERASE COMPLEX SUBUNITS
+name: OLIGOSACCHARYL TRANSFERASE A COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001340.html]
-synonym: "OST" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+synonym: "OSTA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001974 ! OLIGOSACCHARYLTRANSFERASE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001973
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: OLIGOSACCHARYL TRANSFERASE B COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001973.html]
+synonym: "OSTB" EXACT []
+is_a: http://flybase.org/reports/FBgg0001974 ! OLIGOSACCHARYLTRANSFERASE COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000510
@@ -9547,7 +9867,7 @@ is_a: http://flybase.org/reports/FBgg0001841 ! MITOCHONDRIAL OXPHOS COMPLEX VARI
 [Term]
 id: http://flybase.org/reports/FBgg0000482
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+name: OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 def: "." [http://flybase.org/reports/FBgg0000482.html]
 synonym: "OXPHOS" EXACT []
 is_a: http://flybase.org/reports/FBgg0001853 ! OXIDATIVE PHOSPHORYLATION GROUPS
@@ -9558,7 +9878,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CYTOCHROME C
 def: "." [http://flybase.org/reports/FBgg0000490.html]
 synonym: "CYT-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000486
@@ -9566,7 +9886,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ELECTRON TRANSFER FLAVOPROTEINS
 def: "." [http://flybase.org/reports/FBgg0000486.html]
 synonym: "ETF" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000487
@@ -9574,7 +9894,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX I SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000487.html]
 synonym: "MCI" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -9601,7 +9921,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000485.html]
 synonym: "MCII-SDH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001862
@@ -9626,7 +9946,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX III SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000484.html]
 synonym: "MCIII" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -9653,7 +9973,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX IV SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000488.html]
 synonym: "MCIV" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -9705,6 +10025,30 @@ name: PASIFLORA PROTEINS
 def: "." [http://flybase.org/reports/FBgg0000326.html]
 synonym: "PASI" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002028
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PENTOSE PHOSPHATE SHUNT
+def: "." [http://flybase.org/reports/FBgg0002028.html]
+synonym: "PPS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002027
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PENTOSE PHOSPHATE SHUNT, NON-OXIDATIVE BRANCH
+def: "." [http://flybase.org/reports/FBgg0002027.html]
+synonym: "PPSNOX" EXACT []
+is_a: http://flybase.org/reports/FBgg0002028 ! PENTOSE PHOSPHATE SHUNT
+
+[Term]
+id: http://flybase.org/reports/FBgg0002029
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PENTOSE PHOSPHATE SHUNT, OXIDATIVE BRANCH
+def: "." [http://flybase.org/reports/FBgg0002029.html]
+synonym: "PPSOX" EXACT []
+is_a: http://flybase.org/reports/FBgg0002028 ! PENTOSE PHOSPHATE SHUNT
 
 [Term]
 id: http://flybase.org/reports/FBgg0001511
@@ -10544,6 +10888,14 @@ synonym: "POMT1-2C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002002
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PRENYL DIPHOSPHATE SYNTHASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002002.html]
+synonym: "PDSS" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000626
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PROTAMINES
@@ -10998,6 +11350,15 @@ is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
 is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002025
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PSEUDO-CHITINASES
+def: "." [http://flybase.org/reports/FBgg0002025.html]
+synonym: "PSCHT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000496 ! GLYCOSIDE HYDROLASE FAMILY 18
+is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000223
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PSEUDOKINASES
@@ -11104,6 +11465,14 @@ name: Pvr Signaling Pathway Core Components
 def: "." [http://flybase.org/reports/FBgg0000973.html]
 synonym: "PVR-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000972 ! Pvr Signaling Pathway
+
+[Term]
+id: http://flybase.org/reports/FBgg0001988
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RAPS-INSC COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001988.html]
+synonym: "RIC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000333
@@ -11461,9 +11830,17 @@ is_a: http://flybase.org/reports/FBgg0000955 ! RHOMBOID-LIKE PROTEINS
 is_a: http://flybase.org/reports/FBgg0001484 ! SERINE-TYPE NON-PEPTIDASE HOMOLOGS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002006
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RIBONUCLEOTIDE REDUCTASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002006.html]
+synonym: "RNRC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000130
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RIBOSOMAL PROTEINS
+name: RIBOSOMAL COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000130.html]
 synonym: "RP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -11474,7 +11851,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CYTOPLASMIC RIBOSOMAL PROTEINS
 def: "." [http://flybase.org/reports/FBgg0000141.html]
 synonym: "CRP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000130 ! RIBOSOMAL PROTEINS
+is_a: http://flybase.org/reports/FBgg0000130 ! RIBOSOMAL COMPONENTS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000200
@@ -11495,26 +11872,26 @@ is_a: http://flybase.org/reports/FBgg0000141 ! CYTOPLASMIC RIBOSOMAL PROTEINS
 [Term]
 id: http://flybase.org/reports/FBgg0000059
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL RIBOSOMAL PROTEINS
+name: MITOCHONDRIAL RIBOSOMAL COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000059.html]
 synonym: "MRP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000130 ! RIBOSOMAL PROTEINS
+is_a: http://flybase.org/reports/FBgg0000130 ! RIBOSOMAL COMPONENTS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000181
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL LARGE RIBOSOMAL PROTEINS
+name: MITOCHONDRIAL LARGE RIBOSOMAL COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000181.html]
 synonym: "MRPL" EXACT []
-is_a: http://flybase.org/reports/FBgg0000059 ! MITOCHONDRIAL RIBOSOMAL PROTEINS
+is_a: http://flybase.org/reports/FBgg0000059 ! MITOCHONDRIAL RIBOSOMAL COMPONENTS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000154
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL SMALL RIBOSOMAL PROTEINS
+name: MITOCHONDRIAL SMALL RIBOSOMAL COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000154.html]
 synonym: "MRPS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000059 ! MITOCHONDRIAL RIBOSOMAL PROTEINS
+is_a: http://flybase.org/reports/FBgg0000059 ! MITOCHONDRIAL RIBOSOMAL COMPONENTS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001550
@@ -11724,6 +12101,14 @@ name: NON-CANONICAL SERINE AND ARGININE RICH SPLICING FACTORS
 def: "." [http://flybase.org/reports/FBgg0001274.html]
 synonym: "SR-NC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001272 ! SERINE AND ARGININE RICH SPLICING FACTORS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002007
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SERINE C-PALMITOYLTRANSFERASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002007.html]
+synonym: "SPTC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000103
@@ -12194,6 +12579,22 @@ synonym: "STRIPAK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002010
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SUCCINATE-COA LIGASE (ADP/ATP) COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002010.html]
+synonym: "SUCLAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002011
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SUCCINATE-COA LIGASE (GDP/GTP) COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002011.html]
+synonym: "SUCLGC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001830
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SURVIVAL MOTOR NEURON COMPLEX VARIANTS
@@ -12255,6 +12656,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TATA-BINDING PROTEIN AND TBP-RELATED FACTORS
 def: "." [http://flybase.org/reports/FBgg0000353.html]
 synonym: "TRF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001994
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TDRD3-TOP3B TYPE IA TOPOISOMERASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001994.html]
+synonym: "TDRD3-TOP3B" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -14070,6 +14479,14 @@ synonym: "MGLUR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000180 ! CLASS C GPCRs
 
 [Term]
+id: http://flybase.org/reports/FBgg0002018
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MXR METABOTROPIC GLUTAMATE-LIKE RECEPTORS
+def: "." [http://flybase.org/reports/FBgg0002018.html]
+synonym: "MXR" EXACT []
+is_a: http://flybase.org/reports/FBgg0000180 ! CLASS C GPCRs
+
+[Term]
 id: http://flybase.org/reports/FBgg0000209
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: UNCLASSIFIED CLASS C GPCRs
@@ -14653,7 +15070,7 @@ is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNIT
 [Term]
 id: http://flybase.org/reports/FBgg0000562
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CLC CHLORIDE CHANNEL FAMILY SUBUNITS
+name: CLC PLASMA MEMBRANE CHLORIDE CHANNEL SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000562.html]
 synonym: "CLC-F" EXACT []
 is_a: http://flybase.org/reports/FBgg0000564 ! VOLTAGE-GATED CHLORIDE CHANNEL SUBUNITS
@@ -14863,14 +15280,6 @@ synonym: "IRK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000512 ! POTASSIUM CHANNEL SUBUNITS
 
 [Term]
-id: http://flybase.org/reports/FBgg0000495
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SK AND SLO FAMILY POTASSIUM CHANNEL SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0000495.html]
-synonym: "KCA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000512 ! POTASSIUM CHANNEL SUBUNITS
-
-[Term]
 id: http://flybase.org/reports/FBgg0001887
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TRIMERIC INTRACELLULAR CATION CHANNEL SUBUNITS
@@ -14896,6 +15305,15 @@ is_a: http://flybase.org/reports/FBgg0000512 ! POTASSIUM CHANNEL SUBUNITS
 is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNITS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002021
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CALCIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002021.html]
+synonym: "BKCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002020 ! CALCIUM-ACTIVATED POTASSIUM CHANNELS
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+
+[Term]
 id: http://flybase.org/reports/FBgg0000528
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HYPERPOLARIZATION-ACTIVATED CYCLIC NUCLEOTIDE-GATED POTASSIUM CHANNELS
@@ -14903,6 +15321,15 @@ def: "." [http://flybase.org/reports/FBgg0000528.html]
 synonym: "HCN" EXACT []
 is_a: http://flybase.org/reports/FBgg0001286 ! CYCLIC NUCLEOTIDE-ACTIVATED CATION CHANNELS
 is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002022
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SODIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002022.html]
+synonym: "BKNA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+is_a: http://flybase.org/reports/FBgg0002024 ! SODIUM-ACTIVATED ION CHANNELS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000499
@@ -14970,12 +15397,20 @@ synonym: "GIC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000582 ! ION CHANNELS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002023
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: INORGANIC ION-GATED ION CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002023.html]
+synonym: "IGIC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001881 ! ION CHANNELS BY GATING MECHANISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0001958
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CALCIUM-ACTIVATED ION CHANNELS
 def: "." [http://flybase.org/reports/FBgg0001958.html]
 synonym: "CAACT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001881 ! ION CHANNELS BY GATING MECHANISM
+is_a: http://flybase.org/reports/FBgg0002023 ! INORGANIC ION-GATED ION CHANNELS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000558
@@ -15009,6 +15444,31 @@ name: TWEETY FAMILY
 def: "." [http://flybase.org/reports/FBgg0000560.html]
 synonym: "TWE" EXACT []
 is_a: http://flybase.org/reports/FBgg0000558 ! CALCIUM-ACTIVATED CHLORIDE CHANNEL SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002020
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CALCIUM-ACTIVATED POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002020.html]
+synonym: "CAKC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001958 ! CALCIUM-ACTIVATED ION CHANNELS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002021
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CALCIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002021.html]
+synonym: "BKCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002020 ! CALCIUM-ACTIVATED POTASSIUM CHANNELS
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002019
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SMALL CONDUCTANCE CALCIUM-ACTIVATED POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002019.html]
+synonym: "SM-KCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002020 ! CALCIUM-ACTIVATED POTASSIUM CHANNELS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001883
@@ -15061,6 +15521,23 @@ name: MITOCHONDRIAL CALCIUM UNIPORTER COMPLEX - CG4704 VARIANT
 def: "." [http://flybase.org/reports/FBgg0001890.html]
 synonym: "MCUNI-T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001891 ! MITOCHONDRIAL CALCIUM UNIPORTER COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002024
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SODIUM-ACTIVATED ION CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002024.html]
+synonym: "NAAIC" EXACT []
+is_a: http://flybase.org/reports/FBgg0002023 ! INORGANIC ION-GATED ION CHANNELS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002022
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SODIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002022.html]
+synonym: "BKNA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+is_a: http://flybase.org/reports/FBgg0002024 ! SODIUM-ACTIVATED ION CHANNELS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000581
@@ -15343,6 +15820,15 @@ synonym: "VGIC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001881 ! ION CHANNELS BY GATING MECHANISM
 
 [Term]
+id: http://flybase.org/reports/FBgg0001950
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL PORINS
+def: "." [http://flybase.org/reports/FBgg0001950.html]
+synonym: "VDAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001933 ! CHANNELS AND PORES
+is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNITS
+
+[Term]
 id: http://flybase.org/reports/FBgg0000590
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SODIUM CHANNEL-LIKE CATION CHANNEL SUBUNITS
@@ -15388,7 +15874,7 @@ is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNIT
 [Term]
 id: http://flybase.org/reports/FBgg0000562
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CLC CHLORIDE CHANNEL FAMILY SUBUNITS
+name: CLC PLASMA MEMBRANE CHLORIDE CHANNEL SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000562.html]
 synonym: "CLC-F" EXACT []
 is_a: http://flybase.org/reports/FBgg0000564 ! VOLTAGE-GATED CHLORIDE CHANNEL SUBUNITS
@@ -15411,6 +15897,15 @@ is_a: http://flybase.org/reports/FBgg0000512 ! POTASSIUM CHANNEL SUBUNITS
 is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNITS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002021
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CALCIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002021.html]
+synonym: "BKCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002020 ! CALCIUM-ACTIVATED POTASSIUM CHANNELS
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+
+[Term]
 id: http://flybase.org/reports/FBgg0000528
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HYPERPOLARIZATION-ACTIVATED CYCLIC NUCLEOTIDE-GATED POTASSIUM CHANNELS
@@ -15418,6 +15913,15 @@ def: "." [http://flybase.org/reports/FBgg0000528.html]
 synonym: "HCN" EXACT []
 is_a: http://flybase.org/reports/FBgg0001286 ! CYCLIC NUCLEOTIDE-ACTIVATED CATION CHANNELS
 is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002022
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SODIUM AND VOLTAGE-ACTIVATED LARGE CONDUCTANCE POTASSIUM CHANNELS
+def: "." [http://flybase.org/reports/FBgg0002022.html]
+synonym: "BKNA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000506 ! VOLTAGE-GATED POTASSIUM CHANNEL SUBUNITS
+is_a: http://flybase.org/reports/FBgg0002024 ! SODIUM-ACTIVATED ION CHANNELS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000499
@@ -15467,6 +15971,7 @@ name: MITOCHONDRIAL PORINS
 def: "." [http://flybase.org/reports/FBgg0001950.html]
 synonym: "VDAC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001933 ! CHANNELS AND PORES
+is_a: http://flybase.org/reports/FBgg0001880 ! VOLTAGE-GATED ION CHANNEL SUBUNITS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000652
@@ -15532,7 +16037,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX I SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000487.html]
 synonym: "MCI" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -15559,7 +16064,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX III SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000484.html]
 synonym: "MCIII" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -15586,7 +16091,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX IV SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000488.html]
 synonym: "MCIV" EXACT []
-is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION CHAIN COMPLEX SUBUNITS
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0001931 ! OXIDOREDUCTION-DRIVEN TRANSMEMBRANE TRANSPORTERS
 
 [Term]
@@ -15646,7 +16151,7 @@ id: http://flybase.org/reports/FBgg0000541
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ABCB ATP-BINDING CASSETTE TRANSPORTER ATM SUBFAMILY - HALF TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000541.html]
-synonym: "ABCB-HT" EXACT []
+synonym: "ABCB-AHT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000545 ! ABCB ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY
 
 [Term]
@@ -15892,19 +16397,10 @@ is_a: http://flybase.org/reports/FBgg0000073 ! VACUOLAR ATPASE V1 DOMAIN SUBUNIT
 [Term]
 id: http://flybase.org/reports/FBgg0001932
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+name: PROTEIN TRANSLOCASES
 def: "." [http://flybase.org/reports/FBgg0001932.html]
 synonym: "PTMI" EXACT []
 is_a: http://flybase.org/reports/FBgg0001934 ! TRANSMEMBRANE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001723
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DISLOCASES
-def: "." [http://flybase.org/reports/FBgg0001723.html]
-synonym: "DISL" EXACT []
-is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001811
@@ -15912,7 +16408,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ER MEMBRANE PROTEIN COMPLEXES
 def: "." [http://flybase.org/reports/FBgg0001811.html]
 synonym: "EMPC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001289
@@ -15937,7 +16433,7 @@ name: GENERAL SECRETORY PATHWAY FAMILY
 def: "." [http://flybase.org/reports/FBgg0001902.html]
 synonym: "SEC-PF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001957 ! ENDOPLASMIC RETICULUM SECRETORY AND TRANSMEMBRANE PROTEIN INSERTION SYSTEM
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001921
@@ -16028,10 +16524,10 @@ is_a: http://flybase.org/reports/FBgg0001851 ! SEC61 TRANSLOCON COMPLEX SUBUNITS
 [Term]
 id: http://flybase.org/reports/FBgg0001904
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+name: MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 def: "." [http://flybase.org/reports/FBgg0001904.html]
 synonym: "MPT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001906
@@ -16040,7 +16536,31 @@ name: SORTING AND ASSEMBLY MACHINERY COMPLEX SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001906.html]
 synonym: "SAM" EXACT []
 is_a: http://flybase.org/reports/FBgg0001946 ! MITOCHONDRIAL INTERMEMBRANE SPACE BRIDGING COMPLEX SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002014
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM8-TIM13 COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0002014.html]
+synonym: "TIM813" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002015
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM8-TIM13 COMPLEX - CG34132 VARIANT
+def: "." [http://flybase.org/reports/FBgg0002015.html]
+synonym: "TIM813-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! TIM8-TIM13 COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002016
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM8-TIM13 COMPLEX - TIM13 VARIANT (TESTIS)
+def: "." [http://flybase.org/reports/FBgg0002016.html]
+synonym: "TIM813-T" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! TIM8-TIM13 COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001905
@@ -16048,7 +16568,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TIM22 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001905.html]
 synonym: "TIMM22" EXACT []
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
 id: http://flybase.org/reports/FBgg0001907
@@ -16056,7 +16576,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001907.html]
 synonym: "TIMM23" EXACT []
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
 id: http://flybase.org/reports/FBgg0001908
@@ -16114,7 +16634,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TRANSLOCASE OF OUTER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001898.html]
 synonym: "TOMM-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSLOCASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
 id: http://flybase.org/reports/FBgg0001900
@@ -16138,7 +16658,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PEROXISOMAL TARGETING SYSTEM
 def: "." [http://flybase.org/reports/FBgg0001953.html]
 synonym: "PTS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001954
@@ -16187,20 +16707,12 @@ name: PROTEIN-TRANSPORTING ATPASES
 def: "." [http://flybase.org/reports/FBgg0001722.html]
 synonym: "PTA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001929
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: YIDC/ALB3/OXA1 MEMBRANE PROTEIN INSERTASE FAMILY
-def: "." [http://flybase.org/reports/FBgg0001929.html]
-synonym: "OXA1" EXACT []
-is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES, DISLOCASES AND MEMBRANE INSERTASES
+is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000686
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SOLUTE CARRIER FAMILY
+name: TRANSMEMBRANE CARRIER PROTEINS
 def: "." [http://flybase.org/reports/FBgg0000686.html]
 synonym: "SLC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001934 ! TRANSMEMBRANE TRANSPORTERS
@@ -16211,7 +16723,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ATYPICAL SOLUTE CARRIERS
 def: "." [http://flybase.org/reports/FBgg0001857.html]
 synonym: "ASLC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002032
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CLC ENDOLYSOSOMAL CHLORIDE/PROTON ANTIPORTERS
+def: "." [http://flybase.org/reports/FBgg0002032.html]
+synonym: "CLC-EX" EXACT []
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000670
@@ -16219,7 +16739,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC1 FAMILY OF GLUTAMATE AND NEUTRAL AMINO ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000670.html]
 synonym: "SLC1" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000691
@@ -16227,7 +16747,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC2 FAMILY OF HEXOSE SUGAR TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000691.html]
 synonym: "SLC2" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000664
@@ -16235,7 +16755,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC3 FAMILY OF HETEROMERIC AMINO ACID TRANSPORTERS ANCILLARY SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000664.html]
 synonym: "SLC3" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000689
@@ -16243,7 +16763,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC4 FAMILY OF BICARBONATE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000689.html]
 synonym: "SLC4" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000681
@@ -16251,7 +16771,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC5 FAMILY OF SODIUM-DEPENDENT SOLUTE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000681.html]
 synonym: "SLC5" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000680
@@ -16259,7 +16779,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC6 FAMILY OF SODIUM/CHLORIDE-DEPENDENT NEUROTRANSMITTER TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000680.html]
 synonym: "SLC6" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000662
@@ -16267,7 +16787,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC7 FAMILY OF AMINO ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000662.html]
 synonym: "SLC7" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000684
@@ -16291,7 +16811,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC8 FAMILY OF SODIUM/CALCIUM EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0000661.html]
 synonym: "SLC8" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000677
@@ -16299,7 +16819,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC9 FAMILY OF SODIUM/PROTON EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0000677.html]
 synonym: "SLC9" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001655
@@ -16307,7 +16827,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC10 FAMILY OF SODIUM-BILE ACID CO-TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001655.html]
 synonym: "SLC10" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000683
@@ -16315,7 +16835,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC11 FAMILY OF PROTON-COUPLED METAL ION TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000683.html]
 synonym: "SLC11" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000682
@@ -16323,7 +16843,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC12 FAMILY OF CATION-COUPLED CHLORIDE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000682.html]
 synonym: "SLC12" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000676
@@ -16331,7 +16851,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC13 FAMILY OF DICARBOXYLATE/CITRATE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000676.html]
 synonym: "SLC13" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000666
@@ -16339,7 +16859,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC15 FAMILY OF PEPTIDE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000666.html]
 synonym: "SLC15" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000669
@@ -16347,7 +16867,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC16 FAMILY OF MONOCARBOXYLATE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000669.html]
 synonym: "SLC16" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000698
@@ -16355,7 +16875,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC17 FAMILY OF ORGANIC ANION TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000698.html]
 synonym: "SLC17" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000675
@@ -16363,7 +16883,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC18 FAMILY OF VESICULAR NEUROTRANSMITTER TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000675.html]
 synonym: "SLC18" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000694
@@ -16371,7 +16891,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC19 FAMILY OF VITAMIN TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000694.html]
 synonym: "SLC19" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000692
@@ -16379,7 +16899,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC20 FAMILY OF SODIUM/PHOSPHATE CO-TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000692.html]
 synonym: "SLC20" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000518
@@ -16387,7 +16907,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC21 FAMILY OF ORGANIC ANION TRANSPORTING POLYPEPTIDES
 def: "." [http://flybase.org/reports/FBgg0000518.html]
 synonym: "OATP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000667
@@ -16395,7 +16915,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC22 FAMILY OF ORGANIC IONS TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000667.html]
 synonym: "SLC22" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001659
@@ -16403,7 +16923,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC23 FAMILY OF ASCORBIC ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001659.html]
 synonym: "SLC23" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000673
@@ -16411,7 +16931,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC24 FAMILY OF POTASSIUM-DEPENDENT SODIUM/CALCIUM EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0000673.html]
 synonym: "SLC24" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001959
@@ -16419,7 +16939,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC25 FAMILY OF MITOCHONDRIAL AND PEROXISOMAL TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001959.html]
 synonym: "SLC25-MP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000695
@@ -16443,7 +16963,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC26 FAMILY OF ANION EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0000663.html]
 synonym: "SLC26" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000688
@@ -16451,7 +16971,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC27 FAMILY OF FATTY ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000688.html]
 synonym: "SLC27" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000678
@@ -16459,7 +16979,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC28 FAMILY OF CONCENTRATIVE NUCLEOSIDE CO-TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000678.html]
 synonym: "SLC28" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000674
@@ -16467,7 +16987,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC29 FAMILY OF EQUILIBRATIVE NUCLEOSIDE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000674.html]
 synonym: "SLC29" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000665
@@ -16475,7 +16995,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC30 FAMILY OF ZINC TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000665.html]
 synonym: "SLC30" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000696
@@ -16483,7 +17003,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC31 FAMILY OF COPPER TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000696.html]
 synonym: "SLC31" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000672
@@ -16491,7 +17011,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC32 FAMILY OF VESICULAR GABA TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000672.html]
 synonym: "SLC32" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000697
@@ -16499,7 +17019,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC33 ACETYL-COA TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000697.html]
 synonym: "SLC33" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000685
@@ -16507,7 +17027,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC35 FAMILY OF NUCLEOTIDE SUGAR TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000685.html]
 synonym: "SLC35" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000671
@@ -16515,7 +17035,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC36 FAMILY OF PROTON-COUPLED AMINO ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000671.html]
 synonym: "SLC36" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000687
@@ -16523,7 +17043,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC37 FAMILY OF PHOSPHOSUGAR/PHOSPHATE EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0000687.html]
 synonym: "SLC37" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000660
@@ -16531,7 +17051,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC38 FAMILY OF SODIUM-COUPLED NEUTRAL AMINO ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000660.html]
 synonym: "SLC38" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000679
@@ -16539,7 +17059,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC39 FAMILY OF ZINC ION TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000679.html]
 synonym: "SLC39" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000668
@@ -16547,7 +17067,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC41 FAMILY OF MAGNESIUM ION TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000668.html]
 synonym: "SLC41" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001657
@@ -16555,7 +17075,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC42 FAMILY AMMONIUM TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001657.html]
 synonym: "SLC42" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000657
@@ -16563,7 +17083,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC44 CHOLINE TRANSPORTER-LIKE FAMILY
 def: "." [http://flybase.org/reports/FBgg0000657.html]
 synonym: "SLC44" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000658
@@ -16571,7 +17091,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC45 FAMILY OF SUCROSE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000658.html]
 synonym: "SLC45" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000659
@@ -16579,7 +17099,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC46 FOLATE TRANSPORTER-LIKE FAMILY
 def: "." [http://flybase.org/reports/FBgg0000659.html]
 synonym: "SLC46" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001656
@@ -16587,7 +17107,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC49 FAMILY OF FLVCR-RELATED TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001656.html]
 synonym: "SLC49" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000690
@@ -16595,7 +17115,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC50 FAMILY OF SUGAR TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0000690.html]
 synonym: "SLC50" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001654
@@ -16603,7 +17123,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC52 FAMILY OF RIBOFLAVIN TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001654.html]
 synonym: "SLC52" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001665
@@ -16611,7 +17131,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC53 FAMILY OF PHOSPHATE CARRIERS
 def: "." [http://flybase.org/reports/FBgg0001665.html]
 synonym: "SLC53" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001666
@@ -16619,7 +17139,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC54 FAMILY OF MITOCHONDRIAL PYRUVATE CARRIERS
 def: "." [http://flybase.org/reports/FBgg0001666.html]
 synonym: "SLC54" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001664
@@ -16627,7 +17147,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC55 FAMILY OF MITOCHONDRIAL CATION/PROTON EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0001664.html]
 synonym: "SLC55" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001661
@@ -16635,7 +17155,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC56 FAMILY OF SIDEROFLEXINS
 def: "." [http://flybase.org/reports/FBgg0001661.html]
 synonym: "SLC56" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001660
@@ -16643,7 +17163,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC57 FAMILY OF NIPA-LIKE MAGNESIUM TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001660.html]
 synonym: "SLC57" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001662
@@ -16651,7 +17171,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC58 FAMILY OF MAGT-LIKE MAGNESIUM TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001662.html]
 synonym: "SLC58" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001667
@@ -16659,7 +17179,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC63 FAMILY OF SPHINGOSINE PHOSPHATE TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001667.html]
 synonym: "SLC63" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001668
@@ -16667,7 +17187,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC64 FAMILY OF GOLGI CA2+/H+ EXCHANGERS
 def: "." [http://flybase.org/reports/FBgg0001668.html]
 synonym: "SLC64" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001663
@@ -16675,7 +17195,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC65 FAMILY OF NPC-TYPE CHOLESTEROL TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001663.html]
 synonym: "SLC65" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0001658
@@ -16683,7 +17203,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SLC66 FAMILY OF LYSOSOMAL AMINO ACID TRANSPORTERS
 def: "." [http://flybase.org/reports/FBgg0001658.html]
 synonym: "SLC66" EXACT []
-is_a: http://flybase.org/reports/FBgg0000686 ! SOLUTE CARRIER FAMILY
+is_a: http://flybase.org/reports/FBgg0000686 ! TRANSMEMBRANE CARRIER PROTEINS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000303
@@ -16786,6 +17306,14 @@ def: "." [http://flybase.org/reports/FBgg0000316.html]
 synonym: "TAC1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
 is_a: http://flybase.org/reports/FBgg0000303 ! TRITHORAX GROUP COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002008
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TRNA-GUANINE TRANSGLYCOSYLASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002008.html]
+synonym: "TGTC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001546
@@ -16933,6 +17461,14 @@ synonym: "URM1" EXACT []
 is_a: http://flybase.org/reports/FBgg0001751 ! UBIQUITIN-LIKE PROTEINS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002009
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UDP-N-ACETYLGLUCOSAMINE TRANSFERASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002009.html]
+synonym: "UNAGTC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001865
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: USP46 DEUBIQUITINASE COMPLEX
@@ -17075,4 +17611,12 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: YELLOW
 def: "." [http://flybase.org/reports/FBgg0000086.html]
 synonym: "YLW" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001929
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: YIDC/ALB3/OXA1 MEMBRANE PROTEIN INSERTASE FAMILY
+def: "." [http://flybase.org/reports/FBgg0001929.html]
+synonym: "OXA1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
