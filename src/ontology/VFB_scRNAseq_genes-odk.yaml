@@ -8,6 +8,7 @@ robot_report:
 robot_java_args: '-Xmx8G'
 use_dosdps: FALSE
 edit_format: owl
+run_as_root: TRUE
 export_formats:
   - owl
 import_component_format: ofn
