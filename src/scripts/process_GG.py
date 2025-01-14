@@ -5,7 +5,8 @@ with open("tmp/vfb-RNAseq-genes.txt", 'r') as f:
 GG = pd.read_csv('tmp/gene_group_data.tsv', sep='\t', skiprows=8, index_col=False)
 
 GG = GG.drop(['FB_group_symbol', 'FB_group_name', 'Parent_FB_group_id', 'Parent_FB_group_symbol', 'Group_member_FB_gene_symbol'], axis=1)
-GG = GG.rename({'## FB_group_id': 'GG_ID', 'Group_member_FB_gene_id':'FBgn'}, axis=1)
+# FB_group_id changed from double to single '#' Jan 2025
+GG = GG.rename({'# FB_group_id': 'GG_ID', 'Group_member_FB_gene_id':'FBgn'}, axis=1)
 
 GG = GG[GG['FBgn'].isin(gene_list)]
 
