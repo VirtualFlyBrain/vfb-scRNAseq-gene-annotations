@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2024-11-24
+data-version: 2025-02-02
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -7,6 +7,14 @@ ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_grou
 id: http://flybase.org/reports/FBgg0000000
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002058
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: 3'-PHOSPHOADENOSINE 5'-PHOSPHOSULFATE (PAPS) BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002058.html]
+synonym: "PAPSB" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000708
@@ -116,7 +124,7 @@ is_a: http://flybase.org/reports/FBgg0001093 ! Activin Signaling Pathway
 [Term]
 id: http://flybase.org/reports/FBgg0000962
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ACYL-COA BINDING PROTEINS
+name: ACYL-COA BINDING DOMAIN-CONTAINING PROTEINS
 def: "." [http://flybase.org/reports/FBgg0000962.html]
 synonym: "ACBP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -127,6 +135,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ADAMTS LIKE
 def: "." [http://flybase.org/reports/FBgg0001536.html]
 synonym: "ADAMTSL" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002066
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: AMPK COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002066.html]
+synonym: "AMPK-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -732,6 +748,22 @@ def: "." [http://flybase.org/reports/FBgg0001805.html]
 synonym: "PSCDA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
 is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002060
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CHONDROITIN SULFATE PROTEOGLYCAN BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002060.html]
+synonym: "GACSB" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002061
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CHONDROITIN SULFATE PROTEOGLYCAN CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002061.html]
+synonym: "GACSC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001188
@@ -1586,7 +1618,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001820
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ELONGATOR COMPLEX
+name: ELONGATOR HOLOENZYME COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001820.html]
 synonym: "ELP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -2216,28 +2248,12 @@ synonym: "APAS" EXACT []
 is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001301
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: FATTY ACID AMIDE HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001301.html]
-synonym: "FAAH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001637
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: LINEAR AMIDE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0001637.html]
-synonym: "LADAC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000858
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBOHYDRATE DEACETYLASES
 def: "." [http://flybase.org/reports/FBgg0000858.html]
 synonym: "CE" EXACT []
-is_a: http://flybase.org/reports/FBgg0001637 ! LINEAR AMIDE DEACETYLASES
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001804
@@ -2265,28 +2281,12 @@ synonym: "NAGPID" EXACT []
 is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000290
+id: http://flybase.org/reports/FBgg0001301
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000290.html]
-synonym: "KDAC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001637 ! LINEAR AMIDE DEACETYLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000279
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RPD3/HDA1 LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000279.html]
-synonym: "RPD3-HDA1" EXACT []
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000278
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SIRTUIN LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000278.html]
-synonym: "SIRT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
+name: FATTY ACID AMIDE HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001301.html]
+synonym: "FAAH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001305
@@ -2303,6 +2303,15 @@ name: PEPTIDE DEFORMYLASES
 def: "." [http://flybase.org/reports/FBgg0001638.html]
 synonym: "PDF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000279
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RPD3/HDA1 LYSINE DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0000279.html]
+synonym: "RPD3-HDA1" EXACT []
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
+is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001343
@@ -2587,7 +2596,7 @@ is_a: http://flybase.org/reports/FBgg0001465 ! DNA ENDONUCLEASES
 [Term]
 id: http://flybase.org/reports/FBgg0001463
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SINGLE-STRANDED DNA ENDODEOXYRIBONUCLEASES
+name: SINGLE-STRANDED DNA ENDONUCLEASES
 def: "." [http://flybase.org/reports/FBgg0001463.html]
 synonym: "SDNASE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001465 ! DNA ENDONUCLEASES
@@ -5168,6 +5177,32 @@ is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
 is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0000290
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: LYSINE DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0000290.html]
+synonym: "KDAC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001715 ! ENZYMES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000279
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RPD3/HDA1 LYSINE DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0000279.html]
+synonym: "RPD3-HDA1" EXACT []
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
+is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000278
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SIRTUIN LYSINE DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0000278.html]
+synonym: "SIRT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
+is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000923
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: OXIDOREDUCTASES
@@ -6527,6 +6562,15 @@ synonym: "PCSPT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0000278
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SIRTUIN LYSINE DEACETYLASES
+def: "." [http://flybase.org/reports/FBgg0000278.html]
+synonym: "SIRT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
+is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001242
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SUCCINYLTRANSFERASES
@@ -7401,6 +7445,14 @@ synonym: "APKC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000246 ! PROTEIN KINASE C FAMILY
 
 [Term]
+id: http://flybase.org/reports/FBgg0001991
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CLASSICAL PROTEIN KINASE C SUBFAMILY
+def: "." [http://flybase.org/reports/FBgg0001991.html]
+synonym: "CPKC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000246 ! PROTEIN KINASE C FAMILY
+
+[Term]
 id: http://flybase.org/reports/FBgg0001992
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NOVEL PROTEIN KINASE C SUBFAMILY
@@ -7958,6 +8010,14 @@ is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
 is_a: http://flybase.org/reports/FBgg0001895 ! P-TYPE ATPASE TRANSPORTERS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002065
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MAGNESIUM TRANSPORTING P-ATPASES
+def: "." [http://flybase.org/reports/FBgg0002065.html]
+synonym: "MAGT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000712
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NA[+]/K[+] TRANSPORTING P-ATPASE - ALPHA SUBUNITS
@@ -8423,6 +8483,14 @@ is_a: http://flybase.org/reports/FBgg0000641 ! GLYCEROL KINASE-LIKE
 is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002063
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYCEROPHOSPHATE SHUTTLE
+def: "." [http://flybase.org/reports/FBgg0002063.html]
+synonym: "GLPSH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0002001
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCINE CLEAVAGE COMPLEX
@@ -8552,6 +8620,22 @@ name: Positive Regulators of Hedgehog Signaling Pathway
 def: "." [http://flybase.org/reports/FBgg0000981.html]
 synonym: "HH-SMOP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
+
+[Term]
+id: http://flybase.org/reports/FBgg0002062
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HEPARAN SULFATE PROTEOGLYCAN BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002062.html]
+synonym: "GAHSB" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002064
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HEPARAN SULFATE PROTEOGLYCAN CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002064.html]
+synonym: "GAHSC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0000213
@@ -9287,6 +9371,14 @@ synonym: "MADF-BESS-TR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000754 ! MADF-BESS DOMAIN PROTEINS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002059
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MALATE-ASPARTATE SHUTTLE
+def: "." [http://flybase.org/reports/FBgg0002059.html]
+synonym: "MALSH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001653
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MD-2-RELATED LIPID-RECOGNITION PROTEINS
@@ -9528,14 +9620,6 @@ synonym: "MC-AF" EXACT []
 is_a: http://flybase.org/reports/FBgg0002040 ! MITOCHONDRIAL OXPHOS COMPLEX ASSEMBLY FACTORS
 
 [Term]
-id: http://flybase.org/reports/FBgg0002034
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: :MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX III ASSEMBLY FACTORS
-def: "." [http://flybase.org/reports/FBgg0002034.html]
-synonym: "MCIII-AF" EXACT []
-is_a: http://flybase.org/reports/FBgg0002035 ! MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX ASSEMBLY FACTORS
-
-[Term]
 id: http://flybase.org/reports/FBgg0002036
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL RESPIRASOME ASSEMBLY FACTORS
@@ -9557,6 +9641,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX II ASSEMBLY FACTORS
 def: "." [http://flybase.org/reports/FBgg0002037.html]
 synonym: "MCII-AF" EXACT []
+is_a: http://flybase.org/reports/FBgg0002035 ! MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX ASSEMBLY FACTORS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002034
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX III ASSEMBLY FACTORS
+def: "." [http://flybase.org/reports/FBgg0002034.html]
+synonym: "MCIII-AF" EXACT []
 is_a: http://flybase.org/reports/FBgg0002035 ! MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX ASSEMBLY FACTORS
 
 [Term]
@@ -12241,6 +12333,30 @@ synonym: "SCRIBC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002070
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SEPTIN COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0002070.html]
+synonym: "SEPT-C" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002068
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SEP1-SEP2-PNUT SEPTIN COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002068.html]
+synonym: "SEPT-C12P" EXACT []
+is_a: http://flybase.org/reports/FBgg0002070 ! SEPTIN COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002069
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SEP4-SEP5-PNUT SEPTIN COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002069.html]
+synonym: "SEPT-C45P" EXACT []
+is_a: http://flybase.org/reports/FBgg0002070 ! SEPTIN COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001272
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SERINE AND ARGININE RICH SPLICING FACTORS
@@ -12730,6 +12846,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SPONDINS
 def: "." [http://flybase.org/reports/FBgg0001181.html]
 synonym: "SPON" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002067
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SREBP-SCAP COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002067.html]
+synonym: "SREBP-SCAP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -16812,6 +16936,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TRANSLOCASE OF OUTER MITOCHONDRIAL MEMBRANE COMPLEX - TESTIS-SPECIFIC VARIANT
 def: "." [http://flybase.org/reports/FBgg0001899.html]
 synonym: "TOMM-T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001898 ! TRANSLOCASE OF OUTER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002071
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCHARACTERIZED TOM40 PARALOG
+def: "." [http://flybase.org/reports/FBgg0002071.html]
+synonym: "TOMM-U40" EXACT []
 is_a: http://flybase.org/reports/FBgg0001898 ! TRANSLOCASE OF OUTER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
 
 [Term]
