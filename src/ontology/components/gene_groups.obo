@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2025-02-02
+data-version: 2025-03-29
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -738,7 +738,7 @@ name: CHITIN DEACETYLASES
 def: "." [http://flybase.org/reports/FBgg0001804.html]
 synonym: "CDAC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
-is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001805
@@ -748,14 +748,6 @@ def: "." [http://flybase.org/reports/FBgg0001805.html]
 synonym: "PSCDA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
 is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
-
-[Term]
-id: http://flybase.org/reports/FBgg0002060
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CHONDROITIN SULFATE PROTEOGLYCAN BIOSYNTHESIS
-def: "." [http://flybase.org/reports/FBgg0002060.html]
-synonym: "GACSB" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0002061
@@ -1295,6 +1287,22 @@ synonym: "CP-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001178 ! CUTICLE PROTEIN FAMILIES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002074
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CYTOSOLIC 4FE-4S ASSEMBLY SCAFFOLD COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002074.html]
+synonym: "CIA-SCAF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002075
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CYTOSOLIC 4FE-4S ASSEMBLY TARGETING COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002075.html]
+synonym: "CTC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0002026
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: DE NOVO GDP-FUCOSE BIOSYNTHESIS
@@ -1791,11 +1799,11 @@ synonym: "ADPRASE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001573 ! ACID ANHYDRIDE HYDROLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001604
+id: http://flybase.org/reports/FBgg0002101
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DINUCLEOTIDE PHOSPHATASES
-def: "." [http://flybase.org/reports/FBgg0001604.html]
-synonym: "NT-PP" EXACT []
+name: COENZYME A DIPHOSPHATASES
+def: "." [http://flybase.org/reports/FBgg0002101.html]
+synonym: "COADP" EXACT []
 is_a: http://flybase.org/reports/FBgg0001573 ! ACID ANHYDRIDE HYDROLASES
 
 [Term]
@@ -2199,14 +2207,6 @@ synonym: "S-NHYD" EXACT []
 is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001617
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: BETA-ALANYL-DOPAMINE/HISTAMINE HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001617.html]
-synonym: "BADH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001302 ! HYDROLASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001304
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
@@ -2223,12 +2223,36 @@ synonym: "CNHCA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001304 ! CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
 
 [Term]
+id: http://flybase.org/reports/FBgg0002100
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CARBON-NITROGEN HYDROLASES OF CYCLIC AMIDINES
+def: "." [http://flybase.org/reports/FBgg0002100.html]
+synonym: "CNHCAN" EXACT []
+is_a: http://flybase.org/reports/FBgg0001304 ! CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
+
+[Term]
+id: http://flybase.org/reports/FBgg0001335
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED CARBON-NITROGEN HYDROLASES OF CYCLIC AMIDINES
+def: "." [http://flybase.org/reports/FBgg0001335.html]
+synonym: "CNHNP-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0002100 ! CARBON-NITROGEN HYDROLASES OF CYCLIC AMIDINES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001308
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 def: "." [http://flybase.org/reports/FBgg0001308.html]
 synonym: "CNHLA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001304 ! CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
+
+[Term]
+id: http://flybase.org/reports/FBgg0002097
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ADENOSINE MONOPHOSPHORAMIDASES
+def: "." [http://flybase.org/reports/FBgg0002097.html]
+synonym: "AMPA" EXACT []
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001303
@@ -2248,11 +2272,11 @@ synonym: "APAS" EXACT []
 is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000858
+id: http://flybase.org/reports/FBgg0002096
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CARBOHYDRATE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000858.html]
-synonym: "CE" EXACT []
+name: ASPARTYLGLUCOSAMINIDASES
+def: "." [http://flybase.org/reports/FBgg0002096.html]
+synonym: "AGA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
@@ -2262,23 +2286,7 @@ name: CHITIN DEACETYLASES
 def: "." [http://flybase.org/reports/FBgg0001804.html]
 synonym: "CDAC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001103 ! CHITIN DEACETYLASE-LIKE FAMILY
-is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001104
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: N-ACETYLGLUCOSAMINE-6-PHOSPHATE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0001104.html]
-synonym: "NAGA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001682
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: N-ACETYLGLUCOSAMINYLPHOSPHATIDYLINOSITOL DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0001682.html]
-synonym: "NAGPID" EXACT []
-is_a: http://flybase.org/reports/FBgg0000858 ! CARBOHYDRATE DEACETYLASES
+is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001301
@@ -2368,14 +2376,6 @@ name: UNCLASSIFIED DEAMINASES
 def: "." [http://flybase.org/reports/FBgg0001333.html]
 synonym: "DEA-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001636 ! DEAMINASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001335
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
-def: "." [http://flybase.org/reports/FBgg0001335.html]
-synonym: "CNHNP-U" EXACT []
-is_a: http://flybase.org/reports/FBgg0001304 ! CARBON-NITROGEN HYDROLASES (NON-PEPTIDASE)
 
 [Term]
 id: http://flybase.org/reports/FBgg0001794
@@ -2578,14 +2578,6 @@ synonym: "DNASE-I" EXACT []
 is_a: http://flybase.org/reports/FBgg0001465 ! DNA ENDONUCLEASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001459
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DEOXYRIBONUCLEASES II
-def: "." [http://flybase.org/reports/FBgg0001459.html]
-synonym: "DNASE-II" EXACT []
-is_a: http://flybase.org/reports/FBgg0001465 ! DNA ENDONUCLEASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001461
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: FLAP ENDONUCLEASES
@@ -2650,29 +2642,12 @@ synonym: "ERNASE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001471 ! RIBONUCLEASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001470
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: 3'-TRNA PROCESSING ENDORIBONUCLEASES
-def: "." [http://flybase.org/reports/FBgg0001470.html]
-synonym: "3TRNASE" EXACT []
-is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001778
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ARGONAUTE ENDORIBONUCLEASES
 def: "." [http://flybase.org/reports/FBgg0001778.html]
 synonym: "AGO" EXACT []
 is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001475
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RIBONUCLEASE T2S
-def: "." [http://flybase.org/reports/FBgg0001475.html]
-synonym: "RNASET2" EXACT []
-is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
-is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001473
@@ -2688,22 +2663,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: RNA-DNA HYBRID RIBONUCLEASES
 def: "." [http://flybase.org/reports/FBgg0001469.html]
 synonym: "RDRNASE" EXACT []
-is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001472
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RNA LARIAT DEBRANCHING ENZYMES
-def: "." [http://flybase.org/reports/FBgg0001472.html]
-synonym: "DBR" EXACT []
-is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001474
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TRNA-INTRON ENDONUCLEASES
-def: "." [http://flybase.org/reports/FBgg0001474.html]
-synonym: "TRNAIE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
 
 [Term]
@@ -2952,6 +2911,14 @@ is_a: http://flybase.org/reports/FBgg0000260 ! PROTEIN TYROSINE PHOSPHATASES
 is_a: http://flybase.org/reports/FBgg0001106 ! TRANSMEMBRANE RECEPTORS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002098
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PSEUDOURIDINE 5'-PHOSPHATASES
+def: "." [http://flybase.org/reports/FBgg0002098.html]
+synonym: "PUDP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000268 ! PHOSPHATASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000270
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: UNCLASSIFIED PHOSPHATASES
@@ -3016,6 +2983,14 @@ synonym: "SEHYD" EXACT []
 is_a: http://flybase.org/reports/FBgg0001372 ! ESTER BOND HYDROLASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002099
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: N-ACETYLGALACTOSAMINE-4-SULFATASES
+def: "." [http://flybase.org/reports/FBgg0002099.html]
+synonym: "NAG4S" EXACT []
+is_a: http://flybase.org/reports/FBgg0001543 ! SULFURIC ESTER HYDROLASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001542
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: N-ACETYLGLUCOSAMINE-6-SULFATASES
@@ -3042,7 +3017,7 @@ is_a: http://flybase.org/reports/FBgg0001372 ! ESTER BOND HYDROLASES
 [Term]
 id: http://flybase.org/reports/FBgg0001539
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: COA HYDROLASES
+name: ACYL-COA HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001539.html]
 synonym: "CHYD" EXACT []
 is_a: http://flybase.org/reports/FBgg0001537 ! THIOLESTER HYDROLASES
@@ -3133,14 +3108,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ALPHA-GALACTOSIDASES
 def: "." [http://flybase.org/reports/FBgg0000863.html]
 synonym: "GH27" EXACT []
-is_a: http://flybase.org/reports/FBgg0001353 ! O-GLYCOSYL HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000861
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALPHA,ALPHA-TREHALASES
-def: "." [http://flybase.org/reports/FBgg0000861.html]
-synonym: "GH37" EXACT []
 is_a: http://flybase.org/reports/FBgg0001353 ! O-GLYCOSYL HYDROLASES
 
 [Term]
@@ -4450,22 +4417,6 @@ synonym: "MCM" EXACT []
 is_a: http://flybase.org/reports/FBgg0001582 ! DNA HELICASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001614
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MCM2-7 COMPLEX
-def: "." [http://flybase.org/reports/FBgg0001614.html]
-synonym: "MCM2-7" EXACT []
-is_a: http://flybase.org/reports/FBgg0001583 ! MCM FAMILY HELICASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001615
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MCM8/9 HELICASES
-def: "." [http://flybase.org/reports/FBgg0001615.html]
-synonym: "MCM8-9" EXACT []
-is_a: http://flybase.org/reports/FBgg0001583 ! MCM FAMILY HELICASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001584
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: RAD3/XPD-LIKE DNA HELICASES
@@ -4743,9 +4694,9 @@ is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
 [Term]
 id: http://flybase.org/reports/FBgg0000843
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED CARBON-NITROGEN LIGASES
+name: OTHER CARBON-NITROGEN LIGASES
 def: "." [http://flybase.org/reports/FBgg0000843.html]
-synonym: "CNLIG-U" EXACT []
+synonym: "OCNLIG" EXACT []
 is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
 
 [Term]
@@ -4950,14 +4901,6 @@ synonym: "ALDLYA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000830 ! CARBON-CARBON LYASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000875
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALDEHYDE DECARBONYLASES
-def: "." [http://flybase.org/reports/FBgg0000875.html]
-synonym: "ADCLYA" EXACT []
-is_a: http://flybase.org/reports/FBgg0000830 ! CARBON-CARBON LYASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000872
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBOXY-LYASES
@@ -4974,19 +4917,11 @@ synonym: "DPHLYA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000830 ! CARBON-CARBON LYASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000879
+id: http://flybase.org/reports/FBgg0002080
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: GTP 3',8'-CYCLASES
-def: "." [http://flybase.org/reports/FBgg0000879.html]
-synonym: "G38C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000830 ! CARBON-CARBON LYASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000869
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OXO-ACID-LYASES
-def: "." [http://flybase.org/reports/FBgg0000869.html]
-synonym: "OALYA" EXACT []
+name: UNCLASSIFIED CARBON-CARBON LYASES
+def: "." [http://flybase.org/reports/FBgg0002080.html]
+synonym: "CCLYA-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000830 ! CARBON-CARBON LYASES
 
 [Term]
@@ -5078,6 +5013,14 @@ synonym: "CA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000873 ! HYDRO-LYASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002079
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ENOYL-COA HYDRATASES
+def: "." [http://flybase.org/reports/FBgg0002079.html]
+synonym: "ECH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000873 ! HYDRO-LYASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000886
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: FUMARATE HYDRATASES
@@ -5126,14 +5069,6 @@ synonym: "AC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000878
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CYCLIC PYRANOPTERIN MONOPHOSPHATE SYNTHASES
-def: "." [http://flybase.org/reports/FBgg0000878.html]
-synonym: "CPMS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000515
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GUANYLATE CYCLASES
@@ -5168,12 +5103,19 @@ synonym: "SGC-A" EXACT []
 is_a: http://flybase.org/reports/FBgg0000515 ! GUANYLATE CYCLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001475
+id: http://flybase.org/reports/FBgg0001474
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RIBONUCLEASE T2S
-def: "." [http://flybase.org/reports/FBgg0001475.html]
-synonym: "RNASET2" EXACT []
-is_a: http://flybase.org/reports/FBgg0001480 ! RNA ENDONUCLEASES
+name: TRNA-INTRON LYASES
+def: "." [http://flybase.org/reports/FBgg0001474.html]
+synonym: "TRNAIE" EXACT []
+is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002081
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED PHOSPHORUS-OXYGEN LYASES
+def: "." [http://flybase.org/reports/FBgg0002081.html]
+synonym: "POLYA-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
 
 [Term]
@@ -5267,6 +5209,14 @@ synonym: "OXRAONAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000987 ! ALDEHYDE OR OXO GROUP OXIDOREDUCTASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002082
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ALDEHYDE DEHYDROGENASES (NAD-DEPENDENT)
+def: "." [http://flybase.org/reports/FBgg0002082.html]
+synonym: "ALDH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000985 ! ALDEHYDE OR OXO OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
 id: http://flybase.org/reports/FBgg0001624
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: FATTY ACYL-COA REDUCTASES
@@ -5280,6 +5230,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCERALDEHYDE 3 PHOSPHATE DEHYDROGENASES
 def: "." [http://flybase.org/reports/FBgg0001625.html]
 synonym: "GAPDH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000985 ! ALDEHYDE OR OXO OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0002083
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PYRROLINE-5-CARBOXYLATE DEHYDROGENASES
+def: "." [http://flybase.org/reports/FBgg0002083.html]
+synonym: "P5CDH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000985 ! ALDEHYDE OR OXO OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
@@ -5363,20 +5321,28 @@ synonym: "OXRCHCHO-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000989 ! CH-CH OXIDOREDUCTASES, OXYGEN AS ACCEPTOR
 
 [Term]
+id: http://flybase.org/reports/FBgg0002077
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CH-CH OXIDOREDUCTASES, QUINONE AS ACCEPTOR
+def: "." [http://flybase.org/reports/FBgg0002077.html]
+synonym: "OXRCHCHQ" EXACT []
+is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002078
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DIHYDROOROTATE DEHYDROGENASES
+def: "." [http://flybase.org/reports/FBgg0002078.html]
+synonym: "DHODH" EXACT []
+is_a: http://flybase.org/reports/FBgg0002077 ! CH-CH OXIDOREDUCTASES, QUINONE AS ACCEPTOR
+
+[Term]
 id: http://flybase.org/reports/FBgg0001862
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) - CATALYTIC SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001862.html]
 synonym: "MCII-SDH-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000485 ! MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
-is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000988
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED CH-CH OXIDOREDUCTASES
-def: "." [http://flybase.org/reports/FBgg0000988.html]
-synonym: "OXRCHCH-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000992 ! CH-CH GROUP OXIDOREDUCTASES
 
 [Term]
@@ -5502,7 +5468,7 @@ is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPEN
 [Term]
 id: http://flybase.org/reports/FBgg0000920
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALDO-KETO REDUCTASES
+name: ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 def: "." [http://flybase.org/reports/FBgg0000920.html]
 synonym: "AKR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
@@ -5513,7 +5479,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ALDOSE REDUCTASES
 def: "." [http://flybase.org/reports/FBgg0001689.html]
 synonym: "ALDR" EXACT []
-is_a: http://flybase.org/reports/FBgg0000920 ! ALDO-KETO REDUCTASES
+is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 
 [Term]
 id: http://flybase.org/reports/FBgg0001688
@@ -5521,15 +5487,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: RETINOL DEHYDROGENASES (NADP-DEPENDENT)
 def: "." [http://flybase.org/reports/FBgg0001688.html]
 synonym: "RDH-NADP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000920 ! ALDO-KETO REDUCTASES
+is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 
 [Term]
 id: http://flybase.org/reports/FBgg0001690
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED ALDO-KETO REDUCTASES
+name: UNCLASSIFIED ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 def: "." [http://flybase.org/reports/FBgg0001690.html]
 synonym: "AKR-U" EXACT []
-is_a: http://flybase.org/reports/FBgg0000920 ! ALDO-KETO REDUCTASES
+is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 
 [Term]
 id: http://flybase.org/reports/FBgg0001738
@@ -5537,6 +5503,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: BETA HYDROXY ACID DEHYDROGENASES
 def: "." [http://flybase.org/reports/FBgg0001738.html]
 synonym: "BHAD" EXACT []
+is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0002084
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CARBONYL REDUCTASES
+def: "." [http://flybase.org/reports/FBgg0002084.html]
+synonym: "CBR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
@@ -5553,6 +5527,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCEROL-3-PHOSPHATE DEHYDROGENASES (NAD+)
 def: "." [http://flybase.org/reports/FBgg0001072.html]
 synonym: "GPDHN" EXACT []
+is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0002086
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYOXYLATE AND HYDROXYPYRUVATE REDUCTASES
+def: "." [http://flybase.org/reports/FBgg0002086.html]
+synonym: "GRHPR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
@@ -5593,6 +5575,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: UNCLASSIFIED CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 def: "." [http://flybase.org/reports/FBgg0000927.html]
 synonym: "OXRNAD-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
+
+[Term]
+id: http://flybase.org/reports/FBgg0002085
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: VERY-LONG-CHAIN 3-OXOACYL-COA REDUCTASES
+def: "." [http://flybase.org/reports/FBgg0002085.html]
+synonym: "VLCOCR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
@@ -5787,6 +5777,14 @@ synonym: "LSD1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000307 ! HISTONE DEMETHYLASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002076
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: IRON-SULFUR PROTEIN OXIDOREDUCTASES
+def: "." [http://flybase.org/reports/FBgg0002076.html]
+synonym: "OXRFES" EXACT []
+is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001029
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: METAL ION OXIDOREDUCTASES
@@ -5805,28 +5803,20 @@ is_a: http://flybase.org/reports/FBgg0001029 ! METAL ION OXIDOREDUCTASES
 is_a: http://flybase.org/reports/FBgg0001721 ! OXIDOREDUCTASE-COUPLED TRANSLOCASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001030
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FERROXIDASES
+def: "." [http://flybase.org/reports/FBgg0001030.html]
+synonym: "FOXS" EXACT []
+is_a: http://flybase.org/reports/FBgg0001029 ! METAL ION OXIDOREDUCTASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001032
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: METAL ION OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 def: "." [http://flybase.org/reports/FBgg0001032.html]
 synonym: "OXRMINAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0001029 ! METAL ION OXIDOREDUCTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001031
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: METAL ION OXIDOREDUCTASES, OXYGEN AS ACCEPTOR
-def: "." [http://flybase.org/reports/FBgg0001031.html]
-synonym: "OXRMIO" EXACT []
-is_a: http://flybase.org/reports/FBgg0001029 ! METAL ION OXIDOREDUCTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001030
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: FERROXIDASES
-def: "." [http://flybase.org/reports/FBgg0001030.html]
-synonym: "FOXS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001031 ! METAL ION OXIDOREDUCTASES, OXYGEN AS ACCEPTOR
 
 [Term]
 id: http://flybase.org/reports/FBgg0001708
@@ -6032,14 +6022,6 @@ synonym: "OXRS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001706
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SULFIREDOXINS
-def: "." [http://flybase.org/reports/FBgg0001706.html]
-synonym: "SRX" EXACT []
-is_a: http://flybase.org/reports/FBgg0001009 ! SULFUR GROUP OXIDOREDUCTASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001010
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SULFUR OXIDOREDUCTASES, DISULFIDE AS ACCEPTOR
@@ -6144,20 +6126,12 @@ synonym: "OXRS-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001009 ! SULFUR GROUP OXIDOREDUCTASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001027
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SUPEROXIDE RADICAL OXIDOREDUCTASES
-def: "." [http://flybase.org/reports/FBgg0001027.html]
-synonym: "OXRSOR" EXACT []
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001028
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SUPEROXIDE DISMUTASES
 def: "." [http://flybase.org/reports/FBgg0001028.html]
 synonym: "SOD" EXACT []
-is_a: http://flybase.org/reports/FBgg0001027 ! SUPEROXIDE RADICAL OXIDOREDUCTASES
+is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000933
@@ -6385,6 +6359,14 @@ synonym: "UFM1T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001172 ! UBIQUITIN-LIKE PROTEIN TRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002091
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED AMINOACYLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002091.html]
+synonym: "AAGT-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0001208 ! AMINOACYLTRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001162
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NON-AMINOACYL ACYLTRANSFERASES
@@ -6425,9 +6407,18 @@ synonym: "AANAT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0000651
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: N-TERMINAL ACETYLTRANSFERASE CATALYTIC SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0000651.html]
+synonym: "NAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
+is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000317
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: LYSINE N-ACETYLTRANSFERASES
+name: PROTEIN-LYSINE ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0000317.html]
 synonym: "KAT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
@@ -6438,7 +6429,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HISTONE ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001163.html]
 synonym: "HAT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000317 ! LYSINE N-ACETYLTRANSFERASES
+is_a: http://flybase.org/reports/FBgg0000317 ! PROTEIN-LYSINE ACETYLTRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001238
@@ -6446,24 +6437,15 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TUBULIN N-ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001238.html]
 synonym: "TN-ACT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000317 ! LYSINE N-ACETYLTRANSFERASES
+is_a: http://flybase.org/reports/FBgg0000317 ! PROTEIN-LYSINE ACETYLTRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001791
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED LYSINE N-ACETYLTRANSFERASES
+name: UNCLASSIFIED PROTEIN-LYSINE ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001791.html]
 synonym: "KAT-U" EXACT []
-is_a: http://flybase.org/reports/FBgg0000317 ! LYSINE N-ACETYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000651
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: N-TERMINAL ACETYLTRANSFERASE CATALYTIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0000651.html]
-synonym: "NAT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
-is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
+is_a: http://flybase.org/reports/FBgg0000317 ! PROTEIN-LYSINE ACETYLTRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001630
@@ -6487,14 +6469,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: S-ACETYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001633.html]
 synonym: "SACTT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001169 ! ACETYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001204
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED ACETYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001204.html]
-synonym: "ACTT-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001169 ! ACETYLTRANSFERASES
 
 [Term]
@@ -6527,6 +6501,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCEROL-3-PHOSPHATE O-ACYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001061.html]
 synonym: "GPAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002090
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYCINE N-ACYLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002090.html]
+synonym: "GLYAT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
 
 [Term]
@@ -6707,30 +6689,6 @@ synonym: "FUCT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001288 ! HEXOSYLTRANSFERASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000793
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALPHA 1,3-FUCOSYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0000793.html]
-synonym: "A3FUCT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001293 ! FUCOSYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001318
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ALPHA 1,6-FUCOSYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001318.html]
-synonym: "A6FUCT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001293 ! FUCOSYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001319
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PEPTIDE-O-FUCOSYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001319.html]
-synonym: "POFUCT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001293 ! FUCOSYLTRANSFERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001294
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GALACTOSYLTRANSFERASES
@@ -6752,6 +6710,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CORE 1 BETA 1,3-GALACTOSYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001320.html]
 synonym: "C1GALT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001294 ! GALACTOSYLTRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002092
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GT92 FAMILY GALACTOSYLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002092.html]
+synonym: "GT92" EXACT []
 is_a: http://flybase.org/reports/FBgg0001294 ! GALACTOSYLTRANSFERASES
 
 [Term]
@@ -6947,6 +6913,14 @@ synonym: "PGGLCNACT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001292 ! N-ACETYLGLUCOSAMINYLTRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002093
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED N-ACETYLGLUCOSAMINYLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002093.html]
+synonym: "GLCNACT-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0001292 ! N-ACETYLGLUCOSAMINYLTRANSFERASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001297
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: OLIGOSACCHARYLTRANSFERASES
@@ -7106,14 +7080,6 @@ name: METHYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001159.html]
 synonym: "METH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001144 ! ONE-CARBON GROUP TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001158
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DNA METHYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001158.html]
-synonym: "DNAMT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001159 ! METHYLTRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000277
@@ -7363,6 +7329,14 @@ name: SPHINGOSINE KINASES
 def: "." [http://flybase.org/reports/FBgg0000640.html]
 synonym: "SK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000639 ! LIPID KINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002089
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NAD+ KINASES
+def: "." [http://flybase.org/reports/FBgg0002089.html]
+synonym: "NADK" EXACT []
+is_a: http://flybase.org/reports/FBgg0001142 ! KINASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001355
@@ -7751,14 +7725,6 @@ synonym: "CYTF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001243 ! NUCLEOTIDYLTRANSFERASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001246
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DEOXYCYTIDYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001246.html]
-synonym: "DECYTF" EXACT []
-is_a: http://flybase.org/reports/FBgg0001243 ! NUCLEOTIDYLTRANSFERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001247
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: DNA POLYMERASE CATALYTIC SUBUNITS
@@ -7772,14 +7738,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GUANYLYLTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001248.html]
 synonym: "GUTF" EXACT []
-is_a: http://flybase.org/reports/FBgg0001243 ! NUCLEOTIDYLTRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001249
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYRIBONUCLEOTIDE NUCLEOTIDYLTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001249.html]
-synonym: "PRNUTF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001243 ! NUCLEOTIDYLTRANSFERASES
 
 [Term]
@@ -7815,22 +7773,6 @@ synonym: "OSPTF" EXACT []
 is_a: http://flybase.org/reports/FBgg0001268 ! PHOSPHORUS-CONTAINING GROUP TRANSFERASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001264
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PYRUVATE KINASES
-def: "." [http://flybase.org/reports/FBgg0001264.html]
-synonym: "PYK" EXACT []
-is_a: http://flybase.org/reports/FBgg0001268 ! PHOSPHORUS-CONTAINING GROUP TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001766
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TRNA 2'-PHOSPHOTRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001766.html]
-synonym: "T2PTF" EXACT []
-is_a: http://flybase.org/reports/FBgg0001268 ! PHOSPHORUS-CONTAINING GROUP TRANSFERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001115
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SELENIUM-CONTAINING GROUP TRANSFERASES
@@ -7845,6 +7787,22 @@ name: SULFUR-CONTAINING GROUP TRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001129.html]
 synonym: "TTSG" EXACT []
 is_a: http://flybase.org/reports/FBgg0001226 ! TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002088
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ALKYLTHIOLTRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002088.html]
+synonym: "ATHT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001129 ! SULFUR-CONTAINING GROUP TRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002087
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: COA-TRANSFERASES
+def: "." [http://flybase.org/reports/FBgg0002087.html]
+synonym: "COAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001129 ! SULFUR-CONTAINING GROUP TRANSFERASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001132
@@ -7884,14 +7842,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SULFURTRANSFERASES
 def: "." [http://flybase.org/reports/FBgg0001128.html]
 synonym: "SUTS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001129 ! SULFUR-CONTAINING GROUP TRANSFERASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001127
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED SULFUR-CONTAINING GROUP TRANSFERASES
-def: "." [http://flybase.org/reports/FBgg0001127.html]
-synonym: "TTSG-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001129 ! SULFUR-CONTAINING GROUP TRANSFERASES
 
 [Term]
@@ -8620,14 +8570,6 @@ name: Positive Regulators of Hedgehog Signaling Pathway
 def: "." [http://flybase.org/reports/FBgg0000981.html]
 synonym: "HH-SMOP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
-
-[Term]
-id: http://flybase.org/reports/FBgg0002062
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: HEPARAN SULFATE PROTEOGLYCAN BIOSYNTHESIS
-def: "." [http://flybase.org/reports/FBgg0002062.html]
-synonym: "GAHSB" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0002064
@@ -9379,6 +9321,14 @@ synonym: "MALSH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0001614
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MCM2-7 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001614.html]
+synonym: "MCM2-7" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001653
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MD-2-RELATED LIPID-RECOGNITION PROTEINS
@@ -9419,6 +9369,14 @@ synonym: "MTN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002095
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: METAXINS
+def: "." [http://flybase.org/reports/FBgg0002095.html]
+synonym: "MTX" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0002003
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: METHYLCROTONOYL-COA CARBOXYLASE COMPLEX
@@ -9432,6 +9390,22 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: miRNA-INDUCED SILENCING COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001801.html]
 synonym: "miRISC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001989
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL 2FE-2S ASSEMBLY COMPLEX
+def: "." [http://flybase.org/reports/FBgg0001989.html]
+synonym: "NIAUF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002072
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL 4FE-4S ASSEMBLY COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002072.html]
+synonym: "ISA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9588,14 +9562,6 @@ is_a: http://flybase.org/reports/FBgg0001946 ! MITOCHONDRIAL INTERMEMBRANE SPACE
 is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
-id: http://flybase.org/reports/FBgg0001989
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL IRON-SULFUR ASSEMBLY COMPLEX
-def: "." [http://flybase.org/reports/FBgg0001989.html]
-synonym: "NIAUF" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
 id: http://flybase.org/reports/FBgg0002040
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL OXPHOS COMPLEX ASSEMBLY FACTORS
@@ -9681,6 +9647,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MRN COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001923.html]
 synonym: "MRN" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002110
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MTERF FAMILY
+def: "." [http://flybase.org/reports/FBgg0002110.html]
+synonym: "MTERF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9853,6 +9827,14 @@ def: "." [http://flybase.org/reports/FBgg0000651.html]
 synonym: "NAT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000655 ! N-TERMINAL ACETYLTRANSFERASE SUBUNITS
 is_a: http://flybase.org/reports/FBgg0001628 ! N-ACETYLTRANSFERASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002073
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NAD(+) BIOSYNTHESIS VIA THE SALVAGE PATHWAY
+def: "." [http://flybase.org/reports/FBgg0002073.html]
+synonym: "NADSAL" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001786
@@ -11266,6 +11248,78 @@ synonym: "RPN" EXACT []
 is_a: http://flybase.org/reports/FBgg0001454 ! PROTEASOME REGULATORY PARTICLE SUBUNITS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002102
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-GLYCOSYLATION
+def: "." [http://flybase.org/reports/FBgg0002102.html]
+synonym: "POGLY" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002060
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CHONDROITIN SULFATE PROTEOGLYCAN BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002060.html]
+synonym: "GACSB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002062
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HEPARAN SULFATE PROTEOGLYCAN BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002062.html]
+synonym: "GAHSB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002105
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-FUCOSYLATION
+def: "." [http://flybase.org/reports/FBgg0002105.html]
+synonym: "POFUC" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002108
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-GALACTOSYLATION
+def: "." [http://flybase.org/reports/FBgg0002108.html]
+synonym: "POGAL" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002109
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-GalNAcYLATION
+def: "." [http://flybase.org/reports/FBgg0002109.html]
+synonym: "POGALN" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002104
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-GlcNAcYLATION
+def: "." [http://flybase.org/reports/FBgg0002104.html]
+synonym: "POGLCN" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002107
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-GLUCOSYLATION
+def: "." [http://flybase.org/reports/FBgg0002107.html]
+synonym: "POGLC" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
+id: http://flybase.org/reports/FBgg0002106
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PROTEIN O-MANNOSYLATION
+def: "." [http://flybase.org/reports/FBgg0002106.html]
+synonym: "POMAN" EXACT []
+is_a: http://flybase.org/reports/FBgg0002102 ! PROTEIN O-GLYCOSYLATION
+
+[Term]
 id: http://flybase.org/reports/FBgg0000909
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PROTEIN PHOSOPHATASE 2A COMPLEXES
@@ -11627,6 +11681,14 @@ name: PSEUDO-GLYCEROL KINASE
 def: "." [http://flybase.org/reports/FBgg0000636.html]
 synonym: "PGK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000641 ! GLYCEROL KINASE-LIKE
+is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001264
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PSEUDO-PYRUVATE KINASES
+def: "." [http://flybase.org/reports/FBgg0001264.html]
+synonym: "PSPYK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000223 ! PSEUDOKINASES
 
 [Term]
@@ -13379,6 +13441,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: RNA POLYMERASE-ASSOCIATED FACTOR 1 COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001726.html]
 synonym: "PAF1C" EXACT []
+is_a: http://flybase.org/reports/FBgg0001725 ! TRANSCRIPTION ELONGATION FACTOR COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002094
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: RNA POLYMERASE-ASSOCIATED FACTOR 1 COMPLEX - TESTIS-SPECIFIC VARIANT
+def: "." [http://flybase.org/reports/FBgg0002094.html]
+synonym: "PAF1C-T" EXACT []
 is_a: http://flybase.org/reports/FBgg0001725 ! TRANSCRIPTION ELONGATION FACTOR COMPLEXES
 
 [Term]
@@ -17513,6 +17583,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TREHALOSE CATABOLISM
 def: "." [http://flybase.org/reports/FBgg0002052.html]
 synonym: "TREHC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002103
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TRICARBOXYLIC ACID (TCA) CYCLE
+def: "." [http://flybase.org/reports/FBgg0002103.html]
+synonym: "TCACY" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
