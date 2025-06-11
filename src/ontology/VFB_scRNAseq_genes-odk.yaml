@@ -11,6 +11,7 @@ edit_format: owl
 run_as_root: TRUE
 export_formats:
   - owl
+manage_import_declarations: false
 import_component_format: ofn
 import_group:
   use_base_merging: TRUE
