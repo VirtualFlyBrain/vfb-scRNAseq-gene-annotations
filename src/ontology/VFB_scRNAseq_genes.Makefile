@@ -54,12 +54,23 @@ strip_import_axioms: $(IMPORTDIR)/merged_import.owl
 $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 	wget -O $(TMPDIR)/vfb-scRNAseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
 	wget -O $(TMPDIR)/vfb-EPseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
-	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ #&&\
-	#rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
+	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ &&\
+	rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
 
+# DOWNLOAD MANUALLY USING BROWSER:
+# 1. gene groups obo file
+# https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/ > tmp/gene_groups.obo
+# then make components/gene_groups.obo
+# 2. mapped FBgns
+# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_current.tsv.gz > tmp/fbgns.tsv.gz
+# 3. GAF
+# https://s3ftp.flybase.org/releases/current/precomputed_files/go/gene_association.fb.gz > tmp/gene_association.tsv.gz
+# 4. GG data
+# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/gene_group_data_current.tsv.gz > tmp/gene_group_data.tsv.gz
+# scripted download from s3ftp doesn't work
+# wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz
 $(TMPDIR)/mapped_FBgn_list.txt: setup_venv | $(TMPDIR)
-	wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz &&\
-	gzip -df $(TMPDIR)/FBgns.tsv.gz &&\
+	gzip -df $(TMPDIR)/fbgns.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_FBgn.py &&\
 	echo "\nMapped FBgn list updated\n"
 
@@ -71,7 +82,6 @@ $(TMPDIR)/FBgns.owl: get_vfb_code install_requirements $(TMPDIR)/mapped_FBgn_lis
 	echo "\nFBgn annotations updated\n"
 
 $(TMPDIR)/GO_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
-	wget -O $(TMPDIR)/gene_association.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/go/gene_association.fb.gz &&\
 	gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_GO.py &&\
 	$(ROBOT) query --input-iri http://purl.obolibrary.org/obo/go.owl \
@@ -83,7 +93,6 @@ $(TMPDIR)/GO_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
 	echo "\nGO annotations updated\n"
 
 $(TMPDIR)/GG_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
-	wget -O $(TMPDIR)/gene_group_data.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/gene_group_data_fb_2025_02.tsv.gz &&\
 	gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_GG.py &&\
 	$(ROBOT) query --input $(COMPONENTSDIR)/gene_groups.obo \
@@ -97,7 +106,6 @@ $(TMPDIR)/GG_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
 # A new gene_group_*.obo file can be found at:
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/
 # (requires login)
-# This file is not expected to be updated often
 # After copying to tmp (as 'gene_groups.obo'), the following goal should then be updated manually:
 $(COMPONENTSDIR)/gene_groups.obo: setup_venv $(TMPDIR)/gene_groups.obo
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_FBgg.py &&\
