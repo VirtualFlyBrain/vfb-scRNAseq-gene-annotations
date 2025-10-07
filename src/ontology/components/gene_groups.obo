@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2025-06-21
+data-version: 2025-09-17
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -82,17 +82,9 @@ synonym: "ARP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
-id: http://flybase.org/reports/FBgg0000184
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ACTINS
-def: "." [http://flybase.org/reports/FBgg0000184.html]
-synonym: "ACT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
 id: http://flybase.org/reports/FBgg0001093
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Activin Signaling Pathway
+name: ACTIVIN SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001093.html]
 synonym: "ACT-SMAD2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -100,26 +92,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001092
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Activin Signaling Pathway Core Components
+name: ACTIVIN SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001092.html]
 synonym: "ACT-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001093 ! Activin Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001093 ! ACTIVIN SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001091
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Activin Signaling Pathway
+name: NEGATIVE REGULATORS OF ACTIVIN SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001091.html]
 synonym: "ACT-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0001093 ! Activin Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001093 ! ACTIVIN SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001095
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Activin Signaling Pathway
+name: POSITIVE REGULATORS OF ACTIVIN SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001095.html]
 synonym: "ACT-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001093 ! Activin Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001093 ! ACTIVIN SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000962
@@ -505,7 +497,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001086
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: BMP Signaling Pathway
+name: BMP SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001086.html]
 synonym: "BMP-MAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -513,26 +505,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001085
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: BMP Signaling Pathway Core Components
+name: BMP SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001085.html]
 synonym: "BMP-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001086 ! BMP Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001086 ! BMP SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001084
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of BMP Signaling Pathway
+name: NEGATIVE REGULATORS OF BMP SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001084.html]
 synonym: "BMP-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0001086 ! BMP Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001086 ! BMP SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001094
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of BMP Signaling Pathway
+name: POSITIVE REGULATORS OF BMP SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001094.html]
 synonym: "BMP-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001086 ! BMP Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001086 ! BMP SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000721
@@ -705,22 +697,6 @@ synonym: "PPS" EXACT []
 is_a: http://flybase.org/reports/FBgg0002134 ! CARBOHYDRATE METABOLISM
 
 [Term]
-id: http://flybase.org/reports/FBgg0002027
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PENTOSE PHOSPHATE SHUNT, NON-OXIDATIVE BRANCH
-def: "." [http://flybase.org/reports/FBgg0002027.html]
-synonym: "PPSNOX" EXACT []
-is_a: http://flybase.org/reports/FBgg0002028 ! PENTOSE PHOSPHATE SHUNT
-
-[Term]
-id: http://flybase.org/reports/FBgg0002029
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PENTOSE PHOSPHATE SHUNT, OXIDATIVE BRANCH
-def: "." [http://flybase.org/reports/FBgg0002029.html]
-synonym: "PPSOX" EXACT []
-is_a: http://flybase.org/reports/FBgg0002028 ! PENTOSE PHOSPHATE SHUNT
-
-[Term]
 id: http://flybase.org/reports/FBgg0002044
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TREHALOSE BIOSYNTHESIS
@@ -755,7 +731,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001792
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: cGAS-STING Signaling Pathway
+name: CGAS-STING SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001792.html]
 synonym: "CGAS-STING" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -763,18 +739,18 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001793
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: cGAS-STING Signaling Pathway Core Components
+name: CGAS-STING SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001793.html]
 synonym: "CGAS-STING-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001792 ! cGAS-STING Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001792 ! CGAS-STING SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001941
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of cGAS-STING Signaling Pathway
+name: POSITIVE REGULATORS OF CGAS-STING SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001941.html]
 synonym: "CGAS-STING-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001792 ! cGAS-STING Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001792 ! CGAS-STING SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001643
@@ -1788,7 +1764,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000958
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: EGFR Signaling Pathway
+name: EGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000958.html]
 synonym: "EGFR-RTK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -1796,34 +1772,34 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000953
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: EGFR Ligand Production
+name: EGFR LIGAND PRODUCTION
 def: "." [http://flybase.org/reports/FBgg0000953.html]
 synonym: "EGF-PRO" EXACT []
-is_a: http://flybase.org/reports/FBgg0000958 ! EGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000958 ! EGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000951
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: EGFR Signaling Pathway Core Components
+name: EGFR SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000951.html]
 synonym: "EGFR-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000958 ! EGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000958 ! EGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000950
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of EGFR Signaling Pathway
+name: NEGATIVE REGULATORS OF EGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000950.html]
 synonym: "EGFR-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000958 ! EGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000958 ! EGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000956
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of EGFR Signaling Pathway
+name: POSITIVE REGULATORS OF EGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000956.html]
 synonym: "EGFR-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000958 ! EGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000958 ! EGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001981
@@ -2111,6 +2087,14 @@ name: ATPASES
 def: "." [http://flybase.org/reports/FBgg0001576.html]
 synonym: "ATPASE" EXACT []
 is_a: http://flybase.org/reports/FBgg0001575 ! NUCLEOSIDE TRIPHOSPHATE PHOSPHATASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000184
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ACTINS
+def: "." [http://flybase.org/reports/FBgg0000184.html]
+synonym: "ACT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000542
@@ -2712,14 +2696,6 @@ synonym: "ATRNAEH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001367
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: AMINOACYL-TRNA HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001367.html]
-synonym: "ATRNAH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001620
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: ARYLESTERASES
@@ -2749,6 +2725,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: LYSOPHOSPHOLIPASES
 def: "." [http://flybase.org/reports/FBgg0001379.html]
 synonym: "LPL" EXACT []
+is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001367
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PEPTIDYL-TRNA HYDROLASES
+def: "." [http://flybase.org/reports/FBgg0001367.html]
+synonym: "ATRNAH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001369 ! CARBOXYLIC ESTER HYDROLASES
 
 [Term]
@@ -4962,14 +4946,6 @@ synonym: "AMMLIG" EXACT []
 is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001775
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: BETA-ALANYL-AMINE SYNTHASES
-def: "." [http://flybase.org/reports/FBgg0001775.html]
-synonym: "BAAS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000841
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBON-NITROGEN LIGASES, WITH GLUTAMINE AS AMIDO-N-DONOR
@@ -4988,7 +4964,7 @@ is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
 [Term]
 id: http://flybase.org/reports/FBgg0000843
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: OTHER CARBON-NITROGEN LIGASES
+name: UNCLASSIFIED CARBON-NITROGEN LIGASES
 def: "." [http://flybase.org/reports/FBgg0000843.html]
 synonym: "OCNLIG" EXACT []
 is_a: http://flybase.org/reports/FBgg0000812 ! CARBON-NITROGEN LIGASES
@@ -5127,6 +5103,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SUCCINYL-COA SYNTHETASES
 def: "." [http://flybase.org/reports/FBgg0000836.html]
 synonym: "SUCL" EXACT []
+is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002152
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED CARBON-SULFUR LIGASES
+def: "." [http://flybase.org/reports/FBgg0002152.html]
+synonym: "CSLIG-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000811 ! CARBON-SULFUR LIGASES
 
 [Term]
@@ -5736,19 +5720,19 @@ synonym: "ADHNAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
+id: http://flybase.org/reports/FBgg0001071
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ALL-TRANS-RETINOL DEHYDROGENASES (NAD-DEPENDENT)
+def: "." [http://flybase.org/reports/FBgg0001071.html]
+synonym: "RDH" EXACT []
+is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
+
+[Term]
 id: http://flybase.org/reports/FBgg0001070
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: L-IDITOL 2-DEHYDROGENASES
 def: "." [http://flybase.org/reports/FBgg0001070.html]
 synonym: "I2DH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
-
-[Term]
-id: http://flybase.org/reports/FBgg0001071
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RETINOL DEHYDROGENASES (NAD-DEPENDENT)
-def: "." [http://flybase.org/reports/FBgg0001071.html]
-synonym: "RDH" EXACT []
 is_a: http://flybase.org/reports/FBgg0001993 ! ALCOHOL DEHYDROGENASES (NAD-DEPENDENT)
 
 [Term]
@@ -5776,19 +5760,19 @@ synonym: "ALDR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 
 [Term]
+id: http://flybase.org/reports/FBgg0001688
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ALL-TRANS-RETINOL DEHYDROGENASES (NADP-DEPENDENT)
+def: "." [http://flybase.org/reports/FBgg0001688.html]
+synonym: "RDH-NADP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
+
+[Term]
 id: http://flybase.org/reports/FBgg0002084
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBONYL REDUCTASES
 def: "." [http://flybase.org/reports/FBgg0002084.html]
 synonym: "CBR" EXACT []
-is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
-
-[Term]
-id: http://flybase.org/reports/FBgg0001688
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RETINOL DEHYDROGENASES (NADP-DEPENDENT)
-def: "." [http://flybase.org/reports/FBgg0001688.html]
-synonym: "RDH-NADP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000920 ! ALCOHOL DEHYDROGENASES (NADP-DEPENDENT)
 
 [Term]
@@ -5961,14 +5945,6 @@ is_a: http://flybase.org/reports/FBgg0000307 ! HISTONE DEMETHYLASES
 is_a: http://flybase.org/reports/FBgg0001048 ! 2-OXOGLUTARATE-DEPENDENT DIOXYGENASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0001083
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PEPTIDYL-LYSINE 5-DIOXYGENASES
-def: "." [http://flybase.org/reports/FBgg0001083.html]
-synonym: "PLDOX" EXACT []
-is_a: http://flybase.org/reports/FBgg0001048 ! 2-OXOGLUTARATE-DEPENDENT DIOXYGENASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001042
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PEPTIDYL-PROLINE DIOXYGENASES
@@ -6024,14 +6000,6 @@ def: "." [http://flybase.org/reports/FBgg0000723.html]
 synonym: "PO" EXACT []
 is_a: http://flybase.org/reports/FBgg0001708 ! MONOOXYGENASES
 is_a: http://flybase.org/reports/FBgg0001016 ! DIPHENOL OXIDOREDUCTASES, OXYGEN AS ACCEPTOR
-
-[Term]
-id: http://flybase.org/reports/FBgg0001014
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: HEME GROUP OXIDOREDUCTASES
-def: "." [http://flybase.org/reports/FBgg0001014.html]
-synonym: "OXRHG" EXACT []
-is_a: http://flybase.org/reports/FBgg0000923 ! OXIDOREDUCTASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000307
@@ -8390,7 +8358,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000967
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: FGFR Signaling Pathway
+name: FGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000967.html]
 synonym: "FGFR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -8398,26 +8366,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000968
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: FGFR Signaling Pathway Core Components
+name: FGFR SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000968.html]
 synonym: "FGFR-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000967 ! FGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000967 ! FGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000969
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of FGFR Signaling Pathway
+name: NEGATIVE REGULATORS OF FGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000969.html]
 synonym: "FGFR-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000967 ! FGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000967 ! FGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000970
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of FGFR Signaling Pathway
+name: POSITIVE REGULATORS OF FGFR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000970.html]
 synonym: "FGFR-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000967 ! FGFR Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000967 ! FGFR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000211
@@ -8670,6 +8638,30 @@ synonym: "DOLMAN" EXACT []
 is_a: http://flybase.org/reports/FBgg0002137 ! GLYCOCONJUGATE METABOLISM
 
 [Term]
+id: http://flybase.org/reports/FBgg0002151
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DOLICHYL PHOSPHATE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002151.html]
+synonym: "DOLPB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002137 ! GLYCOCONJUGATE METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002149
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLUCOSYLCERAMIDE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002149.html]
+synonym: "GLUCEB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002137 ! GLYCOCONJUGATE METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002150
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GPI-ANCHOR PROTEIN BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002150.html]
+synonym: "GPIANB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002137 ! GLYCOCONJUGATE METABOLISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0002064
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HEPARAN SULFATE PROTEOGLYCAN CATABOLISM
@@ -8841,6 +8833,14 @@ synonym: "GLYP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002142
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GTPBP3-MTO1 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002142.html]
+synonym: "GBP3MC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0001342
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HEDGEHOG SIGNALING COMPLEX
@@ -8851,7 +8851,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000978
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Hedgehog Signaling Pathway
+name: HEDGEHOG SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000978.html]
 synonym: "HH-SMO" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -8859,34 +8859,34 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001018
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Hedgehog Production
+name: HEDGEHOG PRODUCTION
 def: "." [http://flybase.org/reports/FBgg0001018.html]
 synonym: "HH-PRO" EXACT []
-is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000978 ! HEDGEHOG SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000979
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Hedgehog Signaling Pathway Core Components
+name: HEDGEHOG SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000979.html]
 synonym: "HH-SMOC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000978 ! HEDGEHOG SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000980
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Hedgehog Signaling Pathway
+name: NEGATIVE REGULATORS OF HEDGEHOG SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000980.html]
 synonym: "HH-SMON" EXACT []
-is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000978 ! HEDGEHOG SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000981
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Hedgehog Signaling Pathway
+name: POSITIVE REGULATORS OF HEDGEHOG SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000981.html]
 synonym: "HH-SMOP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000978 ! Hedgehog Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000978 ! HEDGEHOG SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000213
@@ -8940,7 +8940,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000917
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Hippo Signaling Pathway
+name: HIPPO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000917.html]
 synonym: "SWH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -8948,26 +8948,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000913
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Hippo Signaling Pathway Core Components
+name: HIPPO SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000913.html]
 synonym: "SWH-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000917 ! Hippo Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000917 ! HIPPO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000916
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Hippo Signaling Pathway
+name: NEGATIVE REGULATORS OF HIPPO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000916.html]
 synonym: "SWH-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000917 ! Hippo Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000917 ! HIPPO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000912
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Hippo Signaling Pathway
+name: POSITIVE REGULATORS OF HIPPO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000912.html]
 synonym: "SWH-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000917 ! Hippo Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000917 ! HIPPO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000630
@@ -9037,7 +9037,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001194
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Imd Signaling Pathway
+name: IMD SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001194.html]
 synonym: "IMD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -9045,26 +9045,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001195
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Imd Signaling Pathway Core Components
+name: IMD SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001195.html]
 synonym: "IMD-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001194 ! Imd Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001194 ! IMD SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001196
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Imd Signaling Pathway
+name: NEGATIVE REGULATORS OF IMD SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001196.html]
 synonym: "IMD-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0001194 ! Imd Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001194 ! IMD SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001197
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Imd Signaling Pathway
+name: POSITIVE REGULATORS OF IMD SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001197.html]
 synonym: "IMD-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001194 ! Imd Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001194 ! IMD SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000703
@@ -9101,7 +9101,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000910
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Insulin-like Receptor Signaling Pathway
+name: INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000910.html]
 synonym: "INS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -9109,26 +9109,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000904
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Insulin-like Receptor Signaling Pathway Core Components
+name: INSULIN-LIKE RECEPTOR SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000904.html]
 synonym: "INS-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000910 ! Insulin-like Receptor Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000910 ! INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000900
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Insulin-like Receptor Signaling Pathway
+name: NEGATIVE REGULATORS OF INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000900.html]
 synonym: "INS-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000910 ! Insulin-like Receptor Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000910 ! INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000898
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Insulin-like Receptor Signaling Pathway
+name: POSITIVE REGULATORS OF INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000898.html]
 synonym: "INS-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000910 ! Insulin-like Receptor Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000910 ! INSULIN-LIKE RECEPTOR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0002031
@@ -9413,7 +9413,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000883
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: JAK-STAT Signaling Pathway
+name: JAK-STAT SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000883.html]
 synonym: "JAKSTAT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -9421,26 +9421,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000881
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: JAK-STAT Signaling Pathway Core Components
+name: JAK-STAT SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000881.html]
 synonym: "JAKSTAT-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000884
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of JAK-STAT Signaling Pathway
+name: NEGATIVE REGULATORS OF JAK-STAT SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000884.html]
 synonym: "JAKSTAT-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000882
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of JAK-STAT Signaling Pathway
+name: POSITIVE REGULATORS OF JAK-STAT SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000882.html]
 synonym: "JAKSTAT-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000883 ! JAK-STAT SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000210
@@ -9806,6 +9806,14 @@ synonym: "MCIA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002143
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL DEGRADOSOME
+def: "." [http://flybase.org/reports/FBgg0002143.html]
+synonym: "MITDEG" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0002013
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL DISULFIDE RELAY SYSTEM
@@ -9819,6 +9827,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: MITOCHONDRIAL DNA REPLISOME
 def: "." [http://flybase.org/reports/FBgg0001975.html]
 synonym: "MT-REP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002141
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL INNER MEMBRANE PEPTIDASE COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002141.html]
+synonym: "IMP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -9933,6 +9949,14 @@ name: MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX IV ASSEMBLY FACTORS
 def: "." [http://flybase.org/reports/FBgg0002038.html]
 synonym: "MCIV-AF" EXACT []
 is_a: http://flybase.org/reports/FBgg0002035 ! MITOCHONDRIAL RESPIRATORY CHAIN COMPLEX ASSEMBLY FACTORS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002140
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL PROCESSING PEPTIDASE
+def: "." [http://flybase.org/reports/FBgg0002140.html]
+synonym: "MPP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0002133
@@ -10196,7 +10220,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001068
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Notch Signaling Pathway
+name: NOTCH SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001068.html]
 synonym: "NTCH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -10204,26 +10228,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001063
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Notch Signaling Pathway
+name: NEGATIVE REGULATORS OF NOTCH SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001063.html]
 synonym: "NTCH-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0001068 ! Notch Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001068 ! NOTCH SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001064
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Notch Signaling Pathway Core Components
+name: NOTCH SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001064.html]
 synonym: "NTCH-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001068 ! Notch Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001068 ! NOTCH SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001069
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Notch Signaling Pathway
+name: POSITIVE REGULATORS OF NOTCH SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001069.html]
 synonym: "NTCH-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001068 ! Notch Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001068 ! NOTCH SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001193
@@ -11969,9 +11993,49 @@ synonym: "PSENZ-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0001798 ! PSEUDOENZYMES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002144
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PTW-PP1 PHOSPHATASE COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0002144.html]
+synonym: "PTWP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002145
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PTW-PP1 COMPLEX FLW VARIANT
+def: "." [http://flybase.org/reports/FBgg0002145.html]
+synonym: "PTW-FLW" EXACT []
+is_a: http://flybase.org/reports/FBgg0002144 ! PTW-PP1 PHOSPHATASE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002146
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PTW-PP1 COMPLEX PP1-13C VARIANT
+def: "." [http://flybase.org/reports/FBgg0002146.html]
+synonym: "PTW-PP1-13C" EXACT []
+is_a: http://flybase.org/reports/FBgg0002144 ! PTW-PP1 PHOSPHATASE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002147
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PTW-PP1 COMPLEX PP1-87B VARIANT
+def: "." [http://flybase.org/reports/FBgg0002147.html]
+synonym: "PTW-PP1-87B" EXACT []
+is_a: http://flybase.org/reports/FBgg0002144 ! PTW-PP1 PHOSPHATASE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002148
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PTW-PP1 COMPLEX PP1ALPHA-96A VARIANT
+def: "." [http://flybase.org/reports/FBgg0002148.html]
+synonym: "PTW-PP1ALPHA-96A" EXACT []
+is_a: http://flybase.org/reports/FBgg0002144 ! PTW-PP1 PHOSPHATASE COMPLEXES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000972
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Pvr Signaling Pathway
+name: PVR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000972.html]
 synonym: "PVR-RTK" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -11979,26 +12043,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000974
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Pvr Signaling Pathway
+name: NEGATIVE REGULATORS OF PVR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000974.html]
 synonym: "PVR-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000972 ! Pvr Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000972 ! PVR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000975
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Pvr Signaling Pathway
+name: POSITIVE REGULATORS OF PVR SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000975.html]
 synonym: "PVR-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000972 ! Pvr Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000972 ! PVR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000973
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Pvr Signaling Pathway Core Components
+name: PVR SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000973.html]
 synonym: "PVR-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000972 ! Pvr Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000972 ! PVR SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001988
@@ -12711,7 +12775,7 @@ is_a: http://flybase.org/reports/FBgg0000103 ! SERPINS
 [Term]
 id: http://flybase.org/reports/FBgg0000941
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Sevenless Signaling Pathway
+name: SEVENLESS SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000941.html]
 synonym: "SEVL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -12719,26 +12783,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000942
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Sevenless Signaling Pathway
+name: NEGATIVE REGULATORS OF SEVENLESS SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000942.html]
 synonym: "SEVL-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000941 ! Sevenless Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000941 ! SEVENLESS SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000938
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Sevenless Signaling Pathway
+name: POSITIVE REGULATORS OF SEVENLESS SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000938.html]
 synonym: "SEVL-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000941 ! Sevenless Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000941 ! SEVENLESS SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000935
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Sevenless Signaling Pathway Core Components
+name: SEVENLESS SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000935.html]
 synonym: "SEVL-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000941 ! Sevenless Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000941 ! SEVENLESS SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001452
@@ -12746,6 +12810,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SIGNAL PEPTIDASE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001452.html]
 synonym: "SPC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002153
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SINGLE VON WILLEBRAND FACTOR TYPE C DOMAIN PROTEINS
+def: "." [http://flybase.org/reports/FBgg0002153.html]
+synonym: "SVWC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -13029,6 +13101,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SP1/KLF TRANSCRIPTION FACTORS
 def: "." [http://flybase.org/reports/FBgg0000301.html]
 synonym: "SP1-KLF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002154
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SPECTRINS
+def: "." [http://flybase.org/reports/FBgg0002154.html]
+synonym: "SPEC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -13471,7 +13551,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001560
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TNF&agr;-Eiger Signaling Pathway
+name: TNFalpha-EIGER SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001560.html]
 synonym: "TNF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -13479,31 +13559,31 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001562
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of TNF&agr;-Eiger Signaling Pathway
+name: NEGATIVE REGULATORS OF TNFalpha-EIGER SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001562.html]
 synonym: "TNF-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0001560 ! TNF&agr;-Eiger Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001560 ! TNFalpha-EIGER SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001563
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of TNF&agr;-Eiger Signaling Pathway
+name: POSITIVE REGULATORS OF TNFalpha-EIGER SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001563.html]
 synonym: "TNF-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0001560 ! TNF&agr;-Eiger Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001560 ! TNFalpha-EIGER SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001561
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TNF&agr;-Eiger Signaling Pathway Core Components
+name: TNFalpha-EIGER SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001561.html]
 synonym: "TNF-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0001560 ! TNF&agr;-Eiger Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001560 ! TNFalpha-EIGER SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001059
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Toll Signaling Pathway
+name: TOLL SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001059.html]
 synonym: "TL-CAN" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -13511,42 +13591,42 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0001056
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Extracellular Spatzle Activating Pathway Core Components
+name: EXTRACELLULAR SPATZLE ACTIVATING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001056.html]
 synonym: "TL-SPZC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001059 ! Toll Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001059 ! TOLL SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001055
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Spatzle Activating Pathway
+name: NEGATIVE REGULATORS OF SPATZLE ACTIVATING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001055.html]
 synonym: "TL-SPZN" EXACT []
-is_a: http://flybase.org/reports/FBgg0001059 ! Toll Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001059 ! TOLL SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001053
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Toll-NF-&kgr;B Signaling Pathway
+name: NEGATIVE REGULATORS OF TOLL-NF-kappaB SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001053.html]
 synonym: "TL-NFN" EXACT []
-is_a: http://flybase.org/reports/FBgg0001059 ! Toll Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001059 ! TOLL SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001057
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Toll-NF-&kgr;B Signaling Pathway
+name: POSITIVE REGULATORS OF TOLL-NF-kappaB SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001057.html]
 synonym: "TL-NFP" EXACT []
-is_a: http://flybase.org/reports/FBgg0001059 ! Toll Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001059 ! TOLL SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001058
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Toll-NF-&kgr;B Signaling Pathway Core Components
+name: TOLL-NF-kappaB SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0001058.html]
 synonym: "TL-NFC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001059 ! Toll Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0001059 ! TOLL SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000911
@@ -13575,7 +13655,7 @@ is_a: http://flybase.org/reports/FBgg0000911 ! TOR COMPLEXES
 [Term]
 id: http://flybase.org/reports/FBgg0000934
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Torso Signaling Pathway
+name: TORSO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000934.html]
 synonym: "TORS" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -13583,26 +13663,26 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000940
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Torso Signaling Pathway
+name: NEGATIVE REGULATORS OF TORSO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000940.html]
 synonym: "TORS-N" EXACT []
-is_a: http://flybase.org/reports/FBgg0000934 ! Torso Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000934 ! TORSO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000936
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Torso Signaling Pathway
+name: POSITIVE REGULATORS OF TORSO SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000936.html]
 synonym: "TORS-P" EXACT []
-is_a: http://flybase.org/reports/FBgg0000934 ! Torso Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000934 ! TORSO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000937
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Torso Signaling Pathway Core Components
+name: TORSO SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000937.html]
 synonym: "TORS-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000934 ! Torso Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000934 ! TORSO SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0001725
@@ -18155,7 +18235,7 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000889
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Wnt-TCF Signaling Pathway
+name: WNT-TCF SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000889.html]
 synonym: "WNT-TCF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -18163,34 +18243,34 @@ is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 [Term]
 id: http://flybase.org/reports/FBgg0000891
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Negative Regulators of Wnt-TCF Signaling Pathway
+name: NEGATIVE REGULATORS OF WNT-TCF SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000891.html]
 synonym: "WNT-TCFN" EXACT []
-is_a: http://flybase.org/reports/FBgg0000889 ! Wnt-TCF Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000889 ! WNT-TCF SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000892
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Positive Regulators of Wnt-TCF Signaling Pathway
+name: POSITIVE REGULATORS OF WNT-TCF SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0000892.html]
 synonym: "WNT-TCFP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000889 ! Wnt-TCF Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000889 ! WNT-TCF SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000890
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Wnt-TCF Signaling Pathway Core Components
+name: WNT-TCF SIGNALING PATHWAY CORE COMPONENTS
 def: "." [http://flybase.org/reports/FBgg0000890.html]
 synonym: "WNT-TCFC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000889 ! Wnt-TCF Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000889 ! WNT-TCF SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000918
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: Wnt Production
+name: WNT PRODUCTION
 def: "." [http://flybase.org/reports/FBgg0000918.html]
 synonym: "WNT-PRO" EXACT []
-is_a: http://flybase.org/reports/FBgg0000889 ! Wnt-TCF Signaling Pathway
+is_a: http://flybase.org/reports/FBgg0000889 ! WNT-TCF SIGNALING PATHWAY
 
 [Term]
 id: http://flybase.org/reports/FBgg0000895
