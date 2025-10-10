@@ -62,7 +62,7 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/ > tmp/gene_groups.obo
 # then make components/gene_groups.obo
 # 2. mapped FBgns
-# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_current.tsv.gz > tmp/fbgns.tsv.gz
+# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_current.tsv.gz > tmp/fbgn_fbtr_fbpp.tsv.gz
 # 3. GAF
 # https://s3ftp.flybase.org/releases/current/precomputed_files/go/gene_association.fb.gz > tmp/gene_association.tsv.gz
 # 4. GG data
@@ -70,7 +70,7 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 # scripted download from s3ftp doesn't work
 # wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz
 $(TMPDIR)/mapped_FBgn_list.txt: setup_venv | $(TMPDIR)
-	gzip -df $(TMPDIR)/fbgns.tsv.gz &&\
+	gzip -df $(TMPDIR)/fbgn_fbtr_fbpp.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_FBgn.py &&\
 	echo "\nMapped FBgn list updated\n"
 
