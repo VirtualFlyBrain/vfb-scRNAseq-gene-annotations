@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2025-09-17
+data-version: 2025-11-22
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -575,15 +575,6 @@ synonym: "FRUCBIO" EXACT []
 is_a: http://flybase.org/reports/FBgg0002134 ! CARBOHYDRATE METABOLISM
 
 [Term]
-id: http://flybase.org/reports/FBgg0002056
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: GALACTOSE CATABOLISM
-def: "." [http://flybase.org/reports/FBgg0002056.html]
-synonym: "GALCA" EXACT []
-is_a: http://flybase.org/reports/FBgg0002134 ! CARBOHYDRATE METABOLISM
-is_a: http://flybase.org/reports/FBgg0002138 ! NUCLEOTIDE-SUGAR BIOSYNTHESIS
-
-[Term]
 id: http://flybase.org/reports/FBgg0002047
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLUCONEOGENESIS
@@ -645,7 +636,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GALACTOSE CATABOLISM
 def: "." [http://flybase.org/reports/FBgg0002056.html]
 synonym: "GALCA" EXACT []
-is_a: http://flybase.org/reports/FBgg0002134 ! CARBOHYDRATE METABOLISM
 is_a: http://flybase.org/reports/FBgg0002138 ! NUCLEOTIDE-SUGAR BIOSYNTHESIS
 
 [Term]
@@ -2595,7 +2585,6 @@ name: RPD3/HDA1 LYSINE DEACETYLASES
 def: "." [http://flybase.org/reports/FBgg0000279.html]
 synonym: "RPD3-HDA1" EXACT []
 is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001343
@@ -5397,32 +5386,6 @@ synonym: "POLYA-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000290
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000290.html]
-synonym: "KDAC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001715 ! ENZYMES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000279
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RPD3/HDA1 LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000279.html]
-synonym: "RPD3-HDA1" EXACT []
-is_a: http://flybase.org/reports/FBgg0001308 ! CARBON-NITROGEN HYDROLASES OF LINEAR AMIDES
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000278
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SIRTUIN LYSINE DEACETYLASES
-def: "." [http://flybase.org/reports/FBgg0000278.html]
-synonym: "SIRT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
-is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000923
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: OXIDOREDUCTASES
@@ -5615,12 +5578,12 @@ synonym: "DHODH" EXACT []
 is_a: http://flybase.org/reports/FBgg0002077 ! CH-CH OXIDOREDUCTASES, QUINONE AS ACCEPTOR
 
 [Term]
-id: http://flybase.org/reports/FBgg0001862
+id: http://flybase.org/reports/FBgg0000485
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) - CATALYTIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001862.html]
-synonym: "MCII-SDH-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000485 ! MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
+name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0000485.html]
+synonym: "MCII-SDH" EXACT []
+is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
 is_a: http://flybase.org/reports/FBgg0002077 ! CH-CH OXIDOREDUCTASES, QUINONE AS ACCEPTOR
 
 [Term]
@@ -6773,7 +6736,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SIRTUIN LYSINE DEACETYLASES
 def: "." [http://flybase.org/reports/FBgg0000278.html]
 synonym: "SIRT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000290 ! LYSINE DEACETYLASES
 is_a: http://flybase.org/reports/FBgg0001162 ! NON-AMINOACYL ACYLTRANSFERASES
 
 [Term]
@@ -7434,19 +7396,19 @@ synonym: "KIN" EXACT []
 is_a: http://flybase.org/reports/FBgg0001268 ! PHOSPHORUS-CONTAINING GROUP TRANSFERASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0001275
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ARGININE KINASES
+def: "." [http://flybase.org/reports/FBgg0001275.html]
+synonym: "CKS" EXACT []
+is_a: http://flybase.org/reports/FBgg0001142 ! KINASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0001260
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: CARBOHYDRATE KINASES
 def: "." [http://flybase.org/reports/FBgg0001260.html]
 synonym: "CHK" EXACT []
-is_a: http://flybase.org/reports/FBgg0001142 ! KINASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001275
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CREATINE KINASES
-def: "." [http://flybase.org/reports/FBgg0001275.html]
-synonym: "CKS" EXACT []
 is_a: http://flybase.org/reports/FBgg0001142 ! KINASES
 
 [Term]
@@ -7553,6 +7515,14 @@ name: NUCLEOBASE-CONTAINING COMPOUND KINASES
 def: "." [http://flybase.org/reports/FBgg0001355.html]
 synonym: "NUBCK" EXACT []
 is_a: http://flybase.org/reports/FBgg0001142 ! KINASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002155
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DEOXYNUCLEOSIDE MONOPHOSPHATE KINASES
+def: "." [http://flybase.org/reports/FBgg0002155.html]
+synonym: "DNMK" EXACT []
+is_a: http://flybase.org/reports/FBgg0001355 ! NUCLEOBASE-CONTAINING COMPOUND KINASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001271
@@ -10490,23 +10460,7 @@ name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0000485.html]
 synonym: "MCII-SDH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000482 ! OXIDATIVE PHOSPHORYLATION FUNCTIONAL GROUPS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001862
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) - CATALYTIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001862.html]
-synonym: "MCII-SDH-C" EXACT []
-is_a: http://flybase.org/reports/FBgg0000485 ! MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
 is_a: http://flybase.org/reports/FBgg0002077 ! CH-CH OXIDOREDUCTASES, QUINONE AS ACCEPTOR
-
-[Term]
-id: http://flybase.org/reports/FBgg0001863
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) - NON-CATALYTIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001863.html]
-synonym: "MCII-SDH-NC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000485 ! MITOCHONDRIAL COMPLEX II (SUCCINATE DEHYDROGENASE) SUBUNITS
 
 [Term]
 id: http://flybase.org/reports/FBgg0000484
