@@ -70,7 +70,7 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 # scripted download from s3ftp doesn't work
 # wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz
 $(TMPDIR)/mapped_FBgn_list.txt: setup_venv | $(TMPDIR)
-	gzip -df $(TMPDIR)/fbgn_fbtr_fbpp.tsv.gz &&\
+	test -f $(TMPDIR)/fbgn_fbtr_fbpp.tsv || gzip -df $(TMPDIR)/fbgn_fbtr_fbpp.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_FBgn.py &&\
 	echo "\nMapped FBgn list updated\n"
 
@@ -82,7 +82,7 @@ $(TMPDIR)/FBgns.owl: get_vfb_code install_requirements $(TMPDIR)/mapped_FBgn_lis
 	echo "\nFBgn annotations updated\n"
 
 $(TMPDIR)/GO_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
-	gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
+	test -f $(TMPDIR)/gene_association.tsv || gzip -df $(TMPDIR)/gene_association.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_GO.py &&\
 	$(ROBOT) query --input-iri http://purl.obolibrary.org/obo/go.owl \
 		--query $(SPARQLDIR)/GO_subclasses.sparql $(TMPDIR)/GO_subclasses.tsv &&\
@@ -93,7 +93,7 @@ $(TMPDIR)/GO_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
 	echo "\nGO annotations updated\n"
 
 $(TMPDIR)/GG_annotations.owl: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt
-	gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
+	test -f $(TMPDIR)/gene_group_data.tsv || gzip -df $(TMPDIR)/gene_group_data.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_GG.py &&\
 	$(ROBOT) query --input $(COMPONENTSDIR)/gene_groups.obo \
 		--query $(SPARQLDIR)/GG_subclasses.sparql $(TMPDIR)/GG_subclasses.tsv &&\
