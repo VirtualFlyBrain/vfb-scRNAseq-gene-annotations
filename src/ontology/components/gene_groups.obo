@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2025-11-22
+data-version: 2026-02-22
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -130,6 +130,158 @@ synonym: "ADAMTSL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002183
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: AMINO ACID METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002183.html]
+synonym: "AAMET" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002176
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYCINE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002176.html]
+synonym: "GLYBITH" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002171
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: GLYCINE CLEAVAGE SYSTEM
+def: "." [http://flybase.org/reports/FBgg0002171.html]
+synonym: "GLYCLE" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002188
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-ALANINE METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002188.html]
+synonym: "ALAMET" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002186
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-ARGININE METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002186.html]
+synonym: "ARGMET" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002185
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-ASPARTATE AND L-ASPARAGINE METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002185.html]
+synonym: "ASPASNM" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002173
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-CYSTEINE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002173.html]
+synonym: "LCYSBI" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002184
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-GLUTAMATE AND L-GLUTAMINE METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002184.html]
+synonym: "GLUGLNM" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002187
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-GLUTAMATE BIOSYNTHESIS (FROM L-PROLINE)
+def: "." [http://flybase.org/reports/FBgg0002187.html]
+synonym: "LGLUBIP" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002174
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-ISOLEUCINE CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002174.html]
+synonym: "LILECA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002177
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-LEUCINE CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002177.html]
+synonym: "LLEUCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002179
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-LYSINE CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002179.html]
+synonym: "LLYSCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002178
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-METHIONINE CYCLE
+def: "." [http://flybase.org/reports/FBgg0002178.html]
+synonym: "LMETCY" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002175
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-METHIONINE SALVAGE PATHWAY
+def: "." [http://flybase.org/reports/FBgg0002175.html]
+synonym: "LMETSA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002180
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-PHENYLALANINE AND L-TYROSINE METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002180.html]
+synonym: "PHETYRME" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002181
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-PROLINE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002181.html]
+synonym: "LPROBI" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002170
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-SERINE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002170.html]
+synonym: "LSERBI" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002189
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-TRYPTOPHAN CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002189.html]
+synonym: "TRYCAT" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002172
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-VALINE CATABOLISM
+def: "." [http://flybase.org/reports/FBgg0002172.html]
+synonym: "LVALCA" EXACT []
+is_a: http://flybase.org/reports/FBgg0002183 ! AMINO ACID METABOLISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0002066
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: AMPK COMPLEX
@@ -178,54 +330,6 @@ name: ANNEXINS
 def: "." [http://flybase.org/reports/FBgg0000164.html]
 synonym: "ANX" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0001101
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ANTIMICROBIAL PEPTIDES
-def: "." [http://flybase.org/reports/FBgg0001101.html]
-synonym: "AMP" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0001099
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ATTACINS
-def: "." [http://flybase.org/reports/FBgg0001099.html]
-synonym: "ATT" EXACT []
-is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001100
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: CECROPINS
-def: "." [http://flybase.org/reports/FBgg0001100.html]
-synonym: "CEC" EXACT []
-is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001784
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DAISHO PEPTIDES
-def: "." [http://flybase.org/reports/FBgg0001784.html]
-synonym: "DSO" EXACT []
-is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000169
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: DROSOMYCINS
-def: "." [http://flybase.org/reports/FBgg0000169.html]
-synonym: "DRS" EXACT []
-is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001102
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: UNCLASSIFIED ANTIMICROBIAL PEPTIDES
-def: "." [http://flybase.org/reports/FBgg0001102.html]
-synonym: "AMP-U" EXACT []
-is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000129
@@ -525,14 +629,6 @@ name: POSITIVE REGULATORS OF BMP SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001094.html]
 synonym: "BMP-P" EXACT []
 is_a: http://flybase.org/reports/FBgg0001086 ! BMP SIGNALING PATHWAY
-
-[Term]
-id: http://flybase.org/reports/FBgg0000721
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: BOMANINS
-def: "." [http://flybase.org/reports/FBgg0000721.html]
-synonym: "BOM" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001177
@@ -5312,14 +5408,6 @@ synonym: "CSLYA" EXACT []
 is_a: http://flybase.org/reports/FBgg0000808 ! LYASES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000828
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: FERROCHELATASES
-def: "." [http://flybase.org/reports/FBgg0000828.html]
-synonym: "FECH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000808 ! LYASES
-
-[Term]
 id: http://flybase.org/reports/FBgg0000827
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PHOSPHORUS-OXYGEN LYASES
@@ -5384,6 +5472,14 @@ name: UNCLASSIFIED PHOSPHORUS-OXYGEN LYASES
 def: "." [http://flybase.org/reports/FBgg0002081.html]
 synonym: "POLYA-U" EXACT []
 is_a: http://flybase.org/reports/FBgg0000827 ! PHOSPHORUS-OXYGEN LYASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002162
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED LYASES
+def: "." [http://flybase.org/reports/FBgg0002162.html]
+synonym: "LYA-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0000808 ! LYASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000923
@@ -5665,14 +5761,6 @@ name: CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 def: "." [http://flybase.org/reports/FBgg0000924.html]
 synonym: "OXRNAD" EXACT []
 is_a: http://flybase.org/reports/FBgg0000922 ! CH-OH GROUP OXIDOREDUCTASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001074
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: 3-HYDROXYACYL-COA DEHYDROGENASES
-def: "." [http://flybase.org/reports/FBgg0001074.html]
-synonym: "HADH" EXACT []
-is_a: http://flybase.org/reports/FBgg0000924 ! CH-OH OXIDOREDUCTASES, NAD OR NADP AS ACCEPTOR
 
 [Term]
 id: http://flybase.org/reports/FBgg0001993
@@ -8973,6 +9061,110 @@ is_a: http://flybase.org/reports/FBgg0000630 ! HISTONE MRNA 3' END PROCESSING FA
 is_a: http://flybase.org/reports/FBgg0000631 ! SMALL NUCLEAR RIBONUCLEOPROTEIN PARTICLES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002156
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HOST DEFENSE PEPTIDES
+def: "." [http://flybase.org/reports/FBgg0002156.html]
+synonym: "HDP" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0001101
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ANTIMICROBIAL PEPTIDES
+def: "." [http://flybase.org/reports/FBgg0001101.html]
+synonym: "AMP" EXACT []
+is_a: http://flybase.org/reports/FBgg0002156 ! HOST DEFENSE PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001099
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ATTACINS
+def: "." [http://flybase.org/reports/FBgg0001099.html]
+synonym: "ATT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001100
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CECROPINS
+def: "." [http://flybase.org/reports/FBgg0001100.html]
+synonym: "CEC" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002159
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DEFENSINS
+def: "." [http://flybase.org/reports/FBgg0002159.html]
+synonym: "DEFN" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002158
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DIPTERICINS
+def: "." [http://flybase.org/reports/FBgg0002158.html]
+synonym: "DPT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002157
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DROSOCINS
+def: "." [http://flybase.org/reports/FBgg0002157.html]
+synonym: "DCNS" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000169
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DROSOMYCINS
+def: "." [http://flybase.org/reports/FBgg0000169.html]
+synonym: "DRS" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002160
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: METCHNIKOWINS
+def: "." [http://flybase.org/reports/FBgg0002160.html]
+synonym: "METK" EXACT []
+is_a: http://flybase.org/reports/FBgg0001101 ! ANTIMICROBIAL PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000721
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: BOMANINS
+def: "." [http://flybase.org/reports/FBgg0000721.html]
+synonym: "BOM" EXACT []
+is_a: http://flybase.org/reports/FBgg0002156 ! HOST DEFENSE PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001784
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: DAISHO PEPTIDES
+def: "." [http://flybase.org/reports/FBgg0001784.html]
+synonym: "DSO" EXACT []
+is_a: http://flybase.org/reports/FBgg0002156 ! HOST DEFENSE PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0001818
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TURANDOTS
+def: "." [http://flybase.org/reports/FBgg0001818.html]
+synonym: "TOT" EXACT []
+is_a: http://flybase.org/reports/FBgg0002156 ! HOST DEFENSE PEPTIDES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002161
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: UNCLASSIFIED HOST DEFENSE PEPTIDES
+def: "." [http://flybase.org/reports/FBgg0002161.html]
+synonym: "HDP-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0002156 ! HOST DEFENSE PEPTIDES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000363
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HOX GENE COMPLEX
@@ -9311,7 +9503,7 @@ is_a: http://flybase.org/reports/FBgg0000046 ! INTRAFLAGELLAR TRANSPORT COMPLEXE
 [Term]
 id: http://flybase.org/reports/FBgg0000196
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RETROMER
+name: RETROMER COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000196.html]
 synonym: "RETRO" EXACT []
 is_a: http://flybase.org/reports/FBgg0000056 ! INTRACELLULAR TRANSPORT COAT, SCAFFOLD AND ADAPTOR PROTEINS
@@ -10218,6 +10410,14 @@ name: POSITIVE REGULATORS OF NOTCH SIGNALING PATHWAY
 def: "." [http://flybase.org/reports/FBgg0001069.html]
 synonym: "NTCH-P" EXACT []
 is_a: http://flybase.org/reports/FBgg0001068 ! NOTCH SIGNALING PATHWAY
+
+[Term]
+id: http://flybase.org/reports/FBgg0002165
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NUCLEAR EXOSOME TARGETING COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002165.html]
+synonym: "NEXT" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001193
@@ -12644,6 +12844,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SCRIBBLE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001762.html]
 synonym: "SCRIBC" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002182
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SELENOPROTEINS
+def: "." [http://flybase.org/reports/FBgg0002182.html]
+synonym: "SEL" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -17151,6 +17359,62 @@ synonym: "MPT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001932 ! PROTEIN TRANSLOCASES
 
 [Term]
+id: http://flybase.org/reports/FBgg0002014
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: MITOCHONDRIAL INTERMEMBRANE SPACE TIM CHAPERONE COMPLEXES
+def: "." [http://flybase.org/reports/FBgg0002014.html]
+synonym: "TIMS" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002015
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM8-TIM13 COMPLEX - CG34132 VARIANT
+def: "." [http://flybase.org/reports/FBgg0002015.html]
+synonym: "TIM813-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! MITOCHONDRIAL INTERMEMBRANE SPACE TIM CHAPERONE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002016
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM8-TIM13 COMPLEX - TIM13 VARIANT (TESTIS)
+def: "." [http://flybase.org/reports/FBgg0002016.html]
+synonym: "TIM813-T" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! MITOCHONDRIAL INTERMEMBRANE SPACE TIM CHAPERONE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002168
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM9-TIM10 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002168.html]
+synonym: "TIM910" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! MITOCHONDRIAL INTERMEMBRANE SPACE TIM CHAPERONE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002169
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM9A-TIM10-TIM9B COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002169.html]
+synonym: "TIM-3SU" EXACT []
+is_a: http://flybase.org/reports/FBgg0002014 ! MITOCHONDRIAL INTERMEMBRANE SPACE TIM CHAPERONE COMPLEXES
+
+[Term]
+id: http://flybase.org/reports/FBgg0002167
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SORTING AND ASSEMBLY MACHINERY COMPLEX - CG5662 VARIANT
+def: "." [http://flybase.org/reports/FBgg0002167.html]
+synonym: "SAM-T" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002166
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SORTING AND ASSEMBLY MACHINERY COMPLEX - Mtx2 VARIANT
+def: "." [http://flybase.org/reports/FBgg0002166.html]
+synonym: "SAM-U" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
 id: http://flybase.org/reports/FBgg0001906
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SORTING AND ASSEMBLY MACHINERY COMPLEX SUBUNITS
@@ -17160,35 +17424,19 @@ is_a: http://flybase.org/reports/FBgg0001946 ! MITOCHONDRIAL INTERMEMBRANE SPACE
 is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
-id: http://flybase.org/reports/FBgg0002014
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TIM8-TIM13 COMPLEXES
-def: "." [http://flybase.org/reports/FBgg0002014.html]
-synonym: "TIM813" EXACT []
-is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
-
-[Term]
-id: http://flybase.org/reports/FBgg0002015
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TIM8-TIM13 COMPLEX - CG34132 VARIANT
-def: "." [http://flybase.org/reports/FBgg0002015.html]
-synonym: "TIM813-U" EXACT []
-is_a: http://flybase.org/reports/FBgg0002014 ! TIM8-TIM13 COMPLEXES
-
-[Term]
-id: http://flybase.org/reports/FBgg0002016
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TIM8-TIM13 COMPLEX - TIM13 VARIANT (TESTIS)
-def: "." [http://flybase.org/reports/FBgg0002016.html]
-synonym: "TIM813-T" EXACT []
-is_a: http://flybase.org/reports/FBgg0002014 ! TIM8-TIM13 COMPLEXES
-
-[Term]
 id: http://flybase.org/reports/FBgg0001905
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TIM22 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0001905.html]
 synonym: "TIMM22" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002163
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM23 MITOCHONDRIAL IMPORT INNER MEMBRANE SORT COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002163.html]
+synonym: "TIM23-SORT" EXACT []
 is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
@@ -17205,6 +17453,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PRESEQUENCE TRANSLOCASE-ASSOCIATED MOTOR SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001908.html]
 synonym: "PAM" EXACT []
+is_a: http://flybase.org/reports/FBgg0001907 ! TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0001912
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM23 ACCESSORY SUBUNITS
+def: "." [http://flybase.org/reports/FBgg0001912.html]
+synonym: "TIM23SSU" EXACT []
 is_a: http://flybase.org/reports/FBgg0001907 ! TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
 
 [Term]
@@ -17234,20 +17490,20 @@ is_a: http://flybase.org/reports/FBgg0001903 ! TIM17-RELATED FAMILY
 is_a: http://flybase.org/reports/FBgg0001909 ! TIM23 TRANSLOCASE CORE SUBUNITS
 
 [Term]
-id: http://flybase.org/reports/FBgg0001912
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TIM23[SORT]-SPECIFIC SUBUNITS
-def: "." [http://flybase.org/reports/FBgg0001912.html]
-synonym: "TIM23SSU" EXACT []
-is_a: http://flybase.org/reports/FBgg0001907 ! TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
-
-[Term]
 id: http://flybase.org/reports/FBgg0001913
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TIM50 PRESEQUENCE RECEPTOR SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001913.html]
 synonym: "TIM50F" EXACT []
 is_a: http://flybase.org/reports/FBgg0001907 ! TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE COMPLEX SUBUNITS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002164
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TIM23 TRANSLOCASE OF INNER MITOCHONDRIAL MEMBRANE MOTOR COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002164.html]
+synonym: "TIM23-MOTOR" EXACT []
+is_a: http://flybase.org/reports/FBgg0001904 ! MITOCHONDRIAL PROTEIN TRANSPORT SYSTEM
 
 [Term]
 id: http://flybase.org/reports/FBgg0001898
@@ -18016,14 +18272,6 @@ name: GAMMA TUBULINS
 def: "." [http://flybase.org/reports/FBgg0000253.html]
 synonym: "G-TUB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000250 ! TUBULINS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001818
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: TURANDOT GENES
-def: "." [http://flybase.org/reports/FBgg0001818.html]
-synonym: "TOT" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
 id: http://flybase.org/reports/FBgg0001751
