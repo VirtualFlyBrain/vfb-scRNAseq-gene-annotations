@@ -61,12 +61,14 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 # 1. gene groups obo file
 # https://svn.flybase.org/flybase/release_browse_lists/<latest FB release>/ > tmp/gene_groups.obo
 # then make components/gene_groups.obo
+# from https://s3ftp.flybase.org/releases/current/precomputed_files/:
+# all dated now (`current` in url doesn't work)
 # 2. mapped FBgns
-# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_current.tsv.gz > tmp/fbgn_fbtr_fbpp.tsv.gz
+# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_<current>.tsv.gz > tmp/fbgn_fbtr_fbpp.tsv.gz
 # 3. GAF
 # https://s3ftp.flybase.org/releases/current/precomputed_files/go/gene_association.fb.gz > tmp/gene_association.tsv.gz
 # 4. GG data
-# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/gene_group_data_current.tsv.gz > tmp/gene_group_data.tsv.gz
+# https://s3ftp.flybase.org/releases/current/precomputed_files/genes/gene_group_data_<current>.tsv.gz > tmp/gene_group_data.tsv.gz
 # scripted download from s3ftp doesn't work
 # wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz
 $(TMPDIR)/mapped_FBgn_list.txt: setup_venv | $(TMPDIR)
