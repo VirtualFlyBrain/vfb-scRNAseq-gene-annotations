@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/merged_import.owl>
-<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2026-06-25/imports/merged_import.owl>
-Annotation(owl:versionInfo "2026-06-25")
+<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2026-10-02/imports/merged_import.owl>
+Annotation(owl:versionInfo "2026-10-02")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -48,7 +48,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000226>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000228>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000262>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000268>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000285>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000287>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000295>))
@@ -1412,7 +1411,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010468>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010469>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010484>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010485>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010496>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010498>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010506>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010507>))
@@ -1983,9 +1981,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0017176>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0017178>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018108>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018193>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018205>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018212>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018392>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018423>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0018445>))
@@ -3755,6 +3751,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097602>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097603>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097604>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097677>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097678>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0097682>))
@@ -4128,6 +4125,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160041>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160072>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160108>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160128>))
@@ -4157,8 +4155,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170023>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170033>))
-Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170034>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170038>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170039>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0170053>))
@@ -5509,13 +5505,6 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0000262> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000262> <http://purl.obolibrary.org/obo/GO_0005694>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000262> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0042645>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0000268> (peroxisome signal sequence receptor activity)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20659419") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0000268> "Binding to a peroxisomal targeting sequence, a short stretch of amino acids found in a protein that acts as a signal to localize the protein to the peroxisome.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0000268> "PTS binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000268> "peroxisome signal sequence receptor activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0000268> <http://purl.obolibrary.org/obo/GO_0005048>)
-
 # Class: <http://purl.obolibrary.org/obo/GO_0000285> (1-phosphatidylinositol-3-phosphate 5-kinase activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:2.7.1.150") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:13609") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0000285> "Catalysis of the reaction: a 1-phosphatidyl-1D-myo-inositol 3-phosphate + ATP = a 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate + ADP + H+.")
@@ -5651,7 +5640,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0005310>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0015078>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0015175>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0015179>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0072349>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0000514> <http://purl.obolibrary.org/obo/GO_0140848>)
 
@@ -7104,14 +7092,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003839> "gamma-glutamylcyclotransferase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003839> <http://purl.obolibrary.org/obo/GO_0016842>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0003842> (L-glutamate gamma-semialdehyde dehydrogenase activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0003842> (L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:30235") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003842> "L-glutamate 5-semialdehyde + NAD+ + H2O = L-glutamate + NADH + 2 H+.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003842> "EC:1.2.1.88")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003842> "MetaCyc:RXN-14116")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003842> "RHEA:30235")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003842> "L-glutamate gamma-semialdehyde dehydrogenase activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0003842> <http://purl.obolibrary.org/obo/GO_0016620>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003842> "L-glutamate gamma-semialdehyde dehydrogenase (NAD+) activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003842> <http://purl.obolibrary.org/obo/GO_0004029>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0003846> (2-acylglycerol O-acyltransferase activity)
 
@@ -7212,7 +7200,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0003874> <http://purl.obolibrary.o
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:3.2.2.19") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003875> "Catalysis of the reactions: H2O + N(omega)-(ADP-D-ribosyl)-L-arginyl-[protein] = ADP-D-ribose + L-arginyl-[protein], and H2O + N(omega)-(ADP-D-ribosyl)-L-arginine = ADP-D-ribose + L-arginine.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "EC:3.2.2.19")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "skos:narrowMatch") <http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "MetaCyc:3.2.2.24-RXN")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "MetaCyc:3.2.2.24-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "MetaCyc:ADP-RIBOSYLARGININE-HYDROLASE-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "MetaCyc:RXN-8732")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003875> "RHEA:14493")
@@ -7723,6 +7711,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003997> "RHEA:66232")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003997> "RHEA:66236")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003997> "RHEA:67212")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003997> "RHEA:86619")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0003997> "RHEA:86699")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003997> "acyl-CoA oxidase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0003997> <http://purl.obolibrary.org/obo/GO_0016634>)
 
@@ -7829,12 +7819,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:16317")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:16821")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:23552")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:25225")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:30027")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:32343")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:34347")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:35463")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:35615")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:37167")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:37963")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:38215")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:41984")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004022> "RHEA:42012")
@@ -7973,7 +7965,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0004031> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.1.1.21") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004032> "Catalysis of the reaction: an alditol + NADP+ = an aldose + NADPH + H+.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004032> "KEGG_REACTION:R02820")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004032> "RHEA:12789")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004032> "RHEA:37967")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004032> "RHEA:59924")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004032> "RHEA:59932")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004032> "alditol:NADP+ 1-oxidoreductase activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004032> "aldose reductase (NADPH) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004032> <http://purl.obolibrary.org/obo/GO_0008106>)
@@ -8046,6 +8040,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "EC:3.5.1.14")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "MetaCyc:AMINOACYLASE-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:15565")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:28598")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:36855")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:47124")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:49796")
@@ -8087,6 +8082,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:81115")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:81119")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:81123")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:86755")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:86759")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004046> "RHEA:86767")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004046> "aminoacylase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004046> <http://purl.obolibrary.org/obo/GO_0016811>)
 
@@ -8748,13 +8746,19 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:49932")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:77195")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:83231")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84219")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84487")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84491")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84495")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84503")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84547")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84555")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84559")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84563")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84783")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84843")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84851")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004165> "RHEA:84855")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:5.3.3.8") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004165> "delta3-cis-delta2-trans-enoyl-CoA isomerase")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004165> "delta3-delta2 enoyl-CoA isomerase activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004165> "delta(3)-delta(2)-enoyl-CoA isomerase activity")
@@ -9339,7 +9343,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004349> "glut
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004349> <http://purl.obolibrary.org/obo/GO_0016774>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004349> <http://purl.obolibrary.org/obo/GO_0019202>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0004350> (glutamate-5-semialdehyde dehydrogenase activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0004350> (glutamate-5-semialdehyde dehydrogenase (NADP+) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.2.1.41") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:19541") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004350> "Catalysis of the reaction: L-glutamate 5-semialdehyde + NADP+ + phosphate = L-glutamyl 5-phosphate + H+ + NADPH.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004350> "EC:1.2.1.41")
@@ -9348,7 +9352,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004350> "RHEA:19541")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004350> "glutamate-phosphate reductase activity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004350> "glutamylphosphate reductase activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004350> "glutamate-5-semialdehyde dehydrogenase activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004350> "glutamate-5-semialdehyde dehydrogenase (NADP+) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004350> <http://purl.obolibrary.org/obo/GO_0016620>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004351> (glutamate decarboxylase activity)
@@ -9988,7 +9992,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0004485> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004487> (methylenetetrahydrofolate dehydrogenase (NAD+) activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:22892") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004487> "Catalysis of the reaction: 5,10-methylenetetrahydrofolate + NAD+ = 5,10-methenyltetrahydrofolate + NADH.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:22892") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004487> "Catalysis of the reaction: (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NAD+ = (6R)-5,10-methenyltetrahydrofolate + NADH.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004487> "EC:1.5.1.15")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004487> "KEGG_REACTION:R01218")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004487> "MetaCyc:1.5.1.15-RXN")
@@ -9998,7 +10002,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0004487> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004488> (methylenetetrahydrofolate dehydrogenase (NADP+) activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.5.1.5") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:22812") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004488> "Catalysis of the reaction: 5,10-methylenetetrahydrofolate + NADP+ = 5,10-methenyltetrahydrofolate + NADPH.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:22812") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004488> "Catalysis of the reaction: (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NADP+ = (6R)-5,10-methenyltetrahydrofolate + NADPH.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004488> "EC:1.5.1.5")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004488> "KEGG_REACTION:R01220")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004488> "MetaCyc:METHYLENETHFDEHYDROG-NADP-RXN")
@@ -10008,17 +10012,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0004488> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004489> (methylenetetrahydrofolate reductase [NAD(P)H] activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.5.1.20") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26872964") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004489> "Catalysis of the reaction: 5-methyltetrahydrofolate + NAD(P)+ = 5,10-methylenetetrahydrofolate + NAD(P)H + H+.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.5.1.20") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26872964") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004489> "Catalysis of the reaction: (6S)-5-methyl-5,6,7,8-tetrahydrofolate + NAD(P)+ = (6R)-5,10-methylene-5,6,7,8-tetrahydrofolate + NAD(P)H + H+.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004489> "EC:1.5.1.20")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004489> "KEGG_REACTION:R01224")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004489> "KEGG_REACTION:R07168")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004489> "MetaCyc:1.5.1.20-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004489> "5,10-methylenetetrahydrofolate reductase (FADH) activity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0004489> "5,10-methylenetetrahydrofolate reductase (FADH2) activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004489> "methylenetetrahydrofolate reductase [NAD(P)H] activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004489> <http://purl.obolibrary.org/obo/GO_0016646>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0004491> (methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0004491> (methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.2.1.27") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:2768248") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0004491> "Catalysis of the reaction: 2-methyl-3-oxopropanoate + CoA + NAD+ = propanoyl-CoA + hydrogencarbonate + NADH + H+. Can also use malonate (3-oxopropanoate) as a substrate. The reaction occurs in two steps with the decarboxylation process preceding CoA-binding. Bicarbonate rather than CO2 is released as a final product.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004491> "EC:1.2.1.27")
@@ -10027,7 +10029,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004491> "RHEA:76615")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004491> "RHEA:76623")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004491> "RHEA:76627")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004491> "methylmalonate-semialdehyde dehydrogenase (acylating, NAD) activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004491> "methylmalonate-semialdehyde dehydrogenase (acylating, NAD+) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004491> <http://purl.obolibrary.org/obo/GO_0016620>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004496> (mevalonate kinase activity)
@@ -11586,6 +11588,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004777> "MetaCyc:SUCCINATE-SEMIALDEHYDE-DEHYDROGENASE-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004777> "RHEA:13217")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0004777> "succinate-semialdehyde dehydrogenase (NAD+) activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0004777> <http://purl.obolibrary.org/obo/GO_0004029>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0004777> <http://purl.obolibrary.org/obo/GO_0009013>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0004782> (sulfinoalanine decarboxylase activity)
@@ -11732,7 +11735,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40047")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40055")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40475")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40611")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40615")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40619")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40623")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40627")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:40631")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:43732")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:44864")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0004806> "RHEA:47864")
@@ -12467,24 +12475,22 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0005049> ObjectIntersection
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005049> <http://purl.obolibrary.org/obo/GO_0140142>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005049> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0051168>))
 
-# Class: <http://purl.obolibrary.org/obo/GO_0005052> (peroxisome matrix targeting signal-1 binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0005052> (obsolete peroxisome matrix targeting signal-1 binding)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11687502") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005052> "Binding to a type 1 peroxisome targeting signal, a tripeptide with the consensus sequence (S/A/C)-(K/R/H)-L.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11687502") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005052> "OBSOLETE. Binding to a type 1 peroxisome targeting signal, a tripeptide with the consensus sequence (S/A/C)-(K/R/H)-L.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005052> "PTS1 binding")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005052> "peroxisomal targeting signal 1 (PTS1) binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005052> "peroxisome targeting signal-1 binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005052> "peroxisome matrix targeting signal-1 binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0005052> <http://purl.obolibrary.org/obo/GO_0000268>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005052> "obsolete peroxisome matrix targeting signal-1 binding")
 
-# Class: <http://purl.obolibrary.org/obo/GO_0005053> (peroxisome matrix targeting signal-2 binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0005053> (obsolete peroxisome matrix targeting signal-2 binding)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11687502") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005053> "Binding to a type 2 peroxisome targeting signal, a nonapeptide with a broad consensus sequence of (R/K)-(L/V/I)-(XXXXX)-(H/Q)-(L/A/F).")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11687502") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005053> "OBSOLETE. Binding to a type 2 peroxisome targeting signal, a nonapeptide with a broad consensus sequence of (R/K)-(L/V/I)-(XXXXX)-(H/Q)-(L/A/F).")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005053> "PTS2 binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005053> "PTS2 receptor")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005053> "peroxisomal targeting signal 2 (PTS2) binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0005053> "peroxisome targeting signal-2 binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005053> "peroxisome matrix targeting signal-2 binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0005053> <http://purl.obolibrary.org/obo/GO_0000268>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005053> "obsolete peroxisome matrix targeting signal-2 binding")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005055> (laminin receptor activity)
 
@@ -13132,6 +13138,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005324> "RHEA:45256")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005324> "RHEA:45264")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005324> "RHEA:71395")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005324> "RHEA:86475")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0005324> "RHEA:86483")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005324> "long-chain fatty acid transmembrane transporter activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005324> <http://purl.obolibrary.org/obo/GO_0015245>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005324> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0015909>))
@@ -13609,6 +13617,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005524> "ATP binding")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005524> <http://purl.obolibrary.org/obo/GO_0032559>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005524> <http://purl.obolibrary.org/obo/GO_0035639>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005524> <http://purl.obolibrary.org/obo/GO_0043168>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005525> (GTP binding)
 
@@ -13616,6 +13625,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005525> "GTP binding")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005525> <http://purl.obolibrary.org/obo/GO_0032561>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0005525> <http://purl.obolibrary.org/obo/GO_0035639>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005525> <http://purl.obolibrary.org/obo/GO_0043168>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0005527> (macrolide binding)
 
@@ -14630,6 +14640,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006754> "ATP formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0006754> "ATP synthesis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006754> "ATP biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006754> <http://purl.obolibrary.org/obo/GO_0009142>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006754> <http://purl.obolibrary.org/obo/GO_0009152>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006754> <http://purl.obolibrary.org/obo/GO_0009206>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0006754> <http://purl.obolibrary.org/obo/GO_0046034>)
@@ -15276,6 +15287,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0007275> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dgh") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007399> "The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007399> "nervous system development")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0007399> <http://purl.obolibrary.org/obo/GO_0048731>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007399> <http://purl.obolibrary.org/obo/GO_0160108>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0007409> (axonogenesis)
 
@@ -15670,6 +15682,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "KEGG_REACTION:R01853")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "KEGG_REACTION:R02173")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "KEGG_REACTION:R02613")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "MetaCyc:AMINEOXID-RXN")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "MetaCyc:RXN-10817")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "MetaCyc:RXN-1401")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "MetaCyc:RXN-9597")
@@ -15694,7 +15707,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "RHEA:71015")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008131> "RHEA:78367")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008131> "primary methylamine oxidase activity")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0008131> <http://purl.obolibrary.org/obo/GO_0016641>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008131> <http://purl.obolibrary.org/obo/GO_0097621>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008134> (transcription factor binding)
 
@@ -15732,14 +15745,13 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008138> "protein tyrosine/serine/threonine phosphatase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008138> <http://purl.obolibrary.org/obo/GO_0004721>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0008139> (nuclear localization sequence binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0008139> (obsolete nuclear localization sequence binding)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008139> "Binding to a nuclear localization sequence, a specific peptide sequence that acts as a signal to localize the protein within the nucleus.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008139> "OBSOLETE. Binding to a nuclear localization sequence, a specific peptide sequence that acts as a signal to localize the protein within the nucleus.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008139> "NLS binding")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008139> "nuclear localisation sequence binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0008139> "nuclear localization signal binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008139> "nuclear localization sequence binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0008139> <http://purl.obolibrary.org/obo/GO_0005048>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008139> "obsolete nuclear localization sequence binding")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0008140> (cAMP response element binding protein binding)
 
@@ -17770,7 +17782,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0009137> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198506732") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009141> "The chemical reactions and pathways involving a nucleoside triphosphate, a compound consisting of a nucleobase linked to a deoxyribose or ribose sugar esterified with triphosphate on the sugar.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009141> "nucleoside triphosphate metabolism")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009141> "nucleoside triphosphate metabolic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0009141> <http://purl.obolibrary.org/obo/GO_0006753>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009141> <http://purl.obolibrary.org/obo/GO_0006793>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0009142> (nucleoside triphosphate biosynthetic process)
 
@@ -17780,15 +17792,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009142> "nucleoside triphosphate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009142> "nucleoside triphosphate synthesis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009142> "nucleoside triphosphate biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009142> <http://purl.obolibrary.org/obo/GO_0009058>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0009142> <http://purl.obolibrary.org/obo/GO_0009141>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0009142> <http://purl.obolibrary.org/obo/GO_1901293>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0009144> (purine nucleoside triphosphate metabolic process)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198506732") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009144> "The chemical reactions and pathways involving purine nucleoside triphosphate, a compound consisting of a purine base linked to a ribose or deoxyribose sugar esterified with triphosphate on the sugar.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009144> "purine nucleoside triphosphate metabolism")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009144> "purine nucleoside triphosphate metabolic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0009144> <http://purl.obolibrary.org/obo/GO_0009141>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009144> <http://purl.obolibrary.org/obo/GO_0006753>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0009145> (purine nucleoside triphosphate biosynthetic process)
 
@@ -17798,8 +17810,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009145> "purine nucleoside triphosphate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009145> "purine nucleoside triphosphate synthesis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009145> "purine nucleoside triphosphate biosynthetic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0009145> <http://purl.obolibrary.org/obo/GO_0009142>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0009145> <http://purl.obolibrary.org/obo/GO_0009144>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009145> <http://purl.obolibrary.org/obo/GO_1901293>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0009150> (purine ribonucleotide metabolic process)
 
@@ -18012,7 +18024,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009201> "ribonucleoside triphosphate formation")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0009201> "ribonucleoside triphosphate synthesis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009201> "ribonucleoside triphosphate biosynthetic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0009201> <http://purl.obolibrary.org/obo/GO_0009142>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009201> <http://purl.obolibrary.org/obo/GO_1901293>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0009205> (purine ribonucleoside triphosphate metabolic process)
 
@@ -18649,13 +18661,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0010485> "H4 histone acetyltransferase activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010485> "histone H4 acetyltransferase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0010485> <http://purl.obolibrary.org/obo/GO_0004402>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0010496> (intercellular transport)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:dhl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010496> "The movement of substances between cells.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010496> "intercellular transport")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0010496> <http://purl.obolibrary.org/obo/GO_0006810>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0010496> <http://purl.obolibrary.org/obo/GO_0009987>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0010498> (proteasomal protein catabolic process)
 
@@ -21715,9 +21720,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:82931")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:82999")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83031")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83075")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83079")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83139")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83215")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83327")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83363")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83379")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016509> "RHEA:83395")
@@ -22414,7 +22421,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0016790> <http://purl.obolibrary.o
 
 # Class: <http://purl.obolibrary.org/obo/GO_0016791> (phosphatase activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016791> "Catalysis of the hydrolysis of a phosphoric monoester, releasing a phosphate.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016791> "Catalysis of the hydrolysis of a phosphoric monoester, releasing a phosphate.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0016791> "EC:3.1.3.-")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0016791> "phosphoric monoester hydrolase activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016791> "phosphatase activity")
@@ -23396,25 +23403,12 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018108> "RESID:AA0039")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018108> "peptidyl-tyrosine phosphorylation")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0018108> <http://purl.obolibrary.org/obo/GO_0006468>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0018108> <http://purl.obolibrary.org/obo/GO_0018212>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0018193> (peptidyl-amino acid modification)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0018193> "The alteration of an amino acid residue in a peptide.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018193> "peptidyl-amino acid modification")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0018193> <http://purl.obolibrary.org/obo/GO_0036211>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0018205> (peptidyl-lysine modification)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0018205> "The modification of peptidyl-lysine.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018205> "peptidyl-lysine modification")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0018205> <http://purl.obolibrary.org/obo/GO_0018193>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0018212> (peptidyl-tyrosine modification)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0018212> "The modification of peptidyl-tyrosine.")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0018212> "peptidyl-tyrosine modification")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0018212> <http://purl.obolibrary.org/obo/GO_0018193>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0018205> <http://purl.obolibrary.org/obo/GO_0036211>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0018392> (glycoprotein 3-alpha-L-fucosyltransferase activity)
 
@@ -23529,6 +23523,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84407")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84627")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84631")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84655")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84659")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84663")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0018812> "RHEA:84667")
@@ -23918,6 +23913,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0019693> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ai") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:36683") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019706> "Catalysis of the transfer of a palmitoyl (systematic name, hexadecanoyl) group to a sulfur atom on the cysteine of a protein molecule, in the reaction hexadecanoyl-CoA + L-cysteinyl-[protein] = CoA + S-hexadecanoyl-L-cysteinyl-[protein].")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0019706> "EC:2.3.1.225")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0019706> "RHEA:36683")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0019706> "RHEA:67388")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019706> "protein-cysteine S-palmitoyltransferase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0019706> <http://purl.obolibrary.org/obo/GO_0016409>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0019706> <http://purl.obolibrary.org/obo/GO_0019707>)
@@ -25339,12 +25335,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030942> "endoplasmic reticulum signal sequence receptor activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0030942> <http://purl.obolibrary.org/obo/GO_0005048>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0030943> (mitochondrion targeting sequence binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0030943> (obsolete mitochondrion targeting sequence binding)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030943> "Binding to a mitochondrion targeting sequence, a specific peptide sequence that acts as a signal to localize the protein within the mitochondrion.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030943> "OBSOLETE. Binding to a mitochondrion targeting sequence, a specific peptide sequence that acts as a signal to localize the protein within the mitochondrion.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0030943> "mitochondrial targeting sequence binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030943> "mitochondrion targeting sequence binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0030943> <http://purl.obolibrary.org/obo/GO_0005048>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030943> "obsolete mitochondrion targeting sequence binding")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0030946> (protein tyrosine phosphatase activity, metal-dependent)
 
@@ -27279,15 +27274,14 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033296> "rhamnose binding")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0033296> <http://purl.obolibrary.org/obo/GO_0048029>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0033328> (peroxisome membrane targeting sequence binding)
+# Class: <http://purl.obolibrary.org/obo/GO_0033328> (obsolete peroxisome membrane targeting sequence binding)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:rb") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15133130") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17020786") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0033328> "Binding to a peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:rb") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15133130") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:17020786") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0033328> "OBSOLETE. Binding to a peroxisomal membrane targeting sequence, any of several sequences of amino acids within a protein that can act as a signal for the localization of the protein into the peroxisome membrane.")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033328> "PMP targeting signal (mPTS) binding")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033328> "PMP targeting signal binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033328> "mPTS binding")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:14709540") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0033328> "peroxisomal membrane protein (PMP) targeting signal (mPTS) binding")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033328> "peroxisome membrane targeting sequence binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0033328> <http://purl.obolibrary.org/obo/GO_0000268>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0033328> "obsolete peroxisome membrane targeting sequence binding")
 
 # Class: <http://purl.obolibrary.org/obo/GO_0033549> (MAP kinase phosphatase activity)
 
@@ -28717,9 +28711,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0035615> ObjectSomeValuesFrom(<htt
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:BHF") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:ebc") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198506732") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0035639> "Binding to a purine ribonucleoside triphosphate, a compound consisting of a purine base linked to a ribose sugar esterified with triphosphate on the sugar.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035639> "purine ribonucleoside triphosphate binding")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0035639> <http://purl.obolibrary.org/obo/GO_0043168>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0035639> <http://purl.obolibrary.org/obo/GO_1901265>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0035639> <http://purl.obolibrary.org/obo/GO_1901363>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0035642> (histone H3R17 methyltransferase activity)
 
@@ -31088,7 +31080,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043874> "acireductone synthase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043874> <http://purl.obolibrary.org/obo/GO_0016791>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0043891> (glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0043891> (glyceraldehyde-3-phosphate dehydrogenase (phosphorylating, [NAD(P)+] ) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:1.2.1.59") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043891> "Catalysis of the reaction: D-glyceraldehyde 3-phosphate + phosphate + NAD(P)+ = 3-phospho-D-glyceroyl phosphate + NAD(P)H + H+.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0043891> "EC:1.2.1.59")
@@ -31096,7 +31088,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043891> "D-glyceraldehyde 3-phosphate:NAD(P)+ oxidoreductase (phosphorylating)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043891> "glyceraldehyde-3-phosphate dehydrogenase (NAD(P)) (phosphorylating)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0043891> "triosephosphate dehydrogenase (NAD(P))")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043891> "glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] (phosphorylating) activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043891> "glyceraldehyde-3-phosphate dehydrogenase (phosphorylating, [NAD(P)+] ) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0043891> <http://purl.obolibrary.org/obo/GO_0016620>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0043933> (protein-containing complex organization)
@@ -32331,6 +32323,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0046032> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:curators") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0046034> "The chemical reactions and pathways involving ATP, adenosine triphosphate, a universally important coenzyme and enzyme regulator.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0046034> "ATP metabolism")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046034> "ATP metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046034> <http://purl.obolibrary.org/obo/GO_0009141>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046034> <http://purl.obolibrary.org/obo/GO_0009150>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0046034> <http://purl.obolibrary.org/obo/GO_0009205>)
 
@@ -33180,19 +33173,25 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "EC:3.1.1.23")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "MetaCyc:RXN-19280")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:15245")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:26132")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:32875")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:34019")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:38363")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:38487")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:38491")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:39959")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:39963")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:40603")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:40607")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44312")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44316")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44320")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44328")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44688")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44728")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:44732")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:47072")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:48428")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:58040")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:58076")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0047372> "RHEA:58080")
@@ -34998,7 +34997,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051168> "substance nuclear export")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051168> "nuclear export")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051168> <http://purl.obolibrary.org/obo/GO_0006913>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0051168> <http://purl.obolibrary.org/obo/GO_0010496>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0051169> (nuclear transport)
 
@@ -35015,7 +35013,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051170> "nuclear translocation")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051170> "import into nucleus")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051170> <http://purl.obolibrary.org/obo/GO_0006913>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0051170> <http://purl.obolibrary.org/obo/GO_0010496>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0051174> (regulation of phosphorus metabolic process)
 
@@ -35048,7 +35045,6 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051209> "cytosolic release of stored calcium ion (Ca2+)")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0051209> "release of stored calcium ion (Ca2+) into cytosol")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051209> "release of sequestered calcium ion into cytosol")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0051209> <http://purl.obolibrary.org/obo/GO_0010496>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051209> <http://purl.obolibrary.org/obo/GO_0097553>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0051213> (dioxygenase activity)
@@ -39140,7 +39136,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080007> "S-nitrosoglutathione reductase (NADH) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0080007> <http://purl.obolibrary.org/obo/GO_0016616>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0080019> (alcohol-forming very long-chain fatty acyl-CoA reductase activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0080019> (alcohol-forming very long-chain fatty acyl-CoA reductase (NADP+) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16980563") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:81751") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0080019> "Catalysis of the reaction: a very long-chain fatty acyl-CoA + 2 NADPH + 2 H+ = a very long-chain primary fatty alcohol + 2 NADP+ + CoA.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080019> "MetaCyc:RXNQT-4192")
@@ -39151,7 +39147,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080019> "RHEA:81779")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0080019> "fatty acyl CoA reductase (alcohol-forming) activity")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0080019> "fatty acyl-CoA reductase (alcohol-forming) activity")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080019> "alcohol-forming very long-chain fatty acyl-CoA reductase activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080019> "alcohol-forming very long-chain fatty acyl-CoA reductase (NADP+) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0080019> <http://purl.obolibrary.org/obo/GO_0016620>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0080023> ((2E)-enoyl-CoA hydratase activity)
@@ -39205,6 +39201,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:78863")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:78867")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:78931")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:84807")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:84811")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:84823")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:84915")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:84919")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:86491")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:86587")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0080023> "RHEA:86595")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0080023> "(3R)-3-hydroxyacyl-CoA dehydratase activity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0080023> "3R-hydroxyacyl-CoA dehydratase activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080023> "(2E)-enoyl-CoA hydratase activity")
@@ -39814,6 +39818,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097604> "temperature-gated cation channel activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097604> <http://purl.obolibrary.org/obo/GO_0005261>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0097604> <http://purl.obolibrary.org/obo/GO_0097603>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0097621> (monoamine oxidase activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pr") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:15279562") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:16129825") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0097621> "Catalysis of the reaction: RCH2NHR' + H2O + O2 = RCHO + R'NH2 + H2O2.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0097621> "EC:1.4.3.4")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0097621> "RHEA:26414")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0097621> "RHEA:51168")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0097621> "amine:oxygen oxidoreductase (deaminating) activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0097621> "monoamine oxidase activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0097621> <http://purl.obolibrary.org/obo/GO_0016641>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0097677> (STAT family protein binding)
 
@@ -40441,7 +40455,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0102758> "very-long-chain enoyl-CoA reductase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0102758> <http://purl.obolibrary.org/obo/GO_0016628>)
 
-# Class: <http://purl.obolibrary.org/obo/GO_0102965> (alcohol-forming long-chain fatty acyl-CoA reductase activity)
+# Class: <http://purl.obolibrary.org/obo/GO_0102965> (alcohol-forming long-chain fatty acyl-CoA reductase (NADP+) activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pz") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:52716") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0102965> "Catalysis of the reaction: a long-chain fatty acyl-CoA + 2 H+ + 2 NADPH = a long-chain primary fatty alcohol + CoA + 2 NADP+. A long-chain fatty acid has an aliphatic tail containing 13 to 22 carbons.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0102965> "EC:1.2.1.84")
@@ -40454,7 +40468,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0102965> "RHEA:81763")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0102965> "RHEA:81767")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0102965> "RHEA:81771")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0102965> "alcohol-forming long-chain fatty acyl-CoA reductase activity")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0102965> "alcohol-forming long-chain fatty acyl-CoA reductase (NADP+) activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0102965> <http://purl.obolibrary.org/obo/GO_0016620>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0104004> (cellular response to environmental stimulus)
@@ -40777,6 +40791,29 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:78879")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:78935")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:79191")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:83123")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84307")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84383")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84387")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84795")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84803")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84815")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84831")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84867")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84871")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:84875")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:85335")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:85339")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86171")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86175")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86179")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86183")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86187")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86191")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86195")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86199")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86203")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0106386> "RHEA:86207")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0106386> "(3R)-hydroxyacyl-CoA dehydrogenase (NAD) activity")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0106386> "(3R)-hydroxyacyl-CoA dehydrogenase (NAD+) activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0106386> "(3R)-3-hydroxyacyl-CoA dehydrogenase (NAD+) activity")
@@ -41225,6 +41262,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0120558> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:32979") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0120560> "Catalysis of the reaction: a 1-acyl-sn-glycero-3-phospho-L-serine + H2O = sn-glycero-3-phospho-L-serine + a fatty acid + H+.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0120560> "MetaCyc:RXN-20544")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0120560> "RHEA:32979")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0120560> "RHEA:40499")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0120560> "RHEA:44552")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0120560> "RHEA:51184")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0120560> "phosphatidylserine lysophospholipase A1-type activity")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0120560> "phosphatidylserine lysophospholipase A1 activity")
@@ -41598,7 +41637,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0140303> ObjectSomeValuesFrom(<htt
 
 # Class: <http://purl.obolibrary.org/obo/GO_0140309> (unfolded protein holdase activity)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39488384") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0140309> "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein while it's being delivers to its final destination.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:39488384") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0140309> "A protein carrier activity that binds to a protein in an unfolded state and escorts it to an acceptor molecule or to a specific location. The unfolded protein carrier prevents aggregation of the target protein while its being delivers to its final destination.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0140309> "holdase")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0140309> "holdase-carrier chaperone")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0140309> "unfolded protein carrier activity")
@@ -42886,6 +42925,12 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0160107> "tRNA (adenine(58)-N1)-methyltransferase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0160107> <http://purl.obolibrary.org/obo/GO_0016426>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0160108> (animal gross anatomical part developmental process)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:pg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0160108> "A developmental process whose specific outcome is the progression of a gross anatomical part of an animal over time from an initial condition to a later condition.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0160108> "animal gross anatomical part developmental process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0160108> <http://purl.obolibrary.org/obo/GO_0048856>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0160125> (pH-gated sodium channel activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:34767445") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0160125> "A gated channel activity that enables the transmembrane transfer of a sodium ion by a channel that opens in response to a change in pH.")
@@ -43103,27 +43148,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0170022> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24474785") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0170023> "Enables the transmembrane transfer of an ion by a channel that opens when a specific soluble sweet compound has been bound by the channel complex or one of its constituent parts.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0170023> "ionotropic sweet taste receptor activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0170023> <http://purl.obolibrary.org/obo/GO_0170021>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0170033> (L-amino acid metabolic process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:edw") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0170033> "The chemical reactions and pathways involving an L-amino acid.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170033> "L-alpha-amino acid metabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170033> "L-amino acid metabolism")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0170033> "L-amino acid metabolic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0170033> <http://purl.obolibrary.org/obo/GO_0006520>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0170033> <http://purl.obolibrary.org/obo/GO_0019752>)
-
-# Class: <http://purl.obolibrary.org/obo/GO_0170034> (L-amino acid biosynthetic process)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:edw") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0170034> "The chemical reactions and pathways resulting in the formation of L-amino acids, the L-enantiomers of amino acids.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170034> "L-amino acid anabolism")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170034> "L-amino acid biosynthesis")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170034> "L-amino acid formation")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_0170034> "L-amino acid synthesis")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0170034> "L-amino acid biosynthetic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0170034> <http://purl.obolibrary.org/obo/GO_0008652>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0170034> <http://purl.obolibrary.org/obo/GO_0046394>)
-SubClassOf(<http://purl.obolibrary.org/obo/GO_0170034> <http://purl.obolibrary.org/obo/GO_0170033>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0170038> (proteinogenic amino acid biosynthetic process)
 
@@ -44946,7 +44970,7 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGenie") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_1902223> "erythrose 4-phosphate/phosphoenolpyruvate family amino acid formation")
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGenie") <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://purl.obolibrary.org/obo/GO_1902223> "erythrose 4-phosphate/phosphoenolpyruvate family amino acid synthesis")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1902223> "erythrose 4-phosphate/phosphoenolpyruvate family amino acid biosynthetic process")
-SubClassOf(<http://purl.obolibrary.org/obo/GO_1902223> <http://purl.obolibrary.org/obo/GO_0170034>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1902223> <http://purl.obolibrary.org/obo/GO_0008652>)
 SubClassOf(<http://purl.obolibrary.org/obo/GO_1902223> <http://purl.obolibrary.org/obo/GO_0170038>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_1902259> (regulation of delayed rectifier potassium channel activity)
