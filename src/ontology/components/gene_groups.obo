@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: 2026-06-05
+data-version: 2026-08-30
 saved-by: ga362
 ontology: http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/components/gene_groups.obo
 
@@ -207,6 +207,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HYPUSINE BIOSYNTHESIS
 def: "." [http://flybase.org/reports/FBgg0002221.html]
 synonym: "HYPUBIO" EXACT []
+is_a: http://flybase.org/reports/FBgg0002211 ! AMINO ACID DERIVATIVE METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002240
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: L-CARNITINE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002240.html]
+synonym: "CARNIBI" EXACT []
 is_a: http://flybase.org/reports/FBgg0002211 ! AMINO ACID DERIVATIVE METABOLISM
 
 [Term]
@@ -628,6 +636,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: BCL-2 FAMILY
 def: "." [http://flybase.org/reports/FBgg0000061.html]
 synonym: "BCL2" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002236
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: BCORL-SIESTA-RING1 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002236.html]
+synonym: "VPRC1-1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -1128,7 +1144,7 @@ name: dRING-ASSOCIATED FACTORS COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000298.html]
 synonym: "DRAF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000604
@@ -1203,7 +1219,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 1, PSC VARIANT
 def: "." [http://flybase.org/reports/FBgg0000273.html]
 synonym: "PRC1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001860
@@ -1212,7 +1228,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 1, SU(Z)2 VARIANT
 def: "." [http://flybase.org/reports/FBgg0001860.html]
 synonym: "PRC1-VAR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001861
@@ -1221,7 +1237,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 2, JARID2-JING VARIANT
 def: "." [http://flybase.org/reports/FBgg0001861.html]
 synonym: "PRC2-JJ" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000280
@@ -1230,7 +1246,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 2, PCL VARIANT
 def: "." [http://flybase.org/reports/FBgg0000280.html]
 synonym: "PRC2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000276
@@ -1239,7 +1255,7 @@ name: POLYCOMB REPRESSIVE DEUBIQUITINASE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000276.html]
 synonym: "PR-DUB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000287
@@ -1457,6 +1473,14 @@ synonym: "COCAVIT" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002246
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FMN AND FAD BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002246.html]
+synonym: "FADFMNB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002135 ! COFACTORS, CARRIERS AND VITAMIN METABOLISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0002128
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: HEME BIOSYNTHESIS
@@ -1473,6 +1497,14 @@ synonym: "FESCA" EXACT []
 is_a: http://flybase.org/reports/FBgg0002135 ! COFACTORS, CARRIERS AND VITAMIN METABOLISM
 
 [Term]
+id: http://flybase.org/reports/FBgg0002245
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: LIPOATE BIOSYNTHESIS
+def: "." [http://flybase.org/reports/FBgg0002245.html]
+synonym: "LIPOBI" EXACT []
+is_a: http://flybase.org/reports/FBgg0002135 ! COFACTORS, CARRIERS AND VITAMIN METABOLISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0002126
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: Mo-MOLYBDOPTERIN COFACTOR BIOSYNTHESIS
@@ -1486,6 +1518,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: NAD(+) BIOSYNTHESIS VIA THE SALVAGE PATHWAY
 def: "." [http://flybase.org/reports/FBgg0002073.html]
 synonym: "NADSAL" EXACT []
+is_a: http://flybase.org/reports/FBgg0002135 ! COFACTORS, CARRIERS AND VITAMIN METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002243
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: NADPH REGENERATION
+def: "." [http://flybase.org/reports/FBgg0002243.html]
+synonym: "NADPHRE" EXACT []
 is_a: http://flybase.org/reports/FBgg0002135 ! COFACTORS, CARRIERS AND VITAMIN METABOLISM
 
 [Term]
@@ -2244,6 +2284,14 @@ synonym: "ENERM" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0002244
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FAD REGENERATION, ETF-ETFQO SYSTEM
+def: "." [http://flybase.org/reports/FBgg0002244.html]
+synonym: "FADREG" EXACT []
+is_a: http://flybase.org/reports/FBgg0002136 ! ENERGY METABOLISM
+
+[Term]
 id: http://flybase.org/reports/FBgg0002063
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: GLYCEROPHOSPHATE SHUTTLE
@@ -2452,15 +2500,6 @@ name: ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
 def: "." [http://flybase.org/reports/FBgg0001743.html]
 synonym: "PFC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001576 ! ATPASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0000498
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: ATYPICAL HEAT SHOCK PROTEIN 70 CHAPERONES
-def: "." [http://flybase.org/reports/FBgg0000498.html]
-synonym: "HSP70-A" EXACT []
-is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
-is_a: http://flybase.org/reports/FBgg0001743 ! ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000503
@@ -3630,14 +3669,6 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PROTEIN ADP-RIBOSYL HYDROLASES
 def: "." [http://flybase.org/reports/FBgg0001365.html]
 synonym: "ADP-RGH" EXACT []
-is_a: http://flybase.org/reports/FBgg0001352 ! N-GLYCOSYL HYDROLASES
-
-[Term]
-id: http://flybase.org/reports/FBgg0001772
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: RIBONUCLEOSIDE HYDROLASES
-def: "." [http://flybase.org/reports/FBgg0001772.html]
-synonym: "RNUC" EXACT []
 is_a: http://flybase.org/reports/FBgg0001352 ! N-GLYCOSYL HYDROLASES
 
 [Term]
@@ -8400,6 +8431,14 @@ synonym: "ABCH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000547 ! ATP-BINDING CASSETTE TRANSPORTERS
 
 [Term]
+id: http://flybase.org/reports/FBgg0002251
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: ATP-DEPENDENT PROTEIN TRANSMEMBRANE TRANSPORTERS
+def: "." [http://flybase.org/reports/FBgg0002251.html]
+synonym: "ATP-PT" EXACT []
+is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
+
+[Term]
 id: http://flybase.org/reports/FBgg0000709
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: P-TYPE ATPASES
@@ -8468,14 +8507,6 @@ def: "." [http://flybase.org/reports/FBgg0000717.html]
 synonym: "ATPV" EXACT []
 is_a: http://flybase.org/reports/FBgg0000709 ! P-TYPE ATPASES
 is_a: http://flybase.org/reports/FBgg0001895 ! P-TYPE ATPASE TRANSPORTERS
-
-[Term]
-id: http://flybase.org/reports/FBgg0001722
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: PROTEIN-TRANSPORTING ATPASES
-def: "." [http://flybase.org/reports/FBgg0001722.html]
-synonym: "PTA" EXACT []
-is_a: http://flybase.org/reports/FBgg0001577 ! ATPASE-COUPLED TRANSLOCASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001558
@@ -9167,7 +9198,6 @@ name: ATYPICAL HEAT SHOCK PROTEIN 70 CHAPERONES
 def: "." [http://flybase.org/reports/FBgg0000498.html]
 synonym: "HSP70-A" EXACT []
 is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
-is_a: http://flybase.org/reports/FBgg0001743 ! ATP-DEPENDENT PROTEIN FOLDING CHAPERONES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001795
@@ -9243,6 +9273,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SMALL HEAT SHOCK PROTEINS
 def: "." [http://flybase.org/reports/FBgg0000507.html]
 synonym: "S-HSP" EXACT []
+is_a: http://flybase.org/reports/FBgg0002250 ! HOLDASES
 is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
 
 [Term]
@@ -9389,6 +9420,39 @@ name: HISTONE PRE-MRNA CLEAVAGE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000615.html]
 synonym: "HCC" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002250
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: HOLDASES
+def: "." [http://flybase.org/reports/FBgg0002250.html]
+synonym: "HOLD" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002252
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: PREFOLDIN HOLDASES
+def: "." [http://flybase.org/reports/FBgg0002252.html]
+synonym: "PFH" EXACT []
+is_a: http://flybase.org/reports/FBgg0002250 ! HOLDASES
+
+[Term]
+id: http://flybase.org/reports/FBgg0000507
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SMALL HEAT SHOCK PROTEINS
+def: "." [http://flybase.org/reports/FBgg0000507.html]
+synonym: "S-HSP" EXACT []
+is_a: http://flybase.org/reports/FBgg0002250 ! HOLDASES
+is_a: http://flybase.org/reports/FBgg0000501 ! HEAT SHOCK PROTEINS
+
+[Term]
+id: http://flybase.org/reports/FBgg0002190
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: SMALL TIMS
+def: "." [http://flybase.org/reports/FBgg0002190.html]
+synonym: "smTIMS" EXACT []
+is_a: http://flybase.org/reports/FBgg0002250 ! HOLDASES
 
 [Term]
 id: http://flybase.org/reports/FBgg0002156
@@ -9775,22 +9839,6 @@ synonym: "KASH" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
-id: http://flybase.org/reports/FBgg0002214
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: KETOGENESIS
-def: "." [http://flybase.org/reports/FBgg0002214.html]
-synonym: "KETOGENS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
-id: http://flybase.org/reports/FBgg0002215
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: KETOLYSIS
-def: "." [http://flybase.org/reports/FBgg0002215.html]
-synonym: "KETOLYS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
 id: http://flybase.org/reports/FBgg0000914
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: KIBRA-EX-MER COMPLEX
@@ -9877,6 +9925,78 @@ name: LARVAL SERUM PROTEIN SUBUNITS
 def: "." [http://flybase.org/reports/FBgg0001752.html]
 synonym: "LSP" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002241
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: LIPID METABOLISM
+def: "." [http://flybase.org/reports/FBgg0002241.html]
+synonym: "LIPMET" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002238
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CARDIOLIPIN BIOSYNTHESIS AND REMODELLING
+def: "." [http://flybase.org/reports/FBgg0002238.html]
+synonym: "CARLIPB" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002239
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CARNITINE SHUTTLE
+def: "." [http://flybase.org/reports/FBgg0002239.html]
+synonym: "CARSHUT" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002242
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: CITRATE-MALATE SHUTTLE
+def: "." [http://flybase.org/reports/FBgg0002242.html]
+synonym: "CIMALSH" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002248
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FATTY ACID BETA-OXIDATION (MITOCHONDRIA)
+def: "." [http://flybase.org/reports/FBgg0002248.html]
+synonym: "FABEOXM" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002249
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FATTY ACID BETA-OXIDATION (PEROXISOME)
+def: "." [http://flybase.org/reports/FBgg0002249.html]
+synonym: "FABEOXP" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002247
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: FATTY ACID BIOSYNTHESIS (MITOCHONDRIA)
+def: "." [http://flybase.org/reports/FBgg0002247.html]
+synonym: "MTFABIO" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002214
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: KETOGENESIS
+def: "." [http://flybase.org/reports/FBgg0002214.html]
+synonym: "KETOGENS" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
+
+[Term]
+id: http://flybase.org/reports/FBgg0002215
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: KETOLYSIS
+def: "." [http://flybase.org/reports/FBgg0002215.html]
+synonym: "KETOLYS" EXACT []
+is_a: http://flybase.org/reports/FBgg0002241 ! LIPID METABOLISM
 
 [Term]
 id: http://flybase.org/reports/FBgg0001919
@@ -11955,9 +12075,17 @@ synonym: "PF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
+id: http://flybase.org/reports/FBgg0000304
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: POLYCOMB GROUP RECRUITERS/DNA-BINDING PROTEINS
+def: "." [http://flybase.org/reports/FBgg0000304.html]
+synonym: "PCG-DNA" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
 id: http://flybase.org/reports/FBgg0000309
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB GROUP COMPLEXES
+name: POLYCOMB GROUP RING FINGER COMPLEXES
 def: "." [http://flybase.org/reports/FBgg0000309.html]
 synonym: "PCG-C" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
@@ -11969,7 +12097,7 @@ name: dRING-ASSOCIATED FACTORS COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000298.html]
 synonym: "DRAF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000289
@@ -11977,7 +12105,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PHO REPRESSIVE COMPLEX - PHO VARIANT
 def: "." [http://flybase.org/reports/FBgg0000289.html]
 synonym: "PHORC" EXACT []
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001835
@@ -11985,7 +12113,7 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: PHO REPRESSIVE COMPLEX - PHOL VARIANT
 def: "." [http://flybase.org/reports/FBgg0001835.html]
 synonym: "PHORC-L" EXACT []
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000273
@@ -11994,7 +12122,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 1, PSC VARIANT
 def: "." [http://flybase.org/reports/FBgg0000273.html]
 synonym: "PRC1" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001860
@@ -12003,7 +12131,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 1, SU(Z)2 VARIANT
 def: "." [http://flybase.org/reports/FBgg0001860.html]
 synonym: "PRC1-VAR" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0001861
@@ -12012,7 +12140,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 2, JARID2-JING VARIANT
 def: "." [http://flybase.org/reports/FBgg0001861.html]
 synonym: "PRC2-JJ" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000280
@@ -12021,7 +12149,7 @@ name: POLYCOMB REPRESSIVE COMPLEX 2, PCL VARIANT
 def: "." [http://flybase.org/reports/FBgg0000280.html]
 synonym: "PRC2" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
 id: http://flybase.org/reports/FBgg0000276
@@ -12030,14 +12158,14 @@ name: POLYCOMB REPRESSIVE DEUBIQUITINASE COMPLEX
 def: "." [http://flybase.org/reports/FBgg0000276.html]
 synonym: "PR-DUB" EXACT []
 is_a: http://flybase.org/reports/FBgg0000300 ! CHROMATIN MODIFYING COMPLEXES
-is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP COMPLEXES
+is_a: http://flybase.org/reports/FBgg0000309 ! POLYCOMB GROUP RING FINGER COMPLEXES
 
 [Term]
-id: http://flybase.org/reports/FBgg0000304
+id: http://flybase.org/reports/FBgg0002235
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: POLYCOMB GROUP RECRUITERS/DNA-BINDING PROTEINS
-def: "." [http://flybase.org/reports/FBgg0000304.html]
-synonym: "PCG-DNA" EXACT []
+name: POLYCOMB GROUP RING FINGERS
+def: "." [http://flybase.org/reports/FBgg0002235.html]
+synonym: "PGRF" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
@@ -13593,14 +13721,6 @@ synonym: "H-ACA" EXACT []
 is_a: http://flybase.org/reports/FBgg0001761 ! SMALL NUCLEOLAR RIBONUCLEOPROTEIN COMPLEXES
 
 [Term]
-id: http://flybase.org/reports/FBgg0002190
-property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
-name: SMALL TIMS
-def: "." [http://flybase.org/reports/FBgg0002190.html]
-synonym: "smTIMS" EXACT []
-is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
-
-[Term]
 id: http://flybase.org/reports/FBgg0000063
 property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: SMC COMPLEXES
@@ -13991,6 +14111,14 @@ property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
 name: TATA-BINDING PROTEIN AND TBP-RELATED FACTORS
 def: "." [http://flybase.org/reports/FBgg0000353.html]
 synonym: "TRF" EXACT []
+is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
+
+[Term]
+id: http://flybase.org/reports/FBgg0002237
+property_value: http://n2o.neo/custom/self_xref "FlyBase" xsd:string
+name: TAY-SIESTA-RING1 COMPLEX
+def: "." [http://flybase.org/reports/FBgg0002237.html]
+synonym: "VPRC1-3-5" EXACT []
 is_a: http://flybase.org/reports/FBgg0000000 ! Gene Group
 
 [Term]
