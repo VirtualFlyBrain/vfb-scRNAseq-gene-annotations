@@ -51,11 +51,15 @@ strip_import_axioms: $(IMPORTDIR)/merged_import.owl
 	mv $<.tmp $<
 
 # files for gene annotations
+# Genes used by the scRNAseq and EPseq expression data. scRNAseq is moving from the
+# old FlyBase/SCEA loads (vfb-scRNAseq-ontology) to vfb-scRNAseq; both lists are
+# included until the old loads are retired, so either set of files is covered.
 $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 	wget -O $(TMPDIR)/vfb-scRNAseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
+	wget -O $(TMPDIR)/vfb-scRNAseq-new-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq/main/expression/FBgn_list.txt &&\
 	wget -O $(TMPDIR)/vfb-EPseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
-	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ &&\
-	rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
+	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ &&\
+	rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
 
 # DOWNLOAD MANUALLY USING BROWSER:
 # 1. gene groups obo file
@@ -71,7 +75,7 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 # https://s3ftp.flybase.org/releases/current/precomputed_files/genes/gene_group_data_<current>.tsv.gz > tmp/gene_group_data.tsv.gz
 # scripted download from s3ftp doesn't work
 # wget -O $(TMPDIR)/FBgns.tsv.gz https://s3ftp.flybase.org/releases/current/precomputed_files/genes/fbgn_fbtr_fbpp_fb_2025_02.tsv.gz
-$(TMPDIR)/mapped_FBgn_list.txt: setup_venv | $(TMPDIR)
+$(TMPDIR)/mapped_FBgn_list.txt: setup_venv $(TMPDIR)/vfb-RNAseq-genes.txt | $(TMPDIR)
 	test -f $(TMPDIR)/fbgn_fbtr_fbpp.tsv || gzip -df $(TMPDIR)/fbgn_fbtr_fbpp.tsv.gz &&\
 	my-venv/bin/python3 $(SCRIPTSDIR)/process_FBgn.py &&\
 	echo "\nMapped FBgn list updated\n"
