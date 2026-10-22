@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/imports/merged_import.owl>
-<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2026-10-02/imports/merged_import.owl>
-Annotation(owl:versionInfo "2026-10-02")
+<http://purl.obolibrary.org/obo/VFB_scRNAseq_genes/releases/2026-10-22/imports/merged_import.owl>
+Annotation(owl:versionInfo "2026-10-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
@@ -1274,6 +1274,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008443>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008444>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008446>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008448>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008449>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008452>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008453>))
@@ -2279,6 +2280,15 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030551>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030552>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030553>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030554>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030555>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030556>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030558>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030559>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030562>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030563>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030565>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030566>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030572>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030619>))
@@ -17682,6 +17692,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <ht
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008447> "L-ascorbate oxidase activity")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0008447> <http://purl.obolibrary.org/obo/GO_0016682>)
 
+# Class: <http://purl.obolibrary.org/obo/GO_0008448> (N-acetylglucosamine-6-phosphate deacetylase activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RHEA:22936") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008448> "Catalysis of the reaction: H2O + N-acetyl-D-glucosamine 6-phosphate = acetate + D-glucosamine 6-phosphate.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008448> "EC:3.5.1.25")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008448> "MetaCyc:NAG6PDEACET-RXN")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/GO_0008448> "RHEA:22936")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008448> "N-acetylglucosamine-6-phosphate deacetylase activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008448> <http://purl.obolibrary.org/obo/GO_0016811>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008448> <http://purl.obolibrary.org/obo/GO_0019213>)
+
 # Class: <http://purl.obolibrary.org/obo/GO_0008449> (N-acetylglucosamine-6-sulfatase activity)
 
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "EC:3.1.6.14") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008449> "Catalysis of the hydrolysis of the 6-sulfate group of the N-acetyl-D-glucosamine 6-sulfate units of heparan sulfate and keratan sulfate.")
@@ -26427,6 +26447,66 @@ SubClassOf(<http://purl.obolibrary.org/obo/GO_0030553> <http://purl.obolibrary.o
 AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "ISBN:0198506732") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030554> "Binding to an adenyl nucleotide, an adenosine esterified with (ortho)phosphate.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030554> "adenyl nucleotide binding")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0030554> <http://purl.obolibrary.org/obo/GO_0017076>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030555> (RNA modification guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030555> "Specifies the site of a posttranscriptional modification in an RNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030555> "RNA modification guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030555> <http://purl.obolibrary.org/obo/GO_0003723>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030556> (rRNA modification guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030556> "Specifies the site of a posttranscriptional modification in an rRNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030556> "rRNA modification guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030556> <http://purl.obolibrary.org/obo/GO_0019843>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030556> <http://purl.obolibrary.org/obo/GO_0030555>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030558> (RNA pseudouridylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030558> "Specifies the site of pseudouridylation in an RNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030558> "RNA pseudouridylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030558> <http://purl.obolibrary.org/obo/GO_0030555>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030559> (rRNA pseudouridylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030559> "Specifies the site of pseudouridylation in an rRNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030559> "rRNA pseudouridylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030559> <http://purl.obolibrary.org/obo/GO_0030556>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030559> <http://purl.obolibrary.org/obo/GO_0030558>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030561> (RNA 2'-O-ribose methylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030561> "Specifies the site of 2'-O-ribose methylation in an RNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030561> "RNA 2'-O-ribose methylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030561> <http://purl.obolibrary.org/obo/GO_0030555>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030562> (rRNA 2'-O-ribose methylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030562> "Specifies the site of 2'-O-ribose methylation in an rRNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030562> "rRNA 2'-O-ribose methylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030562> <http://purl.obolibrary.org/obo/GO_0030556>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030562> <http://purl.obolibrary.org/obo/GO_0030561>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030563> (snRNA 2'-O-ribose methylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11733745") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030563> "Activity that provides specificity to a methylase by using base complementarity to guide site-specific 2'-O-ribose methylations to a small nuclear RNA molecule.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030563> "snRNA 2'-O-ribose methylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030563> <http://purl.obolibrary.org/obo/GO_0030561>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030563> <http://purl.obolibrary.org/obo/GO_0030566>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030565> (snRNA pseudouridylation guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:11733745") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030565> "Activity that provides specificity to a pseudouridine synthetase by using base complementarity to guide site-specific pseudouridylations to a small nuclear RNA molecule.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030565> "snRNA pseudouridylation guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030565> <http://purl.obolibrary.org/obo/GO_0030558>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030565> <http://purl.obolibrary.org/obo/GO_0030566>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030566> (snRNA modification guide activity)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:12457565") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030566> "Specifies the site of a posttranscriptional modification in an snRNA molecule by base pairing with a short sequence around the target residue.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030566> "snRNA modification guide activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030566> <http://purl.obolibrary.org/obo/GO_0017069>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030566> <http://purl.obolibrary.org/obo/GO_0030555>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0030572> (phosphatidyltransferase activity)
 
