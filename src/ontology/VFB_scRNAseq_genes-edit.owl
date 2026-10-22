@@ -2837,6 +2837,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0013683>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013684>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013685>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013686>))
+Declaration(Class(<http://flybase.org/reports/FBgn0013687>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013688>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013689>))
 Declaration(Class(<http://flybase.org/reports/FBgn0013690>))
@@ -5331,6 +5332,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0031093>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031094>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031097>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031098>))
+Declaration(Class(<http://flybase.org/reports/FBgn0031099>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031100>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031101>))
 Declaration(Class(<http://flybase.org/reports/FBgn0031103>))
@@ -7375,6 +7377,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0034363>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034364>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034365>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034366>))
+Declaration(Class(<http://flybase.org/reports/FBgn0034368>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034371>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034372>))
 Declaration(Class(<http://flybase.org/reports/FBgn0034377>))
@@ -10717,6 +10720,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0039387>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039395>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039396>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039398>))
+Declaration(Class(<http://flybase.org/reports/FBgn0039402>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039404>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039405>))
 Declaration(Class(<http://flybase.org/reports/FBgn0039406>))
@@ -11919,6 +11923,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0050379>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050380>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050381>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050382>))
+Declaration(Class(<http://flybase.org/reports/FBgn0050383>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050384>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050385>))
 Declaration(Class(<http://flybase.org/reports/FBgn0050389>))
@@ -12473,6 +12478,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0051976>))
 Declaration(Class(<http://flybase.org/reports/FBgn0051988>))
 Declaration(Class(<http://flybase.org/reports/FBgn0051989>))
 Declaration(Class(<http://flybase.org/reports/FBgn0051992>))
+Declaration(Class(<http://flybase.org/reports/FBgn0051997>))
 Declaration(Class(<http://flybase.org/reports/FBgn0051998>))
 Declaration(Class(<http://flybase.org/reports/FBgn0051999>))
 Declaration(Class(<http://flybase.org/reports/FBgn0052000>))
@@ -14033,6 +14039,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0085440>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085442>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085443>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085444>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085446>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085447>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085450>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085451>))
@@ -14096,9 +14103,24 @@ Declaration(Class(<http://flybase.org/reports/FBgn0085693>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085732>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085734>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085736>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085737>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085744>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085751>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085752>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085753>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085755>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085756>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085757>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085758>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085759>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085760>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085764>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085765>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085766>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085768>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085771>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085773>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085777>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085784>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085786>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085788>))
@@ -14106,12 +14128,22 @@ Declaration(Class(<http://flybase.org/reports/FBgn0085789>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085790>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085791>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085792>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085795>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085799>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085802>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085803>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085804>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085805>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085807>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085810>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085812>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085813>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085817>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085819>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085822>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085825>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085826>))
+Declaration(Class(<http://flybase.org/reports/FBgn0085828>))
 Declaration(Class(<http://flybase.org/reports/FBgn0085831>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086021>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086023>))
@@ -14120,9 +14152,12 @@ Declaration(Class(<http://flybase.org/reports/FBgn0086025>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086027>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086028>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086033>))
+Declaration(Class(<http://flybase.org/reports/FBgn0086035>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086039>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086041>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086042>))
+Declaration(Class(<http://flybase.org/reports/FBgn0086044>))
+Declaration(Class(<http://flybase.org/reports/FBgn0086047>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086048>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086049>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086051>))
@@ -14131,6 +14166,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0086054>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086055>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086056>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086057>))
+Declaration(Class(<http://flybase.org/reports/FBgn0086058>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086061>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086062>))
 Declaration(Class(<http://flybase.org/reports/FBgn0086063>))
@@ -14967,6 +15003,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0261683>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261686>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261697>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261698>))
+Declaration(Class(<http://flybase.org/reports/FBgn0261699>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261700>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261702>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261703>))
@@ -15021,6 +15058,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0261842>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261843>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261844>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261845>))
+Declaration(Class(<http://flybase.org/reports/FBgn0261846>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261847>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261848>))
 Declaration(Class(<http://flybase.org/reports/FBgn0261849>))
@@ -15480,6 +15518,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0262814>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262815>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262816>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262817>))
+Declaration(Class(<http://flybase.org/reports/FBgn0262818>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262819>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262820>))
 Declaration(Class(<http://flybase.org/reports/FBgn0262821>))
@@ -17823,6 +17862,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0266904>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266905>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266906>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266907>))
+Declaration(Class(<http://flybase.org/reports/FBgn0266908>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266909>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266910>))
 Declaration(Class(<http://flybase.org/reports/FBgn0266911>))
@@ -17918,6 +17958,8 @@ Declaration(Class(<http://flybase.org/reports/FBgn0267011>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267012>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267013>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267014>))
+Declaration(Class(<http://flybase.org/reports/FBgn0267015>))
+Declaration(Class(<http://flybase.org/reports/FBgn0267016>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267017>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267018>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267019>))
@@ -18013,6 +18055,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0267113>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267114>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267115>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267116>))
+Declaration(Class(<http://flybase.org/reports/FBgn0267117>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267118>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267119>))
 Declaration(Class(<http://flybase.org/reports/FBgn0267120>))
@@ -18849,6 +18892,7 @@ Declaration(Class(<http://flybase.org/reports/FBgn0283678>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283680>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283681>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283682>))
+Declaration(Class(<http://flybase.org/reports/FBgn0283685>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283712>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283724>))
 Declaration(Class(<http://flybase.org/reports/FBgn0283728>))
@@ -20171,6 +20215,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008442>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008444>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008446>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008448>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008449>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008455>))
@@ -20582,6 +20627,10 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030547>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030550>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030552>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030553>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030559>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030562>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030563>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030565>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030594>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030619>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030620>))
@@ -43440,6 +43489,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0003930> "snRNA:U4:39B")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0003930> "snRNA:U4:39B")
 SubClassOf(<http://flybase.org/reports/FBgn0003930> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0003930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000523>))
+SubClassOf(<http://flybase.org/reports/FBgn0003930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000525>))
+SubClassOf(<http://flybase.org/reports/FBgn0003930> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000539>))
 
 # Class: <http://flybase.org/reports/FBgn0003931> (snRNA:U4:38AB)
 
@@ -43467,6 +43519,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0003931> "snRNA:U4:40AB")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0003931> "snRNA:U4:38AB")
 SubClassOf(<http://flybase.org/reports/FBgn0003931> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0003931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000523>))
+SubClassOf(<http://flybase.org/reports/FBgn0003931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000525>))
+SubClassOf(<http://flybase.org/reports/FBgn0003931> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000539>))
 
 # Class: <http://flybase.org/reports/FBgn0003933> (snRNA:U5:14B)
 
@@ -43519,6 +43574,11 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0003934> "snRNA[[3]]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0003934> "snRNA:U5:23D")
 SubClassOf(<http://flybase.org/reports/FBgn0003934> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0003934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000524>))
+SubClassOf(<http://flybase.org/reports/FBgn0003934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000525>))
+SubClassOf(<http://flybase.org/reports/FBgn0003934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000536>))
+SubClassOf(<http://flybase.org/reports/FBgn0003934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000539>))
+SubClassOf(<http://flybase.org/reports/FBgn0003934> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000569>))
 
 # Class: <http://flybase.org/reports/FBgn0003935> (snRNA:U5:34A)
 
@@ -45383,6 +45443,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0004187> "snRNA:U1:95Cc")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0004187> "snRNA:U1:95Cc")
 SubClassOf(<http://flybase.org/reports/FBgn0004187> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0004187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000521>))
+SubClassOf(<http://flybase.org/reports/FBgn0004187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000535>))
+SubClassOf(<http://flybase.org/reports/FBgn0004187> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000539>))
 
 # Class: <http://flybase.org/reports/FBgn0004188> (snRNA:U6:96Aa)
 
@@ -65453,6 +65516,15 @@ SubClassOf(<http://flybase.org/reports/FBgn0013686> <http://purl.obolibrary.org/
 SubClassOf(<http://flybase.org/reports/FBgn0013686> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000181>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23300484") <http://flybase.org/reports/FBgn0013686> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0003735>))
 
+# Class: <http://flybase.org/reports/FBgn0013687> (mt:ori)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0013687> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013687> "mitochondrial origin")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013687> "mt:ori")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013687> "ori")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013687> "mt:ori")
+SubClassOf(<http://flybase.org/reports/FBgn0013687> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0013688> (mt:srRNA)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0013688> "FlyBase")
@@ -65511,6 +65583,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013690> "tRNAcys")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013690> "mt:tRNA:Cys-GCA")
 SubClassOf(<http://flybase.org/reports/FBgn0013690> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013690> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013691> (mt:tRNA:Asp-GTC)
 
@@ -65571,6 +65644,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013694> "tRNA[Gly]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013694> "mt:tRNA:Gly-TCC")
 SubClassOf(<http://flybase.org/reports/FBgn0013694> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013694> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013695> (mt:tRNA:His-GTG)
 
@@ -65600,6 +65674,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013696> "tRNA[Ile]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013696> "mt:tRNA:Ile-GAT")
 SubClassOf(<http://flybase.org/reports/FBgn0013696> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013696> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013697> (mt:tRNA:Lys-CTT)
 
@@ -65615,6 +65690,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013697> "tRNA[Lys]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013697> "mt:tRNA:Lys-CTT")
 SubClassOf(<http://flybase.org/reports/FBgn0013697> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013697> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013698> (mt:tRNA:Leu-TAG)
 
@@ -65700,6 +65776,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013703> "tRNA[gln]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013703> "mt:tRNA:Gln-TTG")
 SubClassOf(<http://flybase.org/reports/FBgn0013703> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013703> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013704> (mt:tRNA:Arg-TCG)
 
@@ -65753,6 +65830,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013706> "tRNA[Ser]")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013706> "mt:tRNA:Ser-TGA")
 SubClassOf(<http://flybase.org/reports/FBgn0013706> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013706> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013707> (mt:tRNA:Thr-TGT)
 
@@ -65798,6 +65876,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013709> "tRNAtrp")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013709> "mt:tRNA:Trp-TCA")
 SubClassOf(<http://flybase.org/reports/FBgn0013709> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013709> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013710> (mt:tRNA:Tyr-GTA)
 
@@ -65813,6 +65892,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0013710> "tRNAtyr")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0013710> "mt:tRNA:Tyr-GTA")
 SubClassOf(<http://flybase.org/reports/FBgn0013710> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0013710> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000460>))
 
 # Class: <http://flybase.org/reports/FBgn0013717> (not)
 
@@ -109373,6 +109453,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0031098> "CG17068")
 SubClassOf(<http://flybase.org/reports/FBgn0031098> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0031099> (CG17065)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0031099> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0031099> "Amdhd2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0031099> "CG17065")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0031099> "CG17065")
+SubClassOf(<http://flybase.org/reports/FBgn0031099> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0031100> (CG1504)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0031100> "FlyBase")
@@ -134905,6 +134993,17 @@ SubClassOf(<http://flybase.org/reports/FBgn0034366> ObjectSomeValuesFrom(<http:/
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0034366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0019778>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0034366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0019779>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:23873149") <http://flybase.org/reports/FBgn0034366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0019779>))
+
+# Class: <http://flybase.org/reports/FBgn0034368> (zda)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0034368> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0034368> "CG5482")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0034368> "Zda")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0034368> "Zonda")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0034368> "zda")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0034368> "zonda")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0034368> "zda")
+SubClassOf(<http://flybase.org/reports/FBgn0034368> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0034371> (Ntan1)
 
@@ -177508,6 +177607,22 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0039398> "CG14540")
 SubClassOf(<http://flybase.org/reports/FBgn0039398> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0039402> (Vps2)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0039402> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "CG14542")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "Did4")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "DmVPS2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "Dvps2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "NEST:bs02f06")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "Vacuolar protein sorting 2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "Vps2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "dvps2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "vacuolar protein sorting 2")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0039402> "vps2")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0039402> "Vps2")
+SubClassOf(<http://flybase.org/reports/FBgn0039402> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0039404> (CG14543)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0039404> "FlyBase")
@@ -195338,6 +195453,13 @@ SubClassOf(<http://flybase.org/reports/FBgn0050382> ObjectSomeValuesFrom(<http:/
 SubClassOf(<http://flybase.org/reports/FBgn0050382> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0001838>))
 SubClassOf(<http://flybase.org/reports/FBgn0050382> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0001839>))
 
+# Class: <http://flybase.org/reports/FBgn0050383> (CG30383)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0050383> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0050383> "CG30383")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0050383> "CG30383")
+SubClassOf(<http://flybase.org/reports/FBgn0050383> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0050384> (CG30384)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0050384> "FlyBase")
@@ -202401,6 +202523,15 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19383769") <http://flybase.org/reports/FBgn0051992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0005515>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:20530530") <http://flybase.org/reports/FBgn0051992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0005515>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21981923") <http://flybase.org/reports/FBgn0051992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0005515>))
+
+# Class: <http://flybase.org/reports/FBgn0051997> (CG31997)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0051997> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0051997> "BEST:GH25016")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0051997> "BcDNA:RE42475")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0051997> "CG31997")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0051997> "CG31997")
+SubClassOf(<http://flybase.org/reports/FBgn0051997> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0051998> (CG31998)
 
@@ -215768,6 +215899,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0065046> "snoRNA:U3:9B")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0065046> "snoRNA:CD11c")
 SubClassOf(<http://flybase.org/reports/FBgn0065046> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:40737091") <http://flybase.org/reports/FBgn0065046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0140463>))
 
 # Class: <http://flybase.org/reports/FBgn0065047> (snoRNA:CD11b)
 
@@ -221166,6 +221298,16 @@ AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085444> "mute")
 SubClassOf(<http://flybase.org/reports/FBgn0085444> <http://purl.obolibrary.org/obo/SO_0000704>)
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0085444> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0003712>))
 
+# Class: <http://flybase.org/reports/FBgn0085446> (CG34417)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085446> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085446> "BcDNA:GH23906")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085446> "CG34417")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085446> "CG3950")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085446> "CG3960")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085446> "CG34417")
+SubClassOf(<http://flybase.org/reports/FBgn0085446> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085447> (sif)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085447> "FlyBase")
@@ -221857,6 +221999,34 @@ SubClassOf(<http://flybase.org/reports/FBgn0085736> ObjectSomeValuesFrom(<http:/
 SubClassOf(<http://flybase.org/reports/FBgn0085736> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0001836>))
 SubClassOf(<http://flybase.org/reports/FBgn0085736> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0001837>))
 
+# Class: <http://flybase.org/reports/FBgn0085737> (CR40502)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085737> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085737> "CR40502")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085737> "CR40502")
+SubClassOf(<http://flybase.org/reports/FBgn0085737> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085744> (CR40561)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085744> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085744> "CR40561")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085744> "CR40561")
+SubClassOf(<http://flybase.org/reports/FBgn0085744> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085751> (CR40582)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085751> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085751> "CR40582")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085751> "CR40582")
+SubClassOf(<http://flybase.org/reports/FBgn0085751> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085752> (CR40594)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085752> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085752> "CR40594")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085752> "CR40594")
+SubClassOf(<http://flybase.org/reports/FBgn0085752> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085753> (28SrRNA-Ψ:CR40596)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085753> "FlyBase")
@@ -221867,6 +222037,55 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085753> "28SrRNA-Ψ:CR40596")
 SubClassOf(<http://flybase.org/reports/FBgn0085753> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0085755> (CR40611)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085755> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085755> "CR40611")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085755> "CR40611")
+SubClassOf(<http://flybase.org/reports/FBgn0085755> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085756> (CR40613)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085756> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085756> "CR40613")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085756> "CR40613")
+SubClassOf(<http://flybase.org/reports/FBgn0085756> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085757> (CR40621)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085757> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085757> "CR40621")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085757> "CR40621")
+SubClassOf(<http://flybase.org/reports/FBgn0085757> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085758> (CR40639)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085758> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085758> "CR40639")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085758> "CR40639")
+SubClassOf(<http://flybase.org/reports/FBgn0085758> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085759> (CR40640)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085759> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085759> "CR40640")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085759> "CR40640")
+SubClassOf(<http://flybase.org/reports/FBgn0085759> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085760> (CR40641)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085760> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085760> "CR40641")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085760> "CR40641")
+SubClassOf(<http://flybase.org/reports/FBgn0085760> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085764> (CR40668)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085764> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085764> "CR40668")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085764> "CR40668")
+SubClassOf(<http://flybase.org/reports/FBgn0085764> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085765> (2SrRNA-Ψ:CR40677)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085765> "FlyBase")
@@ -221876,6 +222095,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085765> "2SrRNA-Ψ:CR40677")
 SubClassOf(<http://flybase.org/reports/FBgn0085765> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0085766> (CR40679)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085766> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085766> "CR40679")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085766> "CR40679")
+SubClassOf(<http://flybase.org/reports/FBgn0085766> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085768> (CR40712)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085768> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085768> "CR40712")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085768> "CR40712")
+SubClassOf(<http://flybase.org/reports/FBgn0085768> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085771> (28SrRNA-Ψ:CR40741)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085771> "FlyBase")
@@ -221884,6 +222117,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085771> "CR40741")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085771> "28SrRNA-Ψ:CR40741")
 SubClassOf(<http://flybase.org/reports/FBgn0085771> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085773> (CR40766)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085773> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085773> "CR40766")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085773> "CR40766")
+SubClassOf(<http://flybase.org/reports/FBgn0085773> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085777> (CR40959)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085777> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085777> "CR40959")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085777> "CR40959")
+SubClassOf(<http://flybase.org/reports/FBgn0085777> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0085784> (CR41379)
 
@@ -221934,6 +222181,20 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085792> "CR41509")
 SubClassOf(<http://flybase.org/reports/FBgn0085792> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0085795> (CR41535)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085795> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085795> "CR41535")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085795> "CR41535")
+SubClassOf(<http://flybase.org/reports/FBgn0085795> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085799> (CR41544)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085799> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085799> "CR41544")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085799> "CR41544")
+SubClassOf(<http://flybase.org/reports/FBgn0085799> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085802> (18SrRNA:CR41548)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085802> "FlyBase")
@@ -221944,12 +222205,33 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085802> "18SrRNA:CR41548")
 SubClassOf(<http://flybase.org/reports/FBgn0085802> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0085803> (CR41550)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085803> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085803> "CR41550")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085803> "CR41550")
+SubClassOf(<http://flybase.org/reports/FBgn0085803> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085804> (CR41571)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085804> "FlyBase")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085804> "CR41571")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085804> "CR41571")
 SubClassOf(<http://flybase.org/reports/FBgn0085804> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085805> (CR41583)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085805> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085805> "CR41583")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085805> "CR41583")
+SubClassOf(<http://flybase.org/reports/FBgn0085805> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085807> (CR41590)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085807> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085807> "CR41590")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085807> "CR41590")
+SubClassOf(<http://flybase.org/reports/FBgn0085807> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0085810> (CR41597)
 
@@ -221978,6 +222260,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085813> "18SrRNA-Ψ:CR41602")
 SubClassOf(<http://flybase.org/reports/FBgn0085813> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0085817> (CR41607)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085817> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085817> "CR41607")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085817> "CR41607")
+SubClassOf(<http://flybase.org/reports/FBgn0085817> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0085819> (28SrRNA-Ψ:CR41609)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085819> "FlyBase")
@@ -221986,6 +222275,34 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085819> "CR41609")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085819> "28SrRNA-Ψ:CR41609")
 SubClassOf(<http://flybase.org/reports/FBgn0085819> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085822> (CR41613)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085822> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085822> "CR41613")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085822> "CR41613")
+SubClassOf(<http://flybase.org/reports/FBgn0085822> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085825> (CR41619)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085825> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085825> "CR41619")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085825> "CR41619")
+SubClassOf(<http://flybase.org/reports/FBgn0085825> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085826> (CR41620)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085826> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085826> "CR41620")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085826> "CR41620")
+SubClassOf(<http://flybase.org/reports/FBgn0085826> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0085828> (CR42195)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0085828> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0085828> "CR42195")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0085828> "CR42195")
+SubClassOf(<http://flybase.org/reports/FBgn0085828> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0085831> (CR42201)
 
@@ -222045,6 +222362,7 @@ SubClassOf(<http://flybase.org/reports/FBgn0086025> <http://purl.obolibrary.org/
 # Class: <http://flybase.org/reports/FBgn0086027> (snoRNA:CD60)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0086027> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0086027> "RNA_binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086027> "C/D box small nucleolar RNA 60")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086027> "CR34656")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086027> "DmOr_cd1")
@@ -222057,6 +222375,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086027> "snoRNA:Or-CD1")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086027> "snoRNA:CD60")
 SubClassOf(<http://flybase.org/reports/FBgn0086027> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:35648437") <http://flybase.org/reports/FBgn0086027> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0030562>))
 
 # Class: <http://flybase.org/reports/FBgn0086028> (snoRNA:CD49)
 
@@ -222081,6 +222400,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086033> "snoRNA:Me28S-A2486")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086033> "snoRNA:CD50")
 SubClassOf(<http://flybase.org/reports/FBgn0086033> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0086035> (CR34664)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0086035> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086035> "CR34664")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086035> "Me18S-Gm642")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086035> "snoRNA:Me18S-G642")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086035> "CR34664")
+SubClassOf(<http://flybase.org/reports/FBgn0086035> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0086039> (snoRNA:CD48)
 
@@ -222118,6 +222446,24 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086042> "snoRNA:Me28S-G980")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086042> "snoRNA:CD44")
 SubClassOf(<http://flybase.org/reports/FBgn0086042> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0086044> (CR34673)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0086044> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086044> "CR34673")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086044> "Me28S-Um1688")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086044> "snoRNA:Me28S-U1688")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086044> "CR34673")
+SubClassOf(<http://flybase.org/reports/FBgn0086044> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0086047> (CR34676)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0086047> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086047> "CR34676")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086047> "Me18S-Gm894")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086047> "snoRNA:Me18S-G894")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086047> "CR34676")
+SubClassOf(<http://flybase.org/reports/FBgn0086047> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0086048> (snoRNA:CD56b)
 
@@ -222216,6 +222562,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086057> "snoRNA:Me28S-G2017")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086057> "snoRNA:CD47")
 SubClassOf(<http://flybase.org/reports/FBgn0086057> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0086058> (CR34687)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0086058> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086058> "CR34687")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086058> "Me18S-Gm1189")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0086058> "snoRNA:Me18S-G1189")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0086058> "CR34687")
+SubClassOf(<http://flybase.org/reports/FBgn0086058> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0086061> (snoRNA:CD62)
 
@@ -235212,6 +235567,7 @@ SubClassOf(<http://flybase.org/reports/FBgn0261453> <http://purl.obolibrary.org/
 # Class: <http://flybase.org/reports/FBgn0261454> (scaRNA:MeU4-A65)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0261454> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0261454> "RNA_binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261454> "mgU4-65")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261454> "scaRNA:CG7510-a")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261454> "scaRNA:MeU4-A65")
@@ -235219,6 +235575,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261454> "small Cajal body-specific RNA : MeU4-A65")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0261454> "scaRNA:MeU4-A65")
 SubClassOf(<http://flybase.org/reports/FBgn0261454> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:19846657") <http://flybase.org/reports/FBgn0261454> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0030563>))
 
 # Class: <http://flybase.org/reports/FBgn0261455> (scaRNA:MeU5-G38)
 
@@ -236944,6 +237301,17 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:26823461") <http://flybase.org/reports/FBgn0261698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0005228>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0261698> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0015271>))
 
+# Class: <http://flybase.org/reports/FBgn0261699> (lncRNA:CR42735)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0261699> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261699> "CG42735")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261699> "CR42735")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261699> "HDC01070")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261699> "lncRNA:CR42735")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261699> "long non-coding RNA:CR42735")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0261699> "lncRNA:CR42735")
+SubClassOf(<http://flybase.org/reports/FBgn0261699> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0261700> (lncRNA:CR42736)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0261700> "FlyBase")
@@ -237812,6 +238180,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261845> "pre-mod(mdg4)-U")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0261845> "pre-mod(mdg4)-U")
 SubClassOf(<http://flybase.org/reports/FBgn0261845> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0261846> (CG42778)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0261846> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261846> "CG42778")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0261846> "lincRNA.767")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0261846> "CG42778")
+SubClassOf(<http://flybase.org/reports/FBgn0261846> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0261847> (CG42779)
 
@@ -244630,6 +245006,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0262817> "CG43188")
 SubClassOf(<http://flybase.org/reports/FBgn0262817> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0262818> (CG43189)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0262818> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0262818> "CG43189")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0262818> "FBgn0262818")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0262818> "CG43189")
+SubClassOf(<http://flybase.org/reports/FBgn0262818> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0262819> (CG43190)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0262819> "FlyBase")
@@ -248836,6 +249220,7 @@ SubClassOf(<http://flybase.org/reports/FBgn0263473> <http://purl.obolibrary.org/
 # Class: <http://flybase.org/reports/FBgn0263474> (scaRNA:ΨU2-38.40.42)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0263474> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0263474> "RNA_binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263474> "pugU2-38/40/42")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263474> "scaRNA:PsiU2-38.40.42")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263474> "small Cajal body-specific RNA : PsiU2-38.40.42")
@@ -248843,6 +249228,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263474> "snoRNA:bur-a")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0263474> "scaRNA:ΨU2-38.40.42")
 SubClassOf(<http://flybase.org/reports/FBgn0263474> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24149844") <http://flybase.org/reports/FBgn0263474> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0030565>))
 
 # Class: <http://flybase.org/reports/FBgn0263475> (snoRNA:CG16892-a)
 
@@ -248929,6 +249315,7 @@ SubClassOf(<http://flybase.org/reports/FBgn0263484> <http://purl.obolibrary.org/
 # Class: <http://flybase.org/reports/FBgn0263485> (scaRNA:ΨU2-55)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0263485> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0263485> "RNA_binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263485> "CR43600")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263485> "chr2R:7677028..7677241")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263485> "pugU2-55")
@@ -248941,6 +249328,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0263485> "snoRNA:prp8-a")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0263485> "scaRNA:ΨU2-55")
 SubClassOf(<http://flybase.org/reports/FBgn0263485> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24149844") <http://flybase.org/reports/FBgn0263485> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0030559>))
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:24149844") <http://flybase.org/reports/FBgn0263485> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0030565>))
 
 # Class: <http://flybase.org/reports/FBgn0263486> (scaRNA:ΨU6-40)
 
@@ -258364,6 +258753,7 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0265142> "Ir56e")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0265142> "Ir56e")
 SubClassOf(<http://flybase.org/reports/FBgn0265142> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0265142> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0000125>))
 
 # Class: <http://flybase.org/reports/FBgn0265143> (lncRNA:CR44212)
 
@@ -271505,6 +271895,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0266907> "asRNA:CR45367")
 SubClassOf(<http://flybase.org/reports/FBgn0266907> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0266908> (lncRNA:CR45368)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0266908> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0266908> "CR45368")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0266908> "lncRNA:CR45368")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0266908> "long non-coding RNA:CR45368")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0266908> "lncRNA:CR45368")
+SubClassOf(<http://flybase.org/reports/FBgn0266908> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0266909> (lncRNA:CR45369)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0266909> "FlyBase")
@@ -272463,6 +272862,24 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0267014> "CR45458")
 SubClassOf(<http://flybase.org/reports/FBgn0267014> <http://purl.obolibrary.org/obo/SO_0000704>)
 
+# Class: <http://flybase.org/reports/FBgn0267015> (lncRNA:CR45459)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0267015> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267015> "CR45459")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267015> "lncRNA:CR45459")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267015> "long non-coding RNA:CR45459")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0267015> "lncRNA:CR45459")
+SubClassOf(<http://flybase.org/reports/FBgn0267015> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0267016> (lncRNA:CR45460)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0267016> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267016> "CR45460")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267016> "lncRNA:CR45460")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267016> "long non-coding RNA:CR45460")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0267016> "lncRNA:CR45460")
+SubClassOf(<http://flybase.org/reports/FBgn0267016> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0267017> (lncRNA:CR45461)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0267017> "FlyBase")
@@ -273307,6 +273724,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynony
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267116> "long non-coding RNA:CR45556")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0267116> "lncRNA:CR45556")
 SubClassOf(<http://flybase.org/reports/FBgn0267116> <http://purl.obolibrary.org/obo/SO_0000704>)
+
+# Class: <http://flybase.org/reports/FBgn0267117> (lncRNA:CR45557)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0267117> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267117> "CR45557")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267117> "lncRNA:CR45557")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0267117> "long non-coding RNA:CR45557")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0267117> "lncRNA:CR45557")
+SubClassOf(<http://flybase.org/reports/FBgn0267117> <http://purl.obolibrary.org/obo/SO_0000704>)
 
 # Class: <http://flybase.org/reports/FBgn0267118> (lncRNA:CR45558)
 
@@ -282842,6 +283268,14 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0283682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0140693>))
 SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:21655181") <http://flybase.org/reports/FBgn0283682> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0140693>))
 
+# Class: <http://flybase.org/reports/FBgn0283685> (pog)
+
+AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0283685> "FlyBase")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0283685> "pog")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0283685> "poor gastrulation")
+AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0283685> "pog")
+SubClassOf(<http://flybase.org/reports/FBgn0283685> <http://purl.obolibrary.org/obo/SO_0000704>)
+
 # Class: <http://flybase.org/reports/FBgn0283712> (LIMK1)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0283712> "FlyBase")
@@ -284712,11 +285146,13 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "
 # Class: <http://flybase.org/reports/FBgn0285959> (sisRNA:1)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0285959> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0285959> "RNA_binding")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0285959> "sisR-1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0285959> "sisRNA:1")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0285959> "stable intronic sequence RNA 1")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0285959> "sisRNA:1")
 SubClassOf(<http://flybase.org/reports/FBgn0285959> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:28970471") <http://flybase.org/reports/FBgn0285959> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0106222>))
 
 # Class: <http://flybase.org/reports/FBgn0285963> (CG46339)
 
@@ -289710,12 +290146,15 @@ SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "
 # Class: <http://flybase.org/reports/FBgn0290597> (mel)
 
 AnnotationAssertion(<http://n2o.neo/custom/self_xref> <http://flybase.org/reports/FBgn0290597> "FlyBase")
+AnnotationAssertion(<http://n2o.neo/property/nodeLabel> <http://flybase.org/reports/FBgn0290597> "Enzyme")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0290597> "Amdhd2")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0290597> "CG17065")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0290597> "mel")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> <http://flybase.org/reports/FBgn0290597> "melanized")
 AnnotationAssertion(rdfs:label <http://flybase.org/reports/FBgn0290597> "mel")
 SubClassOf(<http://flybase.org/reports/FBgn0290597> <http://purl.obolibrary.org/obo/SO_0000704>)
+SubClassOf(<http://flybase.org/reports/FBgn0290597> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://flybase.org/reports/FBgg0001343>))
+SubClassOf(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GO_REF:0000033") <http://flybase.org/reports/FBgn0290597> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002327> <http://purl.obolibrary.org/obo/GO_0008448>))
 
 
 )
