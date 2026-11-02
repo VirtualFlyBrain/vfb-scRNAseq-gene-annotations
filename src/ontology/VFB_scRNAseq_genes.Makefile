@@ -11,12 +11,13 @@ prepare_release_notest: odkversion $(SRC) all_imports $(RELEASE_ASSETS)
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on your git hosting site such as GitHub or GitLab"
 
 
-$(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl
+$(SRC): $(TMPDIR)/FBgns.owl $(TMPDIR)/GO_annotations.owl $(TMPDIR)/GG_annotations.owl $(TMPDIR)/FB_entities.owl
 	$(ROBOT) merge \
 		--input VFB_scRNAseq_genes-annotations.ofn \
 		--input $< \
 		--input $(TMPDIR)/GO_annotations.owl \
 		--input $(TMPDIR)/GG_annotations.owl \
+		--input $(TMPDIR)/FB_entities.owl \
 		--include-annotations true --collapse-import-closure false \
 		convert --format ofn \
 		-o $@ &&\
@@ -60,6 +61,33 @@ $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
 	wget -O $(TMPDIR)/vfb-EPseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
 	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ &&\
 	rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
+
+# FlyBase stocks (FBst), strains (FBsn) and genetic entities (FBal / FBti / FBtp /
+# FBco) that vfb-scRNAseq's Samples link, labelled and typed from FlyBase Chado so VFB
+# shows their names (stocks: FBsv 'living stock', whose FBsv classes come from Chado
+# too as FBsv is not published; strains: GENO 'strain or breed'). Ids
+# that VFB_drivers already defines are left to it, so none gets a second label.
+$(TMPDIR)/FB_entity_list.txt: | $(TMPDIR)
+	wget -O $(TMPDIR)/vfb-scRNAseq-FB-entities.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq/main/metadata/FlyBase_entity_list.txt &&\
+	wget -O $(TMPDIR)/VFB_drivers.owl http://virtualflybrain.org/data/VFB/OWL/VFB_drivers.owl &&\
+	grep -oE 'FB(st|sn|al|ti|tp|co)[0-9]{7}' $(TMPDIR)/VFB_drivers.owl | sort -u > $(TMPDIR)/VFB_drivers_ids.txt &&\
+	sort -u $(TMPDIR)/vfb-scRNAseq-FB-entities.txt | comm -23 - $(TMPDIR)/VFB_drivers_ids.txt > $@ &&\
+	rm $(TMPDIR)/vfb-scRNAseq-FB-entities.txt $(TMPDIR)/VFB_drivers.owl $(TMPDIR)/VFB_drivers_ids.txt
+
+$(TMPDIR)/FB_entities.owl: get_vfb_code install_requirements $(TMPDIR)/FB_entity_list.txt | $(REPORTDIR)
+	my-venv/bin/python3 $(SCRIPTSDIR)/entity_template_runner.py &&\
+	$(ROBOT) template --template $(TMPDIR)/FB_feature_template.tsv \
+		--input-iri http://purl.obolibrary.org/obo/ro.owl \
+		--output $(TMPDIR)/FB_features.owl &&\
+	$(ROBOT) template --template $(TMPDIR)/FBsv_template.tsv \
+		--output $(TMPDIR)/FBsv.owl &&\
+	$(ROBOT) template --template $(TMPDIR)/FB_stock_template.tsv \
+		--input $(TMPDIR)/FBsv.owl \
+		--output $(TMPDIR)/FB_stocks.owl &&\
+	$(ROBOT) merge --input $(TMPDIR)/FB_features.owl --input $(TMPDIR)/FBsv.owl \
+		--input $(TMPDIR)/FB_stocks.owl \
+		--output $@ &&\
+	echo "\nFlyBase stock, strain and genotype entities updated\n"
 
 # DOWNLOAD MANUALLY USING BROWSER:
 # 1. gene groups obo file

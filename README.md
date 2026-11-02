@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/VirtualFlyBrain/vfb-scRNAseq-gene-annotations/workflows/CI/badge.svg)
 # VFB scRNAseq Gene Annotations
 
-An ontology of genes present in Drosophila melanogaster scRNAseq data. Gene annotations include gene groups and GO molecular function annotations taken from [FlyBase](http://flybase.org).
+An ontology of genes present in Drosophila melanogaster scRNAseq data. Gene annotations include gene groups and GO molecular function annotations taken from [FlyBase](http://flybase.org). It also labels and types the FlyBase stocks, strains and genetic entities that [vfb-scRNAseq](https://github.com/VirtualFlyBrain/vfb-scRNAseq)'s Samples link (its `metadata/FlyBase_entity_list.txt`).
 
 ### Editors' version
 
