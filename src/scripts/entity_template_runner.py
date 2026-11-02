@@ -3,7 +3,9 @@ vfb-scRNAseq's Samples link (its metadata/FlyBase_entity_list.txt), so VFB can
 show their names and tell them apart.
 
 - Genetic entities (FBal / FBti / FBtp / FBco) are Chado features: the same
-  FeatureMover template as the genes (label, synonyms, SO type).
+  FeatureMover template as the genes (label, synonyms, SO type), plus node label
+  Feature, which VFB's other FlyBase alleles / insertions / constructs carry (set by
+  VFB_neo4j's FeatureMover.add_features) and VFBquery's stock queries key on.
 - Stocks (FBst) are named individuals labelled "<genotype> (<collection>
   <stock number>)", e.g. "w[1118] (BDSC 3605)", typed with their Chado stock state
   (FBsv:0000002 'living stock') and node label Stock.
@@ -88,6 +90,8 @@ if features:
     ft = pd.read_csv(FEATURE_TEMPLATE, sep="\t", dtype=str, keep_default_na=False)
     is_allele = ft["iri"].str.contains("/FBal") & ft["feature_type"].str.endswith("SO_0000110")
     ft.loc[is_allele, "feature_type"] = OBO + "SO_0001023"
+    ft["node_label"] = "Feature"
+    ft.loc[0, "node_label"] = "A http://n2o.neo/property/nodeLabel"
     ft.iloc[1:] = ft.iloc[1:].apply(robot_escape)
     ft.to_csv(FEATURE_TEMPLATE, sep="\t", index=False)
 else:
