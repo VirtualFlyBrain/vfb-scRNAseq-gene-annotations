@@ -52,15 +52,15 @@ strip_import_axioms: $(IMPORTDIR)/merged_import.owl
 	mv $<.tmp $<
 
 # files for gene annotations
-# Genes used by the scRNAseq and EPseq expression data. scRNAseq is moving from the
-# old FlyBase/SCEA loads (vfb-scRNAseq-ontology) to vfb-scRNAseq; both lists are
-# included until the old loads are retired, so either set of files is covered.
+# Genes used by the scRNAseq and EPseq expression data. EPseq is moving from its old
+# release files (src/ontology/reports/) to expression/ in the same repo (every
+# project's genes); both lists are included until the old EPseq load is retired.
 $(TMPDIR)/vfb-RNAseq-genes.txt: | $(TMPDIR)
-	wget -O $(TMPDIR)/vfb-scRNAseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
 	wget -O $(TMPDIR)/vfb-scRNAseq-new-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-scRNAseq/main/expression/FBgn_list.txt &&\
 	wget -O $(TMPDIR)/vfb-EPseq-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/src/ontology/reports/FBgn_list.txt &&\
-	cat $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt | sort | uniq > $@ &&\
-	rm $(TMPDIR)/vfb-scRNAseq-genes.txt $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt
+	wget -O $(TMPDIR)/vfb-EPseq-new-genes.txt https://raw.githubusercontent.com/VirtualFlyBrain/vfb-EPseq-ontology/main/expression/FBgn_list.txt &&\
+	cat $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt $(TMPDIR)/vfb-EPseq-new-genes.txt | sort | uniq > $@ &&\
+	rm $(TMPDIR)/vfb-scRNAseq-new-genes.txt $(TMPDIR)/vfb-EPseq-genes.txt $(TMPDIR)/vfb-EPseq-new-genes.txt
 
 # FlyBase stocks (FBst), strains (FBsn) and genetic entities (FBal / FBti / FBtp /
 # FBco) that vfb-scRNAseq's Samples link, labelled and typed from FlyBase Chado so VFB
